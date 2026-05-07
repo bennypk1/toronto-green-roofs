@@ -1,1106 +1,550 @@
-REVISION_NUM,PERMIT_TYPE,STRUCTURE_TYPE,APPLICATION_DATE,ISSUED_DATE,COMPLETED_DATE,STATUS,POSTAL,GREEN_ROOF_AREA,ECO_ROOF
-1,Small Residential Projects,SFD - Detached,2010-02-18,2010-03-25,2010-11-29,Closed,M8,18.36,FALSE
-0,New Building,Mixed Use/Res w Non Res,2010-02-08,2012-06-18,NA,Inspection,M5,615,FALSE
-0,Building Additions/Alterations,Office,2010-02-18,2010-06-04,2015-11-09,Closed,M5,1470,FALSE
-0,New Building,Apartment Building,2010-03-12,2012-08-16,2015-01-07,Closed,NA,300,FALSE
-0,New Building,Apartment Building,2010-03-15,2011-03-01,2017-07-14,Closed,M9,0,FALSE
-0,New Building,Apartment Building,2010-03-25,2021-03-31,NA,Inspection,M2,1317,FALSE
-0,Building Additions/Alterations,Office,2010-04-20,2010-05-19,2015-06-09,Closed,M5,270,FALSE
-0,Building Additions/Alterations,Secondary School,2010-04-20,2010-08-06,2025-11-03,Closed,M2,275,FALSE
-0,New Building,Mixed Use/Res w Non Res,2010-07-09,2012-04-12,2017-11-17,Closed,M5,2195,FALSE
-0,New Building,Mixed Use/Res w Non Res,2010-07-16,2012-09-11,NA,Inspection,NA,336,FALSE
-0,New Building,Multiple Use/Non Residential,2010-07-23,2011-04-13,2012-09-26,Closed,M6,1220,FALSE
-0,New Building,Mixed Use/Res w Non Res,2010-08-17,2013-06-21,NA,Inspection,M5,620,FALSE
-0,Building Additions/Alterations,Community Hall,2010-08-20,2010-10-04,2012-12-13,Closed,M4,131.6,TRUE
-0,New Building,Mixed Use/Res w Non Res,2010-09-10,2014-01-23,2019-01-23,Closed,NA,1051.9,FALSE
-0,New Building,Apartment Building,2010-10-06,2013-10-02,NA,Inspection,NA,744.9,FALSE
-1,Small Residential Projects,SFD - Detached,2011-08-09,2011-08-15,2011-09-12,Closed,M6,152,FALSE
-0,Small Residential Projects,SFD - Detached,2010-10-12,2010-11-12,2011-09-12,Closed,M6,152,FALSE
-0,Small Residential Projects,SFD - Detached,2010-10-22,2010-11-05,2011-10-31,Closed,M4,60.9,FALSE
-0,New Building,Apartment Building,2010-10-28,2012-07-25,NA,Inspection,M9,581.5,FALSE
-0,New Building,"Transit Station,Subway, Bus Terminal",2010-11-08,2017-06-16,2019-04-17,Closed,NA,360,FALSE
-0,New Building,Mixed Use/Res w Non Res,2010-11-19,2011-10-17,NA,Inspection,M5,263.4,FALSE
-0,Small Residential Projects,SFD - Detached,2010-11-22,2010-12-23,2013-02-06,Closed,M4,71.72,FALSE
-0,New Building,Mixed Use/Res w Non Res,2010-12-16,2013-05-02,2016-02-09,Closed,M5,1541,FALSE
-0,New Building,Mixed Use/Res w Non Res,2010-12-16,2012-01-18,NA,Inspection,M5,138.29,FALSE
-0,New Building,Mixed Use/Res w Non Res,2010-12-17,2013-12-20,2018-06-29,Closed,NA,716.7,FALSE
-0,New Building,Apartment Building,2011-01-18,2012-10-10,NA,Inspection,NA,390,FALSE
-0,Small Residential Projects,SFD - Detached,2011-02-18,2011-03-22,2026-03-13,Closed,M6,41,FALSE
-0,New Building,Restaurant Greater Than 30 Seats,2011-02-24,2014-03-25,2020-03-09,Closed,NA,523.6,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-03-11,2012-07-17,NA,Inspection,NA,2063,FALSE
-0,New Building,Other,2011-03-17,2013-05-29,NA,Inspection,M5,729.6,FALSE
-0,Building Additions/Alterations,Elementary School,2011-03-25,2012-06-06,2014-12-03,Closed,M4,1032,FALSE
-0,New Building,Apartment Building,2011-04-21,2015-06-22,NA,Inspection,M5,140,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-05-04,2013-05-31,2013-09-19,Closed,M5,986,FALSE
-0,New Building,Apartment Building,2011-05-09,2013-02-21,NA,Inspection,M9,695,FALSE
-0,New Building,Other,2011-05-12,2013-08-30,NA,Inspection,M5,1442,FALSE
-0,New Building,Restaurant Greater Than 30 Seats,2011-05-24,2015-03-05,NA,Inspection,NA,431.5,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-06-10,2013-12-19,2016-11-23,Closed,NA,277.33,FALSE
-0,New Building,Industrial,2011-06-14,2011-10-31,2013-04-02,Closed,NA,324,FALSE
-0,Building Additions/Alterations,Recreational,2011-06-21,2012-04-26,2025-11-13,Closed,M4,404,FALSE
-0,New Building,Apartment Building,2011-06-21,2013-11-25,NA,Inspection,M2,723.5,FALSE
-0,New Building,Apartment Building,2011-06-24,2013-09-05,NA,Inspection,M8,52,FALSE
-0,New Building,Elementary School,2011-06-29,2012-08-22,NA,Inspection,M8,0,FALSE
-0,New Building,Industrial,2011-06-30,2016-02-03,NA,Inspection,NA,9035.130000000001,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-07-05,2013-02-01,2017-10-17,Closed,M5,1344,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-07-07,2013-07-22,2017-11-29,Closed,M5,475,FALSE
-0,Building Additions/Alterations,Office,2011-07-08,2011-10-27,2013-07-24,Closed,M5,371,FALSE
-0,New Building,Apartment Building,2011-07-12,2013-10-25,2016-08-29,Closed,NA,591,FALSE
-0,New Building,Apartment Building,2011-07-25,2014-04-04,NA,Inspection,M6,191.6,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-08-02,2014-10-28,2016-06-14,Closed,NA,1093,FALSE
-0,New Houses,SFD - Detached,2011-08-09,2011-09-27,NA,Inspection,M6,66,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-08-25,2013-04-04,NA,Inspection,NA,692,FALSE
-0,New Building,Apartment Building,2011-09-13,2013-06-20,NA,Inspection,NA,2336.3700000000003,FALSE
-0,New Building,Apartment Building,2011-09-14,2013-06-20,NA,Inspection,NA,2353,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-09-16,2013-05-31,NA,Inspection,NA,593.93,FALSE
-0,New Building,Hospital,2011-09-22,2013-03-05,NA,Inspection,M5,1060.6,FALSE
-0,New Building,Elementary School,2011-09-22,2012-07-31,2015-02-20,Closed,NA,700,TRUE
-0,New Building,Apartment Building,2011-09-23,2013-11-29,NA,Inspection,M2,952,FALSE
-0,New Building,Multiple Use/Non Residential,2011-09-30,2013-07-26,2017-02-28,Closed,NA,4363,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-10-04,2013-09-04,2015-11-13,Closed,M5,63.01,FALSE
-0,New Building,Apartment Building,2011-10-05,2014-03-20,NA,Inspection,M8,2086,FALSE
-0,New Building,Elementary School,2011-10-06,2012-07-31,NA,Inspection,M9,NA,FALSE
-0,New Building,Apartment Building,2011-10-06,2013-05-21,NA,Inspection,M5,175.9,FALSE
-0,New Building,Apartment Building,2011-10-17,2013-01-21,2016-04-19,Closed,NA,248,FALSE
-0,New Building,Apartment Building,2011-10-18,2013-01-22,2017-03-08,Closed,M5,300,FALSE
-0,New Building,Apartment Building,2011-10-19,2014-11-13,NA,Inspection,M8,1087,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-10-26,2015-02-25,NA,Inspection,M5,181.26999999999998,FALSE
-0,New Building,University,2011-11-15,2012-10-31,2015-07-27,Closed,M5,889.5,FALSE
-0,New Building,Multiple Use/Non Residential,2011-11-15,2012-07-17,2014-03-25,Closed,M1,240.52,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-11-17,2015-11-10,NA,Inspection,M5,1225.3,FALSE
-0,New Building,Apartment Building,2011-11-18,2014-05-09,NA,Inspection,M2,489,FALSE
-0,Building Additions/Alterations,Elementary School,2011-11-18,2012-06-18,2018-07-10,Closed,M1,1197,FALSE
-0,New Building,Apartment Building,2011-11-21,2012-11-13,NA,Inspection,M6,356,FALSE
-0,New Building,Apartment Building,2011-12-01,2013-10-22,NA,Inspection,M5,380,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-12-02,2014-03-19,2020-11-10,Closed,M5,429.78,FALSE
-0,New Building,Retail Store,2011-12-02,2012-06-14,2014-01-21,Closed,M9,0,FALSE
-0,New Building,Apartment Building,2011-12-07,2016-01-19,NA,Inspection,M5,82,FALSE
-0,New Building,Elementary School,2011-12-12,2012-10-16,2013-11-27,Closed,M2,0,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-12-13,2015-04-22,NA,Inspection,NA,693,FALSE
-0,New Building,Apartment Building,2011-12-16,2012-12-12,NA,Inspection,M6,497,FALSE
-0,New Building,Apartment Building,2011-12-16,2013-10-23,NA,Inspection,NA,607.69,FALSE
-0,New Building,Apartment Building,2011-12-16,2014-02-14,2020-09-29,Closed,M5,445,FALSE
-0,New Building,Apartment Building,2011-12-16,2013-10-25,NA,Inspection,M8,220,FALSE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2011-12-21,2013-01-29,NA,Inspection,M4,257.58,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-12-21,2013-12-23,NA,Inspection,M5,508.38,FALSE
-0,New Building,Other,2011-12-22,2014-06-27,NA,Inspection,NA,1269.24,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-12-22,2014-01-09,NA,Inspection,M6,277.32,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-12-23,2014-06-04,2017-09-05,Closed,M8,349,FALSE
-0,New Building,Multiple Use/Non Residential,2011-12-23,2014-12-11,2017-04-25,Closed,M5,3290,FALSE
-0,New Building,Apartment Building,2011-12-23,2014-03-11,2017-05-18,Closed,M5,504,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-12-23,2014-03-11,2017-05-19,Closed,M5,540,FALSE
-0,New Building,Elementary School,2011-12-28,2012-03-19,2013-10-11,Closed,M1,379.2,FALSE
-0,New Building,Mixed Use/Res w Non Res,2011-12-29,2014-08-26,2025-02-27,Closed,M5,397.5,FALSE
-1,New Building,Mixed Use/Res w Non Res,2015-04-02,2016-05-20,2025-02-27,Closed,M5,303.5,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-01-12,2014-07-28,NA,Inspection,M5,36.5,FALSE
-0,New Building,Club,2012-01-16,2012-06-05,2015-03-09,Closed,M4,184.9,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-01-18,2014-06-11,NA,Inspection,M9,388.54,FALSE
-0,New Building,Library,2012-01-20,2012-08-30,NA,Inspection,NA,408.5,FALSE
-0,New Building,Multiple Use/Non Residential,2012-01-20,2012-07-30,2013-04-25,Closed,NA,243,FALSE
-0,New Building,Apartment Building,2012-01-20,2013-09-17,2015-01-22,Closed,M8,397,FALSE
-0,Building Additions/Alterations,Apartment Building,2012-01-27,2012-12-18,NA,Inspection,M5,227.29,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-01-31,2013-11-26,2019-01-23,Closed,NA,1827.57,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-02-03,2013-07-17,NA,Inspection,M6,2014,FALSE
-0,New Building,Apartment Building,2012-02-08,2016-04-01,2020-11-04,Closed,M4,342,FALSE
-0,New Building,Apartment Building,2012-02-17,2015-06-08,2017-08-11,Closed,M5,252,FALSE
-0,New Building,Retail Store,2012-02-17,2014-05-22,NA,Inspection,NA,1317,FALSE
-0,New Building,Apartment Building,2012-02-29,2015-11-02,2016-11-16,Closed,M8,361.12,FALSE
-0,Building Additions/Alterations,Elementary School,2012-03-12,2012-09-25,2017-09-15,Closed,M3,810,FALSE
-0,New Building,Apartment Building,2012-03-21,2014-11-06,NA,Inspection,M6,578.4,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-03-28,2014-05-13,NA,Inspection,M6,141,FALSE
-0,New Building,Recreational,2012-03-30,2014-03-20,2021-04-23,Closed,NA,726,FALSE
-0,New Building,Apartment Building,2012-04-03,2014-03-14,NA,Inspection,NA,1007,FALSE
-0,Building Additions/Alterations,College/Trade/Tech School/Training Cent.,2012-04-16,2013-06-26,2014-09-25,Closed,M1,473,FALSE
-0,New Building,Community Hall,2012-05-02,2013-03-21,NA,Inspection,NA,2000,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-05-03,2014-11-14,2016-10-18,Closed,M5,4823,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-05-04,2014-05-30,2017-12-27,Closed,M4,118,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-05-09,2015-10-14,2016-10-14,Closed,M5,1701.4,FALSE
-0,New Houses,SFD - Detached,2012-05-11,2012-05-31,2012-11-02,Closed,M5,85,FALSE
-0,New Building,Office,2012-05-16,2013-03-07,2024-06-14,Closed,NA,1176.45,FALSE
-0,New Building,Apartment Building,2012-05-16,2014-01-15,2015-01-26,Closed,M8,568,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-05-18,2013-05-24,NA,Inspection,M5,1773.5,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-05-28,2014-07-07,NA,Inspection,M5,350.7,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-05-31,2013-09-18,NA,Inspection,M2,477,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-06-01,2014-01-29,2018-07-30,Closed,M5,114,FALSE
-0,New Building,Apartment Building,2012-06-26,2014-11-06,NA,Inspection,NA,407,FALSE
-0,New Building,Apartment Building,2012-06-27,2014-03-27,NA,Inspection,M5,637,FALSE
-0,New Building,Elementary School,2012-06-28,2013-02-14,2014-10-08,Closed,NA,1159,TRUE
-0,New Building,University,2012-06-29,2013-06-28,2015-01-30,Closed,M5,1080,FALSE
-0,New Building,Apartment Building,2012-07-04,2015-04-09,NA,Inspection,NA,1287.6,FALSE
-0,New Building,Indoor Swimming Pool,2012-07-09,2013-10-29,2014-12-12,Closed,NA,60,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-07-11,2015-08-24,2015-09-03,Closed,M6,183,FALSE
-0,Building Additions/Alterations,Industrial,2012-07-16,2013-02-01,NA,Inspection,M6,11773,FALSE
-0,New Building,Other,2012-07-17,2013-07-05,2016-07-22,Closed,M4,786,FALSE
-1,New Building,Other,2014-02-05,2014-10-02,2016-07-22,Closed,M4,764,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-07-26,2015-04-14,NA,Inspection,NA,1081,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-07-31,2015-03-05,2019-04-03,Closed,M5,473,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-08-02,2013-12-17,NA,Inspection,M8,387,FALSE
-0,New Building,Multiple Use/Non Residential,2012-08-16,2012-12-10,2015-09-23,Closed,M8,790,FALSE
-0,New Building,Apartment Building,2012-08-22,2014-09-22,2016-07-08,Closed,M1,1519,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-08-24,2013-08-09,2017-10-03,Closed,NA,587,FALSE
-0,New Building,Industrial,2012-08-27,2013-04-17,NA,Inspection,M9,2459,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-09-13,2014-09-04,NA,Inspection,M5,501.75,FALSE
-0,Small Residential Projects,SFD - Detached,2012-09-14,2012-10-04,2012-12-20,Closed,M2,53.6,FALSE
-0,New Building,Library,2012-10-09,2013-05-09,NA,Inspection,M1,814,FALSE
-0,New Building,Retail Mall/Plaza,2012-10-09,2013-04-17,2025-08-14,Closed,M3,2270,FALSE
-0,New Building,Apartment Building,2012-10-10,2014-05-21,2016-08-22,Closed,NA,712,FALSE
-0,New Building,Apartment Building,2012-10-11,2014-01-29,NA,Inspection,M4,392,FALSE
-0,Building Additions/Alterations,Retail Store,2012-10-19,2013-06-28,NA,Inspection,M8,196.3,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-10-23,2015-08-04,NA,Inspection,M5,1132,FALSE
-0,Building Additions/Alterations,Industrial,2012-11-07,2013-03-04,2017-04-11,Closed,M3,1992,FALSE
-0,Building Additions/Alterations,Retail Store,2012-11-13,2013-09-30,NA,Inspection,M9,14306,FALSE
-0,New Building,Apartment Building,2012-11-22,2017-12-11,NA,Inspection,M6,447,FALSE
-0,Building Additions/Alterations,Warehouse,2012-12-12,2015-03-06,NA,Inspection,M9,3519,FALSE
-0,New Building,Apartment Building,2012-12-20,2016-06-08,2018-01-23,Closed,NA,760,FALSE
-0,New Building,Mixed Use/Res w Non Res,2012-12-20,2014-09-30,NA,Inspection,M6,100,FALSE
-0,New Building,Elementary School,2012-12-20,2013-05-24,NA,Inspection,M3,660,TRUE
-0,New Building,Apartment Building,2012-12-20,2014-04-15,2016-02-18,Closed,M4,620.9,FALSE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2012-12-20,2013-11-18,2017-01-17,Closed,M5,236,FALSE
-0,Building Additions/Alterations,Office,2012-12-20,2013-10-15,2018-11-06,Closed,M5,1157.33,FALSE
-0,New Building,Apartment Building,2013-01-18,2014-09-26,2016-05-02,Closed,NA,534,FALSE
-0,New Building,Apartment Building,2013-01-28,2016-08-18,2022-02-08,Closed,NA,752,FALSE
-0,New Building,Multiple Use/Non Residential,2013-02-14,2014-06-12,NA,Inspection,NA,574,FALSE
-0,New Building,Motel/Hotel,2013-02-20,2014-09-08,NA,Inspection,M6,4356,FALSE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2013-02-21,2013-04-02,2017-01-09,Closed,M5,229.86,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-02-22,2014-07-21,2018-10-11,Closed,NA,492,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-02-26,2014-01-29,NA,Inspection,M6,1113,FALSE
-0,New Houses,Stacked Townhouses,2013-03-01,2014-12-18,NA,Inspection,M4,123,FALSE
-0,New Houses,Stacked Townhouses,2013-03-01,2014-12-18,NA,Inspection,M4,122,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-03-12,2016-04-05,NA,Inspection,NA,340.96999999999997,FALSE
-0,New Building,Other,2013-03-15,2014-04-16,2019-05-14,Closed,M1,746,FALSE
-0,New Building,Retail Store,2013-03-20,2014-04-16,NA,Inspection,M4,1348,FALSE
-0,New Building,Stadium,2013-03-25,2013-11-13,NA,Inspection,M3,20,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-04-04,2015-08-17,NA,Inspection,NA,3113.4,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-04-09,2014-07-03,2016-09-09,Closed,M4,296,FALSE
-0,New Building,Apartment Building,2013-04-11,2013-08-29,NA,Inspection,M5,281,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-04-22,2016-09-01,2020-02-27,Closed,M4,890,FALSE
-0,New Building,Office,2013-05-03,2015-08-24,2022-04-19,Closed,M5,1224,FALSE
-4,New Building,Office,2019-09-10,2021-02-05,2022-04-19,Closed,M5,1103,FALSE
-0,Building Additions/Alterations,Apartment Building,2013-05-07,2013-07-03,2021-02-16,Closed,M5,426,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-05-07,2017-04-04,NA,Inspection,M6,204.5,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-05-23,2018-01-12,2019-08-07,Closed,M5,365,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-05-24,2016-08-22,NA,Inspection,M8,524,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-06-03,2015-10-19,2021-02-18,Closed,M8,50,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-06-06,2015-01-15,NA,Inspection,M4,1015.1700000000001,FALSE
-0,New Building,College/Trade/Tech School/Training Cent.,2013-06-13,2014-07-15,NA,Inspection,M9,1017,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-06-19,2015-04-21,2018-02-05,Closed,M5,444,FALSE
-0,New Building,Office,2013-06-27,2013-11-13,2015-03-26,Closed,M9,211,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-06-27,2018-06-20,2020-11-18,Closed,NA,0,FALSE
-0,New Building,Apartment Building,2013-06-28,2016-10-24,NA,Inspection,M4,60,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-06-28,2015-04-07,NA,Inspection,M6,500,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-07-02,2019-05-24,2020-07-13,Closed,M5,582.2,FALSE
-0,New Building,Retail Mall/Plaza,2013-07-12,2014-01-08,2015-03-12,Closed,M1,0,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-07-19,2015-01-07,2017-01-19,Closed,NA,55.6,FALSE
-0,New Building,Apartment Building,2013-08-01,2015-07-30,NA,Inspection,NA,498,FALSE
-0,Building Additions/Alterations,Multiple Unit Building,2013-08-01,2015-04-09,2022-06-28,Closed,M5,0,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-08-02,2014-05-07,NA,Inspection,M6,325,FALSE
-0,New Building,Apartment Building,2013-08-28,2016-12-28,NA,Inspection,NA,1511,FALSE
-0,New Building,Apartment Building,2013-08-29,2015-07-24,NA,Inspection,M4,194.7,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-09-03,2019-05-09,NA,Inspection,M4,508.21999999999997,FALSE
-0,New Building,Retail Store,2013-09-05,2016-08-23,2025-07-24,Closed,M2,127,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-09-18,2019-02-05,NA,Inspection,M5,606.748,FALSE
-0,Building Additions/Alterations,College/Trade/Tech School/Training Cent.,2013-09-18,2016-08-16,2019-01-16,Closed,M8,1852,FALSE
-0,New Building,Apartment Building,2013-09-19,2016-01-05,NA,Inspection,NA,1368.3,FALSE
-0,New Building,Apartment Building,2013-09-19,2016-01-18,NA,Inspection,NA,1368,FALSE
-0,New Building,Multiple Use/Non Residential,2013-09-19,2014-10-30,2017-10-03,Closed,M9,427,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-09-23,2015-11-10,2018-11-02,Closed,M6,280.6,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-09-23,2017-07-04,2026-02-06,Closed,M5,1040,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-09-26,2016-03-24,NA,Inspection,M5,252.28,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-09-27,2016-10-07,2020-02-08,Closed,M5,195.13,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-10-02,2017-03-28,2021-03-22,Closed,NA,495,FALSE
-0,New Building,Apartment Building,2013-10-10,2015-12-11,2020-07-20,Closed,M4,172,FALSE
-0,New Building,Apartment Building,2013-10-10,2015-12-11,2020-07-20,Closed,M4,435,FALSE
-0,New Building,Multiple Use/Non Residential,2013-10-22,2016-09-02,NA,Inspection,NA,883,FALSE
-0,New Building,Apartment Building,2013-10-25,2017-08-01,2020-08-11,Closed,NA,570,FALSE
-0,New Building,Apartment Building,2013-10-25,2022-05-27,NA,Inspection,NA,829.09,FALSE
-0,Building Additions/Alterations,University,2013-10-25,2015-03-24,2020-10-08,Closed,M5,528,FALSE
-0,New Building,University,2013-10-28,2015-04-08,2018-06-14,Closed,M3,1952,FALSE
-0,New Building,Apartment Building,2013-11-05,2015-08-14,NA,Inspection,M6,1670,FALSE
-0,New Building,Apartment Building,2013-11-05,2015-10-07,NA,Inspection,M6,747,FALSE
-0,New Building,Parking Garage,2013-11-07,2016-12-09,NA,Inspection,NA,232.38000000000002,FALSE
-0,New Building,Apartment Building,2013-11-07,2016-10-27,NA,Inspection,NA,232.28,FALSE
-0,New Building,University,2013-11-13,2014-09-02,2016-05-11,Closed,M1,640,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-11-19,2017-06-22,NA,Inspection,NA,378,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-11-22,2019-01-04,NA,Inspection,M6,3837.8,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-11-22,2017-12-19,NA,Inspection,M6,475,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-11-25,2016-09-23,NA,Inspection,NA,3572,FALSE
-0,Building Additions/Alterations,Secondary School,2013-12-02,2016-04-01,2017-11-14,Closed,M4,473.1,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-12-03,2015-10-13,NA,Inspection,M5,238,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-12-04,2016-03-03,2017-03-17,Closed,M6,180,FALSE
-0,New Building,Car Dealership,2013-12-09,2015-01-30,2017-01-13,Closed,NA,718.3,FALSE
-0,New Building,Other,2013-12-11,2017-06-05,NA,Inspection,NA,385,FALSE
-0,Building Additions/Alterations,Multiple Unit Building,2013-12-17,2015-01-15,NA,Inspection,M5,180,FALSE
-0,Building Additions/Alterations,Retail Store,2013-12-17,2016-08-18,2017-08-25,Closed,M6,7652.99,FALSE
-0,New Building,Crematorium/Cemetary Structure,2013-12-18,2015-03-13,2017-07-07,Closed,M2,336,FALSE
-0,Building Additions/Alterations,Recreational,2013-12-18,2017-12-14,NA,Inspection,M6,25.7,FALSE
-0,New Houses,SFD - Detached,2013-12-19,2014-01-09,2017-01-11,Closed,M2,486.86,FALSE
-0,New Building,Multiple Use/Non Residential,2013-12-19,2017-04-21,NA,Inspection,M5,70,FALSE
-0,New Building,Office,2013-12-19,2014-09-17,2025-01-23,Closed,NA,1098.02,FALSE
-0,New Building,Long Term Care Facility,2013-12-19,2014-12-17,NA,Inspection,M9,2119,FALSE
-0,New Building,Mixed Use/Res w Non Res,2013-12-20,2018-05-04,NA,Inspection,M5,130.37,FALSE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2013-12-20,2015-12-01,NA,Inspection,M4,219,FALSE
-0,New Building,Apartment Building,2013-12-30,2020-04-17,NA,Inspection,M4,396,FALSE
-0,New Building,Multiple Use/Non Residential,2014-01-20,2016-08-09,2021-06-16,Closed,NA,1161,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-02-03,2016-10-26,NA,Inspection,NA,1869.9,FALSE
-0,New Building,Secondary School,2014-03-05,2017-03-29,NA,Inspection,M1,1063,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-03-07,2016-11-23,2020-11-16,Closed,M6,202,FALSE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2014-03-07,2015-12-14,NA,Inspection,M5,624,FALSE
-0,New Building,Apartment Building,2014-03-10,2018-06-14,NA,Inspection,M5,252,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-03-13,2015-05-28,NA,Inspection,M5,366,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-03-13,2016-12-07,2020-02-10,Closed,M1,320.9,FALSE
-0,Small Residential Projects,SFD - Detached,2014-04-01,2014-05-28,2016-09-16,Closed,M6,0,FALSE
-0,New Building,Apartment Building,2014-04-14,2016-01-06,NA,Inspection,M6,433.5,FALSE
-0,Building Additions/Alterations,Industrial,2014-04-17,2014-10-02,2016-04-26,Closed,M3,2203,FALSE
-0,New Building,Apartment Building,2014-04-24,2016-09-14,NA,Inspection,M2,50,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-04-28,2017-06-23,2020-01-15,Closed,NA,74.6,FALSE
-7,Building Additions/Alterations,Industrial,2017-07-21,2017-09-22,2017-09-29,Closed,M6,1675,TRUE
-0,Building Additions/Alterations,Secondary School,2014-05-14,2015-10-06,NA,Inspection,M4,640.7700000000001,FALSE
-0,New Building,Apartment Building,2014-05-15,2018-07-19,2019-08-09,Closed,M6,107,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-05-21,2016-05-17,NA,Inspection,M4,328,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-05-28,2017-04-06,NA,Inspection,NA,989.52,FALSE
-0,New Building,Other,2014-05-30,2014-09-19,2015-10-27,Closed,M1,238.95000000000002,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-06-06,2015-01-28,2017-08-16,Closed,M5,302,FALSE
-0,New Building,Apartment Building,2014-06-12,2017-03-31,2017-09-26,Closed,M5,497,FALSE
-0,New Building,Apartment Building,2014-06-15,2015-12-22,NA,Inspection,M4,580,FALSE
-0,New Building,Apartment Building,2014-06-15,2017-01-10,2019-08-12,Closed,M4,70,FALSE
-0,Small Residential Projects,SFD - Detached,2014-06-20,2014-07-18,2023-05-24,Closed,M5,30.7,TRUE
-0,Small Residential Projects,SFD - Detached,2014-06-20,2014-10-01,2015-07-15,Closed,M2,74.9,FALSE
-0,New Building,Apartment Building,2014-06-24,2015-08-10,2018-07-31,Closed,M4,320.68,FALSE
-0,New Building,Community Hall,2014-07-02,2014-07-30,2015-08-26,Closed,M1,414,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-07-08,2017-01-26,NA,Inspection,M4,30,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-07-09,2014-12-15,2022-11-30,Closed,M1,1916,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-07-29,2017-06-30,2022-06-14,Closed,M5,873,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-08-08,2016-04-14,2023-11-28,Closed,M6,247,FALSE
-0,New Building,Elementary School,2014-08-08,2016-07-18,2021-03-17,Closed,M8,0,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-08-14,2016-06-01,2024-09-24,Closed,M4,115.2,FALSE
-0,New Building,Other,2014-08-15,2017-02-13,NA,Inspection,NA,496.58,FALSE
-0,Building Additions/Alterations,Office,2014-08-19,2015-04-17,NA,Inspection,M9,275.2,FALSE
-0,New Building,Place of Worship,2014-08-20,2016-05-20,NA,Inspection,M1,278.86,FALSE
-0,New Building,Retail Store,2014-08-21,2015-01-27,NA,Inspection,M1,1008,FALSE
-0,New Building,Other,2014-08-21,2015-02-13,NA,Inspection,NA,404,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-09-04,2017-03-17,NA,Inspection,M6,230,FALSE
-0,Building Additions/Alterations,Parking Garage,2014-09-09,2017-05-12,NA,Inspection,M4,51.2,FALSE
-0,Building Additions/Alterations,Other,2014-09-17,2015-02-19,NA,Inspection,M1,489.12,FALSE
-0,Small Residential Projects,SFD - Townhouse,2014-09-19,2014-09-25,2016-03-23,Closed,M5,36.3,TRUE
-0,New Building,Recreational,2014-10-02,2016-03-23,NA,Inspection,M8,250,FALSE
-0,New Building,College/Trade/Tech School/Training Cent.,2014-10-02,2015-10-07,NA,Inspection,NA,530,FALSE
-0,New Building,Multiple Use/Non Residential,2014-10-02,2015-07-22,2016-01-27,Closed,M4,387.03,FALSE
-0,New Building,Industrial,2014-10-02,2016-11-16,2017-03-03,Closed,M4,180,FALSE
-0,New Building,Apartment Building,2014-10-15,2018-02-27,2026-03-20,Closed,M4,528.5,FALSE
-0,New Building,Apartment Building,2014-10-22,2017-06-07,NA,Inspection,M4,348,FALSE
-1,New Houses,SFD - Detached,2014-12-17,2015-01-08,2016-03-23,Closed,M4,536,FALSE
-1,New Houses,SFD - Detached,2014-12-17,2015-01-08,2016-03-23,Closed,M4,238,FALSE
-0,New Building,Apartment Building,2014-10-30,2017-01-19,2019-02-20,Closed,M1,600,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-11-03,2018-06-19,NA,Inspection,M4,257,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-11-03,2017-10-24,2017-12-06,Closed,M6,336,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-11-04,2016-03-18,2021-02-18,Closed,M8,656,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-11-04,2018-07-10,NA,Inspection,M2,1232.3,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-11-06,2019-11-22,NA,Inspection,M8,1216,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-11-07,2018-10-16,2022-05-04,Closed,M5,247,FALSE
-0,New Houses,SFD - Detached,2014-11-12,2015-01-09,2020-02-27,Closed,M4,12.5,FALSE
-0,New Building,Apartment Building,2014-11-18,2016-12-21,NA,Inspection,M2,1074,FALSE
-0,New Building,Multiple Use/Non Residential,2014-11-18,2017-04-27,NA,Inspection,M5,116.8,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-11-18,2017-11-28,NA,Inspection,M4,214,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-11-21,2018-10-05,2021-11-11,Closed,M6,537,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-11-24,2018-12-17,NA,Inspection,NA,514,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-11-26,2017-05-02,NA,Inspection,M5,1204,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-11-26,2017-11-24,NA,Inspection,NA,663.03,FALSE
-0,New Building,Apartment Building,2014-11-27,2016-04-28,2018-05-08,Closed,M3,828,FALSE
-0,New Building,Apartment Building,2014-11-27,2018-08-31,2019-09-23,Closed,NA,3802,FALSE
-0,New Building,Apartment Building,2014-11-27,2017-11-09,2019-09-23,Closed,NA,3802,FALSE
-0,New Building,Elementary School,2014-11-28,2015-04-30,2017-01-17,Closed,M9,620,TRUE
-0,New Building,Mixed Use/Res w Non Res,2014-11-28,2016-12-22,2019-12-19,Closed,M5,402,FALSE
-0,New Building,Apartment Building,2014-12-01,2018-05-09,2022-03-22,Closed,M1,255.53,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-12-03,2019-08-09,2022-08-23,Closed,M5,540,FALSE
-0,New Building,Apartment Building,2014-12-05,2017-06-16,NA,Inspection,M4,320,FALSE
-0,New Building,Parking Garage,2014-12-05,2017-10-30,NA,Inspection,M4,320,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-12-05,2021-11-03,2024-11-25,Closed,M6,117,FALSE
-0,New Building,Apartment Building,2014-12-09,2017-06-29,2019-04-18,Closed,M9,61,FALSE
-0,New Building,Apartment Building,2014-12-10,2016-04-11,NA,Inspection,NA,0,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-12-10,2019-05-16,2025-06-20,Closed,M8,590.2,FALSE
-0,New Building,Apartment Building,2014-12-11,2020-01-29,NA,Inspection,M6,2194,FALSE
-0,New Building,Apartment Building,2014-12-11,2020-01-24,NA,Inspection,M6,157,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-12-15,2018-02-27,2019-12-19,Closed,M5,0,FALSE
-0,New Building,Parking Garage,2014-12-16,2019-02-04,2021-06-15,Closed,M6,1335,FALSE
-0,Building Additions/Alterations,Elementary School,2014-12-17,2016-11-01,2023-11-02,Closed,M5,160,FALSE
-0,Building Additions/Alterations,University,2014-12-18,2015-10-28,2026-01-26,Closed,M5,638,FALSE
-0,New Building,Multiple Use/Non Residential,2014-12-18,2020-02-05,NA,Inspection,M5,1550,FALSE
-0,New Building,Apartment Building,2014-12-18,2017-10-04,NA,Inspection,NA,393.3,FALSE
-0,New Building,Apartment Building,2014-12-19,2016-07-08,2019-01-16,Closed,M1,1136,FALSE
-0,New Building,Apartment Building,2014-12-19,2019-10-11,2023-03-23,Closed,M5,597,FALSE
-0,New Building,Apartment Building,2014-12-19,2019-07-23,NA,Inspection,NA,1804,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-12-19,2018-02-13,2025-01-21,Closed,M4,678,FALSE
-0,New Building,Apartment Building,2014-12-19,2018-05-23,NA,Inspection,M8,262.19,FALSE
-0,New Building,Library,2014-12-19,2015-06-05,NA,Inspection,M9,1110,FALSE
-0,New Building,Mixed Use/Res w Non Res,2014-12-19,2020-06-01,2023-06-22,Closed,M5,330,FALSE
-0,New Building,Multiple Use/Non Residential,2014-12-22,2016-03-09,NA,Inspection,M4,121.4,FALSE
-0,New Building,Apartment Building,2014-12-23,2017-12-11,NA,Inspection,NA,1354,FALSE
-0,New Building,Apartment Building,2014-12-23,2016-09-29,2020-10-26,Closed,M1,839,FALSE
-0,New Building,Apartment Building,2014-12-23,2017-09-11,2020-09-16,Closed,M1,839,FALSE
-0,New Building,Apartment Building,2014-12-24,2017-05-11,2021-09-10,Closed,M1,76.44000000000001,FALSE
-0,Building Additions/Alterations,Apartment Building,2014-12-30,2016-04-07,2017-04-12,Closed,M6,90.91000000000001,FALSE
-0,Building Additions/Alterations,Apartment Building,2014-12-30,2016-02-25,2017-02-13,Closed,M6,90.81,FALSE
-0,New Building,Office,2015-01-23,2016-12-05,NA,Inspection,NA,243,FALSE
-0,Small Residential Projects,SFD - Detached,2015-03-03,2015-04-15,2015-11-09,Closed,M5,35.9,TRUE
-1,Small Residential Projects,SFD - Detached,2015-07-06,2015-07-16,2015-11-09,Closed,M5,35.9,TRUE
-0,New Building,Multiple Use/Non Residential,2015-03-25,2015-07-16,NA,Inspection,M4,150.6,FALSE
-0,New Building,Retail Store,2015-03-31,2016-08-18,2016-10-31,Closed,M6,1553.8,FALSE
-0,New Building,Other,2015-04-08,2015-12-31,2023-07-11,Closed,M3,358,FALSE
-0,New Building,Multiple Use/Non Residential,2015-04-13,2018-03-27,NA,Inspection,M5,2114,FALSE
-0,New Building,Self-Service Storage Building,2015-04-14,2016-03-08,2017-03-20,Closed,M1,1587.8,FALSE
-0,New Building,Self-Service Storage Building,2015-04-14,2016-03-08,2017-03-20,Closed,M1,1659.1,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-04-20,2017-03-29,2019-08-14,Closed,M5,473.34000000000003,FALSE
-0,Building Additions/Alterations,Multiple Unit Building,2015-04-21,2019-03-13,2021-12-08,Closed,M2,5361,FALSE
-0,Small Residential Projects,SFD - Detached,2015-04-27,2015-06-09,NA,Inspection,M4,26.22,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-05-01,2018-10-02,2021-05-28,Closed,M5,13.1,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-05-04,2016-12-09,2024-03-14,Closed,M4,524.2,FALSE
-0,New Building,Apartment Building,2015-05-08,2018-09-10,NA,Inspection,M4,560,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-05-19,2018-01-24,NA,Inspection,M4,14.33,FALSE
-0,New Building,Apartment Building,2015-06-05,2016-06-22,NA,Inspection,M4,252.07,FALSE
-0,Small Residential Projects,SFD - Semi-Detached,2015-06-16,2015-07-15,2015-12-17,Closed,M5,38.6,FALSE
-0,Small Residential Projects,SFD - Semi-Detached,2015-06-16,2015-07-15,2015-12-17,Closed,M5,27.9,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-06-16,2018-07-18,NA,Inspection,NA,1045,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-06-18,2017-12-07,2022-03-21,Closed,NA,1120,FALSE
-0,Small Residential Projects,SFD - Detached,2015-06-24,2015-10-29,NA,Inspection,M4,208,TRUE
-0,New Building,Mixed Use/Res w Non Res,2015-06-30,2017-05-01,NA,Inspection,NA,720.7800000000001,FALSE
-0,Small Residential Projects,SFD - Detached,2015-06-30,2015-08-18,2019-12-11,Closed,M4,10.31,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-07-15,2018-10-04,NA,Inspection,M4,59,FALSE
-0,New Houses,SFD - Townhouse,2015-08-04,2017-06-19,2019-01-17,Closed,M4,890,FALSE
-0,New Building,Retail Store,2015-08-05,2016-08-02,2018-05-14,Closed,M8,0,FALSE
-0,New Building,Secondary School,2015-08-06,2016-10-28,2020-07-06,Closed,M1,2565,TRUE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2015-08-13,2020-02-05,2024-02-27,Closed,M6,0,FALSE
-0,New Building,Apartment Building,2015-09-08,2017-06-30,2018-06-14,Closed,M4,190,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-09-09,2017-09-18,2019-10-03,Closed,M5,514,FALSE
-0,Building Additions/Alterations,Industrial,2015-09-15,2016-11-22,2018-04-18,Closed,M1,266,FALSE
-0,Building Additions/Alterations,College/Trade/Tech School/Training Cent.,2015-09-17,2016-09-22,2019-03-13,Closed,M3,1183,FALSE
-0,Building Additions/Alterations,Retail Store,2015-09-17,2016-12-20,2018-01-11,Closed,M6,0,FALSE
-0,New Building,Medical/Dental Office,2015-09-17,2016-07-07,2023-02-23,Closed,M1,914,FALSE
-0,New Houses,SFD - Detached,2015-09-18,2015-10-21,2024-04-09,Closed,M2,460.15000000000003,FALSE
-0,New Building,Apartment Building,2015-09-24,2018-07-20,2023-07-05,Closed,NA,1682,FALSE
-0,New Building,Apartment Building,2015-09-25,2018-07-17,NA,Inspection,M2,186,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-09-29,2020-12-07,NA,Inspection,M4,524.8,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-10-01,2018-04-27,NA,Inspection,M4,368,FALSE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2015-10-05,2017-07-04,NA,Inspection,M4,526.7,FALSE
-0,Building Additions/Alterations,Elementary School,2015-10-08,2016-01-14,2017-11-08,Closed,M9,0,FALSE
-0,Building Additions/Alterations,Elementary School,2015-10-13,2016-07-19,NA,Inspection,M1,308.6,FALSE
-0,New Building,Apartment Building,2015-10-15,2018-01-15,2019-04-05,Closed,M4,1099,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-10-20,2017-06-06,NA,Inspection,M6,710.8,FALSE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2015-10-20,2016-12-06,NA,Inspection,M1,611.5,FALSE
-0,New Building,Warehouse,2015-10-21,2016-06-28,2021-10-11,Closed,NA,1536.3,FALSE
-0,New Building,Warehouse,2015-10-21,2016-06-22,NA,Inspection,NA,1515.5,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-10-22,2016-09-14,NA,Inspection,M6,887,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-11-03,2018-05-28,NA,Inspection,M5,2000.37,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-11-04,2017-07-17,NA,Inspection,M5,1111,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-11-12,2018-12-17,NA,Inspection,M5,643,FALSE
-0,New Building,Multiple Use/Non Residential,2015-11-16,2017-01-26,NA,Inspection,M8,350,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-12-01,2021-09-17,2024-02-13,Closed,NA,230.68,FALSE
-0,New Building,Nursing Home Facility,2015-12-07,2018-06-13,2019-11-06,Closed,M1,2471,FALSE
-0,New Building,Apartment Building,2015-12-17,2018-01-18,NA,Inspection,M2,543,FALSE
-2,Small Residential Projects,SFD - Detached,2018-04-16,2018-05-17,2018-10-10,Closed,M4,23,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-12-21,2018-12-11,2025-02-19,Closed,M4,722,FALSE
-0,New Building,Mixed Use/Res w Non Res,2015-12-22,2017-12-01,2019-02-06,Closed,M4,220,FALSE
-0,New Building,Multiple Use/Non Residential,2015-12-24,2021-05-13,NA,Inspection,NA,2355.86,FALSE
-0,Building Additions/Alterations,Multiple Unit Building,2016-01-11,2017-11-15,2026-01-06,Closed,M4,0,FALSE
-0,New Building,Apartment Building,2016-01-26,2017-01-17,2018-12-17,Closed,NA,236.76,FALSE
-0,Building Additions/Alterations,Community Hall,2016-02-05,2016-07-28,2021-09-02,Closed,M4,1051,FALSE
-0,New Building,Multiple Use/Non Residential,2016-02-08,2017-10-20,NA,Inspection,M5,1873,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-02-09,2017-06-09,2022-04-11,Closed,M5,1142,FALSE
-0,New Building,Library,2016-02-11,2019-07-15,NA,Inspection,M5,32,FALSE
-0,New Building,Elementary School,2016-02-12,2016-07-20,NA,Inspection,M9,0,FALSE
-0,Building Additions/Alterations,Retail Store,2016-02-17,2016-06-22,2017-11-03,Closed,M9,1740.52,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-02-18,2019-09-09,2021-07-06,Closed,M4,245.6,FALSE
-0,New Building,Multiple Use/Non Residential,2016-02-19,2017-07-05,2018-11-05,Closed,M6,353,FALSE
-0,New Building,Industrial,2016-02-24,2020-08-07,2025-04-29,Closed,M6,15300,FALSE
-0,New Building,Apartment Building,2016-03-03,2018-04-18,2020-11-09,Closed,NA,2100,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-03-14,2020-05-12,2022-01-11,Closed,M5,1768,FALSE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2016-03-14,2016-08-19,2019-04-25,Closed,M8,624,FALSE
-0,Building Additions/Alterations,Elementary School,2016-03-23,2018-01-24,NA,Inspection,M3,0,FALSE
-0,New Building,Industrial,2016-04-08,2018-03-20,2018-03-27,Closed,M8,3007.94,FALSE
-0,Building Additions/Alterations,Elementary School,2016-04-11,2018-05-10,2025-11-10,Closed,M2,710,FALSE
-0,New Building,Elementary School,2016-04-13,2017-03-13,2021-04-29,Closed,M2,1127,FALSE
-0,New Building,Multiple Use/Non Residential,2016-04-19,2016-08-15,NA,Inspection,M5,400,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-04-20,2018-05-11,NA,Inspection,NA,186.1,FALSE
-0,New Building,Multiple Use/Non Residential,2016-04-25,2018-08-30,2020-06-17,Closed,NA,560,FALSE
-0,New Building,Elementary School,2016-04-28,2018-01-30,2019-11-28,Closed,M4,0,FALSE
-0,New Building,Medical/Dental Office,2016-04-29,2017-06-29,2018-07-06,Closed,M9,1500,FALSE
-0,New Building,Apartment Building,2016-05-03,2018-05-10,2020-08-11,Closed,M6,1000,FALSE
-0,Small Residential Projects,SFD - Semi-Detached,2016-05-13,2016-06-16,2016-11-09,Closed,M5,65.42,TRUE
-0,New Building,Retail Store,2016-05-19,2017-02-16,2017-04-26,Closed,NA,660,FALSE
-0,New Building,Apartment Building,2016-05-19,2018-04-13,2020-12-09,Closed,M2,821,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-05-20,2018-01-29,2020-12-02,Closed,M5,1332,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-05-31,2018-12-07,NA,Inspection,M4,991,FALSE
-0,New Building,Multiple Use/Non Residential,2016-06-01,2017-11-22,2021-12-03,Closed,M6,520,FALSE
-0,New Building,Apartment Building,2016-06-07,2018-07-26,2025-06-13,Closed,M4,316.2,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-06-10,2020-04-15,NA,Inspection,M4,195,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-06-13,2017-07-04,2019-10-03,Closed,M5,400,FALSE
-0,Building Additions/Alterations,Hospital,2016-06-21,2018-11-16,2021-01-05,Closed,M9,4554,FALSE
-0,New Building,Multiple Use/Non Residential,2016-06-21,2017-02-03,2024-03-04,Closed,M1,349.5,FALSE
-0,New Building,University,2016-06-24,2018-08-23,NA,Inspection,M3,841,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-06-27,2018-01-08,2019-08-15,Closed,M5,1154,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-07-07,2018-05-11,NA,Inspection,M5,1735.6399999999999,FALSE
-0,Building Additions/Alterations,Office,2016-07-12,2016-08-08,2016-12-07,Closed,M5,226.3,FALSE
-0,New Building,Multiple Use/Non Residential,2016-07-15,2016-11-02,2017-12-15,Closed,M9,14595.3,FALSE
-0,New Building,Apartment Building,2016-07-19,2019-02-08,NA,Inspection,M4,709,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-08-03,2019-08-14,2026-01-09,Closed,M4,664.8399999999999,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-08-05,2021-01-26,NA,Inspection,M4,255.25,FALSE
-0,New Houses,SFD - Detached,2016-08-08,2017-03-14,2026-02-27,Closed,M3,58,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-08-22,2019-08-19,2021-10-19,Closed,M5,188.88000000000002,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-08-24,2020-08-25,2021-06-10,Closed,NA,595.6,FALSE
-1,New Houses,SFD - Townhouse,2017-01-26,2017-12-01,2026-02-18,Closed,M5,5.6,FALSE
-0,New Building,Multiple Use/Non Residential,2016-09-08,2019-02-06,NA,Inspection,M5,216.8,FALSE
-0,New Building,Elementary School,2016-09-09,2018-05-02,2019-01-24,Closed,M5,1063,TRUE
-0,New Building,Office,2016-09-15,2020-08-11,2021-09-30,Closed,M6,876,FALSE
-0,New Building,Motel/Hotel,2016-09-16,2019-03-04,NA,Inspection,M5,145.6,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-09-29,2018-09-24,NA,Inspection,NA,56,FALSE
-0,New Building,Other,2016-10-07,2016-11-03,NA,Inspection,M5,34,FALSE
-0,New Building,"Transit Station,Subway, Bus Terminal",2016-10-08,2021-01-04,2024-01-11,Closed,NA,461.7,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-10-17,2019-01-25,2021-03-29,Closed,M4,523,FALSE
-0,New Building,Apartment Building,2016-10-18,2018-09-11,NA,Inspection,M5,1018,FALSE
-0,New Houses,SFD - Detached,2016-10-19,2016-11-08,2019-12-09,Closed,M4,18.95,TRUE
-0,New Building,Mixed Use/Res w Non Res,2016-10-26,2018-12-19,NA,Inspection,M4,271.39,FALSE
-0,New Building,College/Trade/Tech School/Training Cent.,2016-10-26,2018-03-12,2021-02-25,Closed,M2,2038,FALSE
-0,Building Additions/Alterations,Multiple Unit Building,2016-11-09,2018-06-22,2024-07-18,Closed,M5,393,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-11-09,2019-10-17,2021-03-16,Closed,M4,919,FALSE
-0,New Building,Apartment Building,2016-11-10,2018-09-07,NA,Inspection,M1,791.5,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-11-18,2018-12-04,2021-03-11,Closed,M4,615.12,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-11-21,2019-10-31,NA,Inspection,M4,401,FALSE
-1,New Building,Mixed Use/Res w Non Res,2020-01-06,2020-11-26,NA,Inspection,M4,401,FALSE
-0,New Building,Apartment Building,2016-11-22,2019-04-01,NA,Inspection,M5,623.6,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-11-23,2021-05-13,NA,Inspection,NA,204,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-12-06,2020-03-03,NA,Inspection,M4,467.1,FALSE
-0,Building Additions/Alterations,Hospital,2016-12-06,2025-11-24,NA,Inspection,M5,641,FALSE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2016-12-15,2019-09-18,2021-07-28,Closed,NA,964,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-12-16,2020-03-13,2022-02-08,Closed,M4,292.3,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-12-19,2019-03-01,2024-01-12,Closed,NA,352,FALSE
-0,New Building,Apartment Building,2016-12-19,2018-12-12,2021-04-20,Closed,M2,616,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-12-19,2020-01-27,NA,Inspection,NA,586,FALSE
-0,New Building,Secondary School,2016-12-20,2019-10-10,NA,Inspection,M2,2553,FALSE
-0,New Building,Apartment Building,2016-12-20,2019-03-19,2022-05-09,Closed,M2,7071,FALSE
-0,New Building,Multiple Use/Non Residential,2016-12-21,2018-01-11,2021-03-19,Closed,NA,3870,TRUE
-0,New Building,Parking Garage,2016-12-21,2019-09-10,2020-10-30,Closed,M2,495,FALSE
-0,New Building,Apartment Building,2016-12-21,2019-06-18,2020-10-30,Closed,M2,495,FALSE
-0,New Building,Library,2016-12-21,2017-06-05,NA,Inspection,M6,159.34,FALSE
-0,New Building,Elementary School,2016-12-22,2025-07-30,NA,Inspection,M9,652.8,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-12-22,2020-06-05,2022-05-24,Closed,NA,542,FALSE
-0,New Building,Apartment Building,2016-12-23,2019-11-01,2020-10-16,Closed,M3,275,FALSE
-0,New Building,Community Hall,2016-12-23,2020-09-30,2024-05-13,Closed,NA,502,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-12-23,2019-03-29,2022-07-20,Closed,M9,1208,FALSE
-0,New Building,Parking Garage,2016-12-23,2020-09-03,2024-06-21,Closed,NA,502,FALSE
-0,New Building,Mixed Use/Res w Non Res,2016-12-28,2018-07-25,NA,Inspection,M2,1405,FALSE
-0,New Building,Apartment Building,2016-12-28,2019-09-17,2022-07-28,Closed,M1,59.13,FALSE
-0,New Building,Apartment Building,2016-12-28,2018-10-31,NA,Inspection,M6,382,FALSE
-0,New Building,Apartment Building,2016-12-28,2018-10-30,NA,Inspection,M6,382,FALSE
-0,New Building,Parking Garage,2016-12-29,2020-05-11,2022-01-14,Closed,M3,1379,FALSE
-0,New Building,Apartment Building,2016-12-29,2022-03-18,2025-06-09,Closed,M3,1077.74,FALSE
-0,New Building,Apartment Building,2016-12-29,2022-04-01,2025-06-09,Closed,M3,1077.74,FALSE
-0,New Building,Apartment Building,2016-12-30,2020-05-11,2022-01-17,Closed,M3,670,FALSE
-0,New Building,Apartment Building,2016-12-30,2020-05-12,2022-01-17,Closed,M3,670,FALSE
-0,New Building,Office,2017-01-11,2017-12-27,2023-01-25,Closed,M9,2818,FALSE
-0,Building Additions/Alterations,University,2017-01-20,2018-09-18,2021-11-09,Closed,M5,220,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-01-20,2019-06-25,NA,Inspection,NA,1210,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-01-24,2020-03-13,2023-08-31,Closed,M6,1475.94,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-02-02,2019-02-01,2025-08-06,Closed,NA,377,FALSE
-0,New Building,Apartment Building,2017-02-10,2018-11-06,2023-07-05,Closed,NA,779,FALSE
-0,Building Additions/Alterations,Multiple Unit Building,2017-03-01,2021-02-01,NA,Inspection,M4,752,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-03-02,2018-11-13,2020-02-06,Closed,M4,643,FALSE
-0,New Building,Apartment Building,2017-03-09,2019-07-08,2020-09-29,Closed,M4,315.9,FALSE
-0,New Building,Retail Store,2017-03-28,2018-02-20,2018-05-31,Closed,M4,0,FALSE
-0,New Building,Multiple Use/Non Residential,2017-03-31,2022-06-16,2023-10-06,Closed,NA,3997,FALSE
-0,New Building,Other,2017-03-31,2020-04-30,NA,Inspection,M6,484.74,FALSE
-0,New Building,Office,2017-04-04,2017-11-09,2019-10-17,Closed,M9,1005,FALSE
-0,New Building,Apartment Building,2017-04-12,2019-07-23,2022-02-23,Closed,M4,522.6,FALSE
-0,New Building,Multiple Use/Non Residential,2017-04-13,2018-06-26,NA,Inspection,M5,73.38,FALSE
-0,Building Additions/Alterations,Other,2017-04-19,2018-10-31,2021-03-26,Closed,M5,485.40999999999997,FALSE
-0,Building Additions/Alterations,Other,2017-04-19,2019-01-31,2021-04-29,Closed,M5,172.41,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-04-20,2020-12-29,NA,Inspection,M5,1286.4,FALSE
-0,New Building,Car Dealership,2017-04-20,2017-07-21,2026-03-13,Closed,M8,511.82,FALSE
-1,New Building,Car Dealership,2017-11-17,2018-07-24,2026-03-13,Closed,M8,511.82,FALSE
-0,New Building,Apartment Building,2017-04-27,2019-08-28,2021-10-13,Closed,M4,54.8,FALSE
-0,New Building,Car Dealership,2017-04-30,2017-07-21,2025-07-09,Closed,M8,772.47,FALSE
-1,New Building,Car Dealership,2017-11-23,2018-07-24,2025-07-09,Closed,M8,772.47,FALSE
-0,New Building,Apartment Building,2017-05-05,2020-02-19,2021-03-21,Closed,NA,290,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-05-09,2021-08-04,2023-10-03,Closed,M4,365,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-05-09,2021-07-30,2024-07-15,Closed,M6,231.7,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-05-10,2021-01-12,2021-09-10,Closed,M5,591,FALSE
-0,New Building,Apartment Building,2017-05-10,2021-07-05,2023-03-29,Closed,M8,8,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-05-11,2020-02-26,NA,Inspection,M4,290,FALSE
-1,New Houses,SFD - Townhouse,2018-01-09,2018-10-29,2022-12-12,Closed,M6,30.2,FALSE
-0,New Building,Apartment Building,2017-05-30,2020-07-31,NA,Inspection,M2,655,FALSE
-0,New Building,Apartment Building,2017-06-01,2020-08-18,2023-10-13,Closed,M2,1016,FALSE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2017-06-07,2022-08-22,2023-03-08,Closed,M5,199.3,FALSE
-0,New Building,Parking Garage,2017-06-16,2019-02-06,NA,Inspection,M2,754.38,FALSE
-0,New Building,Apartment Building,2017-06-16,2019-01-28,NA,Inspection,M2,754.38,FALSE
-0,New Building,Apartment Building,2017-06-16,2018-07-30,NA,Inspection,NA,716.6,FALSE
-0,New Building,Car Dealership,2017-06-23,2018-12-19,NA,Inspection,M8,994,FALSE
-0,New Building,Apartment Building,2017-06-26,2020-09-23,2025-11-03,Closed,M9,360,FALSE
-0,New Building,Multiple Use/Non Residential,2017-06-28,2021-06-28,2025-05-20,Closed,M4,584.2,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-06-28,2020-06-01,NA,Inspection,M5,634,FALSE
-0,New Building,Apartment Building,2017-07-06,2018-12-10,2022-02-22,Closed,M8,205,FALSE
-0,Building Additions/Alterations,Self-Service Storage Building,2017-07-06,2018-02-27,2019-06-21,Closed,M9,4750.1,FALSE
-0,New Building,Community Hall,2017-07-07,2019-04-05,2020-09-23,Closed,M2,1343.6,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-07-07,2019-12-16,2023-04-13,Closed,M5,804.9,FALSE
-0,New Building,Multiple Use/Non Residential,2017-07-10,2018-10-03,2021-02-03,Closed,M5,1258,FALSE
-0,Small Residential Projects,SFD - Detached,2017-07-13,2017-07-31,2019-01-15,Closed,M6,19.5,TRUE
-0,New Building,Multiple Use/Non Residential,2017-07-14,2020-11-10,NA,Inspection,M5,1038,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-07-20,2021-03-12,NA,Inspection,M4,74.64,FALSE
-0,New Houses,2 Unit - Detached,2017-07-31,2017-11-13,2021-02-09,Closed,M6,87.04,TRUE
-0,Building Additions/Alterations,Elementary School,2017-08-01,2018-07-30,2021-04-28,Closed,M2,1108,FALSE
-0,New Building,Apartment Building,2017-08-01,2020-05-07,NA,Inspection,NA,422.9,FALSE
-0,New Building,Apartment Building,2017-08-02,2019-12-20,NA,Inspection,NA,1121,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-08-21,2020-09-04,NA,Inspection,NA,0,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-08-22,2020-12-22,NA,Inspection,M6,313.91999999999996,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-08-22,2018-08-31,NA,Inspection,M1,578,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-09-01,2020-09-11,2023-04-25,Closed,NA,1235,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-09-05,2019-03-06,2023-02-08,Closed,NA,771,FALSE
-0,New Building,Apartment Building,2017-09-07,2020-11-20,NA,Inspection,M2,2213.61,FALSE
-0,New Building,Apartment Building,2017-09-08,2018-12-04,2022-02-16,Closed,M1,388,FALSE
-0,New Building,Hospital,2017-09-11,2019-12-19,2020-08-31,Closed,M6,2305.2799999999997,FALSE
-0,New Building,Hospital,2017-09-11,2019-12-19,2020-08-31,Closed,M6,1830.26,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-09-13,2020-10-30,NA,Inspection,M4,1633,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-09-13,2020-07-15,NA,Inspection,M4,951,FALSE
-0,New Building,Other,2017-09-15,2019-04-05,NA,Inspection,NA,1228,FALSE
-0,New Building,Apartment Building,2017-09-19,2019-10-15,NA,Inspection,M2,72.72,FALSE
-0,New Building,Apartment Building,2017-09-19,2019-10-11,NA,Inspection,M2,191.94,FALSE
-0,New Building,Apartment Building,2017-09-21,2021-09-30,NA,Inspection,M3,1008,FALSE
-0,New Building,Apartment Building,2017-09-21,2021-09-30,NA,Inspection,M3,1106,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-09-22,2021-01-07,2026-04-14,Closed,M5,45.99,FALSE
-0,New Houses,SFD - Semi-Detached,2017-09-29,2017-10-19,2018-10-31,Closed,M4,170.70999999999998,FALSE
-0,Small Residential Projects,SFD - Semi-Detached,2017-10-03,2018-02-08,2018-07-26,Closed,M4,12.229999999999999,TRUE
-0,New Building,Mixed Use/Res w Non Res,2017-10-18,2019-05-30,NA,Inspection,M4,234,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-10-20,2021-10-14,2023-08-15,Closed,M5,1327.6,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-10-20,2019-06-13,NA,Inspection,M5,290.68,FALSE
-0,Building Additions/Alterations,Television Studio(no audience),2017-10-24,2018-01-08,2021-01-24,Closed,M8,0,FALSE
-0,New Building,Apartment Building,2017-10-26,2019-04-02,NA,Inspection,M1,1355,FALSE
-0,New Building,Apartment Building,2017-10-30,2020-08-06,NA,Inspection,NA,541,FALSE
-0,New Building,Apartment Building,2017-10-30,2020-07-21,NA,Inspection,NA,907,FALSE
-0,New Building,Multiple Use/Non Residential,2017-10-31,2020-04-08,2023-04-24,Closed,M5,2412,FALSE
-0,New Building,Apartment Building,2017-11-02,2019-09-12,NA,Inspection,M4,878.4,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-11-07,2020-02-07,NA,Inspection,M5,431.05,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-11-15,2020-10-23,NA,Inspection,M5,910.6,FALSE
-0,New Building,Apartment Building,2017-11-20,2022-06-30,NA,Inspection,M5,225,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-11-23,2021-12-09,NA,Inspection,M5,195.85000000000002,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-11-24,2021-01-11,2022-02-18,Closed,NA,918,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-11-30,2020-04-08,NA,Inspection,M5,570,FALSE
-0,New Building,Apartment Building,2017-11-30,2020-10-30,2023-08-23,Closed,M4,216,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-11-30,2020-08-10,2025-05-02,Closed,M5,2378,FALSE
-0,New Building,Apartment Building,2017-12-01,2021-07-15,2023-03-29,Closed,NA,670,FALSE
-0,New Building,Apartment Building,2017-12-01,2018-10-26,NA,Inspection,NA,476.5,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-12-06,2020-02-04,NA,Inspection,NA,759,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-12-08,2020-07-27,NA,Inspection,NA,1588.71,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-12-11,2021-07-05,NA,Inspection,M5,0,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-12-12,2021-08-25,NA,Inspection,M5,610,FALSE
-0,Small Residential Projects,SFD - Detached,2017-12-13,2018-02-05,2020-03-19,Closed,M4,32.43,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-12-15,2024-06-05,NA,Inspection,M6,815,FALSE
-0,Building Additions/Alterations,Elementary School,2017-12-15,2019-06-05,NA,Inspection,M3,183,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-12-20,2020-07-21,2023-04-03,Closed,NA,88,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-12-21,2020-08-18,2023-08-01,Closed,M6,261,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-12-22,2020-06-26,2023-09-29,Closed,NA,652,FALSE
-0,New Building,Apartment Building,2017-12-22,2020-06-18,2022-12-22,Closed,M5,117.61,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-12-22,2021-04-12,2025-03-25,Closed,M5,194.4,FALSE
-0,New Building,Mixed Use/Res w Non Res,2017-12-28,2023-11-06,2023-11-13,Closed,NA,519,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-01-08,2020-02-26,NA,Inspection,M4,197,FALSE
-0,New Building,Apartment Building,2018-01-12,2020-01-07,NA,Inspection,NA,16945,FALSE
-0,Small Residential Projects,SFD - Townhouse,2018-01-31,2018-03-22,2019-10-03,Closed,M6,70.09,TRUE
-0,New Building,Apartment Building,2018-02-07,2020-01-27,NA,Inspection,M1,411,FALSE
-0,Building Additions/Alterations,Water and Sewage Pumping Stations,2018-02-08,2020-05-13,NA,Inspection,NA,631.2,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-02-09,2022-07-26,2025-11-25,Closed,NA,34.2,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-02-15,2020-05-07,NA,Inspection,M9,799,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-02-15,2020-05-08,NA,Inspection,M9,516,FALSE
-0,New Building,Apartment Building,2018-02-15,2020-05-07,NA,Inspection,M9,1345.6,FALSE
-0,New Building,Apartment Building,2018-03-01,2019-09-26,2022-12-14,Closed,NA,764,FALSE
-0,New Building,Apartment Building,2018-03-02,2021-01-29,NA,Inspection,M8,686.5,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-03-05,2021-01-04,2026-03-05,Closed,M6,2707,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-03-05,2022-03-30,2024-01-19,Closed,M6,721.09,FALSE
-0,New Building,Apartment Building,2018-03-07,2019-07-30,2023-07-21,Closed,M9,792.65,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-03-09,2021-01-15,2023-09-12,Closed,M6,221,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-03-19,2019-04-17,2022-03-23,Closed,M5,158.05,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-03-19,2021-03-02,NA,Inspection,M2,758,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-04-04,2021-02-05,NA,Inspection,M5,1743.6,FALSE
-0,New Building,Self-Service Storage Building,2018-04-05,2018-07-20,2020-07-17,Closed,M3,609,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-04-09,NA,2025-06-30,Closed,M5,1244,FALSE
-0,New Building,Apartment Building,2018-04-18,2019-10-17,NA,Inspection,M4,163,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-04-27,2020-09-16,NA,Inspection,NA,526,FALSE
-1,Building Additions/Alterations,University,2019-09-04,2021-05-14,2023-08-24,Closed,NA,971,FALSE
-0,New Building,Apartment Building,2018-05-04,2020-10-16,2025-12-18,Closed,M2,192.76,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-05-08,2021-03-31,NA,Inspection,M5,368.5,FALSE
-0,New Building,Apartment Building,2018-05-15,2020-05-11,2021-11-24,Closed,NA,326.9,FALSE
-0,New Building,Warehouse,2018-05-16,2020-12-15,2021-01-22,Closed,NA,0,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-05-22,2021-04-12,2024-12-17,Closed,M6,570,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-05-23,2020-11-18,NA,Inspection,M5,1645,FALSE
-0,New Building,Apartment Building,2018-05-28,2021-01-22,NA,Inspection,M5,103,FALSE
-0,New Building,Elementary School,2018-05-31,2019-10-25,2021-09-02,Closed,M4,305,FALSE
-0,Building Additions/Alterations,Motel/Hotel,2018-06-05,2019-09-09,2022-01-21,Closed,M6,228,FALSE
-0,Building Additions/Alterations,Multiple Unit Building,2018-06-05,2020-09-04,2024-01-08,Closed,M4,128,FALSE
-1,Small Residential Projects,SFD - Detached,2019-04-16,2019-05-07,2019-11-29,Closed,M4,20,FALSE
-2,Small Residential Projects,SFD - Detached,2019-03-01,2019-03-13,2019-11-29,Closed,M4,54.75,TRUE
-0,Building Additions/Alterations,Multiple Unit Building,2018-06-15,2019-08-12,2021-03-11,Closed,M4,461.5,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-06-21,2019-11-14,2022-03-08,Closed,M5,32,FALSE
-0,Small Residential Projects,SFD - Detached,2018-06-22,2018-07-11,2018-11-23,Closed,M6,19,TRUE
-0,New Building,Mixed Use/Res w Non Res,2018-06-25,2020-12-11,NA,Inspection,M2,1034,FALSE
-0,New Building,Apartment Building,2018-06-25,2021-04-15,NA,Inspection,M4,53.9,FALSE
-0,Small Residential Projects,SFD - Detached,2018-06-28,2018-07-24,2019-01-09,Closed,M2,58.99,FALSE
-0,Building Additions/Alterations,Performing Arts Centre,2018-07-03,2020-12-23,2023-12-28,Closed,NA,306.4,FALSE
-0,New Building,Apartment Building,2018-07-05,2019-10-25,2021-05-14,Closed,M2,691,FALSE
-0,Building Additions/Alterations,Hospital,2018-07-05,2020-06-23,NA,Inspection,M4,3393,FALSE
-0,New Building,Self-Service Storage Building,2018-07-10,2019-02-04,2022-06-14,Closed,M6,320,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-07-11,2024-04-30,NA,Inspection,M5,1257,FALSE
-0,Small Residential Projects,SFD - Semi-Detached,2018-07-12,2018-08-15,2024-05-21,Closed,M6,35.839999999999996,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-07-12,2020-06-02,2022-11-29,Closed,M4,440,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-07-25,2024-08-09,NA,Inspection,M5,214,FALSE
-0,New Building,Apartment Building,2018-07-27,2019-08-12,2025-09-11,Closed,M4,423.71,FALSE
-0,New Building,Apartment Building,2018-07-30,2021-01-15,NA,Inspection,M6,1475.96,FALSE
-0,New Building,Apartment Building,2018-07-31,2020-07-24,2023-01-17,Closed,NA,419.5,FALSE
-0,New Building,Apartment Building,2018-08-02,2021-03-30,2025-10-03,Closed,M5,681,FALSE
-0,New Building,Apartment Building,2018-08-02,2021-05-18,2025-01-14,Closed,NA,1127,FALSE
-0,New Building,Apartment Building,2018-08-02,2021-06-14,2026-02-03,Closed,NA,1364,FALSE
-0,New Building,Multiple Use/Non Residential,2018-08-07,2019-12-19,2023-04-14,Closed,NA,744.2,FALSE
-2,New Building,Multiple Use/Non Residential,2020-07-22,2021-03-09,2023-04-14,Closed,NA,658.1,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-08-10,2020-12-03,NA,Inspection,M6,339,FALSE
-0,New Building,Self-Service Storage Building,2018-08-17,2020-05-28,2022-05-24,Closed,M4,3800,FALSE
-0,New Building,Apartment Building,2018-08-21,2021-10-13,NA,Inspection,M9,1349,FALSE
-0,New Building,Apartment Building,2018-08-22,2020-02-05,NA,Inspection,M4,229.9,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-08-24,2020-10-10,NA,Inspection,M8,642,FALSE
-0,New Building,Apartment Building,2018-08-27,2021-07-09,NA,Inspection,M5,122,FALSE
-0,New Building,Apartment Building,2018-08-31,2020-02-19,NA,Inspection,M6,303,FALSE
-0,New Building,Multiple Use/Non Residential,2018-08-31,2020-01-22,2022-10-05,Closed,M5,174.8,FALSE
-0,New Building,Apartment Building,2018-09-11,2019-05-16,NA,Inspection,M1,813,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-09-11,2021-10-29,2026-02-25,Closed,M4,992.6,FALSE
-0,New Building,Multiple Use/Non Residential,2018-09-11,2020-04-29,2024-01-04,Closed,M5,756,FALSE
-0,New Building,Apartment Building,2018-09-11,2020-10-29,2024-09-09,Closed,M1,590.9599999999999,FALSE
-0,Small Residential Projects,SFD - Semi-Detached,2018-09-12,2018-10-12,2019-10-24,Closed,M6,9.209999999999999,TRUE
-0,New Building,Industrial,2018-09-12,2019-06-14,2020-01-15,Closed,NA,1045,FALSE
-0,New Building,Apartment Building,2018-09-20,2022-07-20,NA,Inspection,M2,1923.8,FALSE
-0,New Building,Apartment Building,2018-09-20,2021-08-06,NA,Inspection,M5,402.95,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-09-28,2023-08-31,2025-02-11,Closed,M2,1096,FALSE
-0,New Building,Multiple Use/Non Residential,2018-10-03,2020-11-10,2025-01-23,Closed,M5,1467.2,FALSE
-0,New Building,Multiple Use/Non Residential,2018-10-04,2022-11-18,NA,Inspection,NA,812,FALSE
-0,Building Additions/Alterations,Secondary School,2018-10-10,2021-03-16,2024-02-06,Closed,M5,337,FALSE
-0,Building Additions/Alterations,Self-Service Storage Building,2018-10-16,2019-06-27,2025-08-13,Closed,M4,85.5,FALSE
-0,New Building,Apartment Building,2018-10-23,2021-01-28,NA,Inspection,M8,297,FALSE
-0,Small Residential Projects,3+ Unit - Detached,2018-10-29,2019-06-06,2021-01-05,Closed,M6,29.6,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-11-15,2019-12-06,2023-02-01,Closed,M5,2836.25,FALSE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2018-11-20,2023-03-17,NA,Inspection,M9,20365,FALSE
-0,Building Additions/Alterations,Office,2018-11-21,2019-04-09,2019-06-03,Closed,M3,1000,FALSE
-0,New Building,Place of Worship,2018-11-22,2020-01-09,2025-06-18,Closed,M5,125,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-11-28,2024-06-14,NA,Inspection,M4,1373,FALSE
-0,New Building,Office,2018-11-28,2022-10-21,2025-05-09,Closed,M5,1835,FALSE
-0,New Building,Multiple Use/Non Residential,2018-12-04,2020-01-07,NA,Inspection,NA,1164,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-12-07,2021-10-15,2026-01-29,Closed,M5,0,FALSE
-0,New Building,Apartment Building,2018-12-07,2021-10-21,2026-01-29,Closed,NA,0,FALSE
-0,New Building,Industrial,2018-12-13,2019-07-26,2021-03-02,Closed,M6,100,FALSE
-0,New Building,Apartment Building,2018-12-17,2020-06-22,NA,Inspection,M4,372,FALSE
-0,New Houses,SFD - Detached,2018-12-18,2019-02-25,2021-05-05,Closed,M6,415.64000000000004,FALSE
-0,New Building,Apartment Building,2018-12-19,2021-07-05,2024-01-15,Closed,NA,1262,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-12-19,2022-10-28,NA,Inspection,M4,531.3,FALSE
-0,Small Residential Projects,SFD - Semi-Detached,2018-12-20,2019-07-15,2025-07-01,Closed,M5,50,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-12-20,2022-04-27,2025-04-22,Closed,M5,285.4,FALSE
-0,New Building,Apartment Building,2018-12-20,2021-11-16,2025-12-30,Closed,M4,179,FALSE
-0,New Building,Apartment Building,2018-12-20,2024-08-28,NA,Inspection,M5,1026.24,FALSE
-0,New Building,Industrial,2018-12-21,2021-02-12,NA,Inspection,M9,39836,FALSE
-0,New Building,Apartment Building,2018-12-21,2021-03-04,2025-04-15,Closed,M9,544.6,FALSE
-0,New Building,Apartment Building,2018-12-24,2021-04-23,2025-04-15,Closed,M9,146.3,FALSE
-0,New Building,Apartment Building,2018-12-27,2021-07-27,NA,Inspection,M9,701,FALSE
-0,New Building,Mixed Use/Res w Non Res,2018-07-04,2021-09-01,NA,Inspection,M6,630.01,FALSE
-0,New Building,Apartment Building,2019-01-11,2021-06-28,2025-01-14,Closed,M5,944,FALSE
-0,New Building,Apartment Building,2019-01-11,2021-03-25,2023-07-26,Closed,M5,755.2,FALSE
-0,New Building,Apartment Building,2019-01-11,2021-03-25,2023-07-26,Closed,M5,539.6,FALSE
-0,New Building,Car Dealership,2019-01-18,2019-10-30,2025-09-04,Closed,M4,427.2,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-01-18,2022-08-04,NA,Inspection,M4,1104,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-01-25,2023-05-08,NA,Inspection,M5,828,FALSE
-0,New Building,Multiple Use/Non Residential,2019-02-14,2025-02-20,NA,Inspection,M6,856,FALSE
-0,New Building,Office,2019-02-25,2021-08-23,2025-02-25,Closed,M3,875,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-03-08,2020-06-08,2024-05-06,Closed,M4,0,FALSE
-0,New Building,Recreational,2019-03-19,2019-04-16,2020-04-20,Closed,M1,0,FALSE
-0,New Building,Motel/Hotel,2019-03-26,2023-12-22,NA,Inspection,M9,255,FALSE
-0,New Building,Crematorium/Cemetary Structure,2019-03-26,2020-05-22,2022-06-17,Closed,NA,400,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-04-01,2021-10-27,2024-12-19,Closed,M4,1368.2,FALSE
-0,New Building,Television Studio(no audience),2019-04-08,2020-09-22,NA,Inspection,NA,6358,FALSE
-0,New Building,Apartment Building,2019-04-11,2020-10-05,2025-01-17,Closed,M3,907.7,FALSE
-0,New Building,Apartment Building,2019-04-12,2021-04-07,2024-01-26,Closed,NA,417,FALSE
-0,New Building,Apartment Building,2019-04-18,2022-11-30,NA,Inspection,M4,80,FALSE
-0,Building Additions/Alterations,Industrial,2019-04-29,2019-08-22,NA,Inspection,M9,6602,FALSE
-0,New Building,Apartment Building,2019-04-30,2021-05-13,2023-01-04,Closed,NA,567,FALSE
-0,New Building,Apartment Building,2019-04-30,2022-02-23,2024-12-12,Closed,M1,360,FALSE
-0,New Building,Apartment Building,2019-04-30,2022-02-24,2024-12-12,Closed,M1,423.5,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-05-03,2022-03-28,2024-10-04,Closed,M4,463,FALSE
-0,New Building,Motel/Hotel,2019-05-03,2023-12-13,NA,Inspection,M9,722,FALSE
-0,Small Residential Projects,2 Unit - Detached,2019-05-07,2019-05-28,2019-06-26,Closed,M5,32,TRUE
-0,New Building,Industrial,2019-05-08,2021-06-04,NA,Inspection,M9,18063,FALSE
-0,New Building,Apartment Building,2019-05-08,2020-09-18,2025-08-25,Closed,M2,398.86,FALSE
-0,New Building,Apartment Building,2019-05-13,2020-11-18,2023-11-29,Closed,M4,186,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-05-13,2021-07-19,NA,Inspection,NA,1158,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-05-15,2021-02-22,2023-11-27,Closed,NA,564,FALSE
-0,New Building,Apartment Building,2019-05-21,2021-04-08,2024-11-15,Closed,NA,1110,FALSE
-0,New Building,Apartment Building,2019-05-21,2021-05-12,2024-10-22,Closed,NA,242.9,FALSE
-0,New Building,Apartment Building,2019-05-24,2021-08-11,2024-12-10,Closed,NA,1381,FALSE
-0,New Building,Apartment Building,2019-05-24,2021-11-19,2024-12-10,Closed,NA,1381,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-06-05,2023-02-01,NA,Inspection,M6,710.7,FALSE
-0,New Houses,SFD - Detached,2019-06-06,2019-07-29,2026-03-04,Closed,M8,330.96,FALSE
-0,New Building,Car Dealership,2019-06-17,2020-05-29,2024-12-09,Closed,M8,2140,FALSE
-0,New Building,Motel/Hotel,2019-06-18,2020-12-09,2024-02-26,Closed,M9,241.5,FALSE
-0,Small Residential Projects,SFD - Detached,2019-06-24,2019-07-17,2020-08-28,Closed,M5,13.7,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-06-25,2022-07-07,2025-07-22,Closed,M6,345,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-07-02,2022-12-08,2023-09-28,Closed,M9,365.64000000000004,FALSE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2019-07-03,2020-11-10,NA,Inspection,M1,1686.3,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-07-04,2022-11-28,NA,Inspection,M5,1171,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-07-10,2024-03-19,2026-04-28,Closed,M5,450.8,FALSE
-0,New Building,Apartment Building,2019-07-15,2021-09-29,2024-06-11,Closed,M5,155,FALSE
-0,New Houses,SFD - Detached,2019-07-16,2019-09-09,2023-04-28,Closed,M9,332.14000000000004,FALSE
-0,New Building,Apartment Building,2019-07-17,2022-05-13,2024-05-10,Closed,M6,468,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-07-23,2021-09-28,NA,Inspection,M4,620.14,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-07-24,2021-07-09,2024-03-28,Closed,M6,416.2,FALSE
-0,New Building,Apartment Building,2019-07-25,2021-06-04,2023-07-14,Closed,NA,567,FALSE
-0,New Building,University,2019-07-25,2020-12-21,NA,Inspection,M3,809,FALSE
-0,New Building,Apartment Building,2019-07-29,2021-06-03,NA,Inspection,M2,685,FALSE
-0,New Building,Apartment Building,2019-07-30,2023-03-14,NA,Inspection,M4,541.3,FALSE
-0,New Building,Apartment Building,2019-07-30,2021-04-09,NA,Inspection,M4,391.9,FALSE
-0,New Building,"Transit Station,Subway, Bus Terminal",2019-08-01,2021-11-18,2023-12-01,Closed,NA,3668.17,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-08-07,2021-11-24,NA,Inspection,M1,161.94,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-08-08,2021-06-24,NA,Inspection,M4,1131.8899999999999,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-08-08,2023-05-23,NA,Inspection,M5,2442,FALSE
-0,New Building,Apartment Building,2019-08-23,2022-09-23,2024-10-04,Closed,M6,373.6,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-08-23,2023-02-13,NA,Inspection,M6,236,FALSE
-0,Small Residential Projects,2 Unit - Detached,2019-08-29,2019-11-27,NA,Inspection,M5,49.46,FALSE
-0,New Building,Apartment Building,2019-08-30,2021-01-13,2025-09-08,Closed,M5,97.48,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-09-06,2022-08-30,NA,Inspection,M5,3387,FALSE
-0,New Building,Apartment Building,2019-09-10,2022-05-06,2023-06-09,Closed,M6,800,FALSE
-0,New Building,Multiple Use/Non Residential,2019-09-17,2020-04-03,2021-06-02,Closed,M4,1071.36,FALSE
-0,New Building,Apartment Building,2019-09-18,2021-12-14,NA,Inspection,NA,488,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-09-20,2021-05-25,NA,Inspection,M4,224.09,FALSE
-0,New Building,Multiple Use/Non Residential,2019-09-23,2021-09-03,2026-03-10,Closed,M6,161,FALSE
-0,New Building,Apartment Building,2019-09-23,2021-10-15,NA,Inspection,M6,274.52,FALSE
-0,Small Residential Projects,SFD - Semi-Detached,2019-09-27,2020-09-15,NA,Inspection,M4,13.66,FALSE
-0,New Building,Apartment Building,2019-09-27,2021-01-05,2024-05-31,Closed,M3,978,FALSE
-0,New Building,Industrial,2019-10-02,2020-02-06,NA,Inspection,NA,1111,FALSE
-0,New Building,Industrial,2019-10-02,2020-02-06,2022-03-10,Closed,NA,283,FALSE
-0,New Building,Industrial,2019-10-03,2020-02-06,2022-03-10,Closed,NA,294,FALSE
-0,New Building,Hospital,2019-10-07,2024-02-23,NA,Inspection,NA,6100,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-10-08,2025-04-15,NA,Inspection,M6,930,FALSE
-3,New Houses,SFD - Detached,2022-01-14,2022-02-03,2022-08-04,Closed,M4,51.6,TRUE
-0,New Building,Multiple Use/Non Residential,2019-10-10,2024-02-01,NA,Inspection,M4,190.7,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-10-11,2022-09-27,2024-08-28,Closed,M5,567,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-10-17,2021-02-16,NA,Inspection,M5,82.7,FALSE
-0,New Building,Office,2019-10-22,2021-04-29,2025-09-02,Closed,M5,836,FALSE
-0,New Building,Office,2019-10-24,2024-06-27,2024-12-02,Closed,NA,460,FALSE
-0,New Building,Apartment Building,2019-10-28,2022-02-09,NA,Inspection,M6,263,FALSE
-0,New Building,"Transit Station,Subway, Bus Terminal",2019-10-28,2023-12-15,2025-08-28,Closed,M3,160.91,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-11-05,2021-06-04,NA,Inspection,M5,0,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-11-07,2022-06-29,NA,Inspection,M6,40.449999999999996,FALSE
-0,New Building,Industrial,2019-11-12,2022-11-25,NA,Inspection,M8,1722.6399999999999,FALSE
-0,New Building,Industrial,2019-11-12,2020-07-10,2026-04-30,Closed,M8,712.8,FALSE
-0,New Building,Industrial,2019-11-12,2020-07-10,2026-04-30,Closed,M8,633.6,FALSE
-0,New Building,Industrial,2019-11-12,2020-07-10,2026-04-30,Closed,M8,712.8,FALSE
-0,New Building,Industrial,2019-11-12,2020-07-10,2026-04-28,Closed,M8,1830.31,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-11-15,2023-04-25,NA,Inspection,M4,1050.5,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-11-19,2021-05-07,NA,Inspection,M5,431,FALSE
-0,New Building,Apartment Building,2019-11-22,2023-04-04,NA,Inspection,M2,169,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-11-27,2023-01-19,2026-04-14,Closed,M3,2815,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-11-27,2022-11-01,2026-04-16,Closed,M3,369.02,FALSE
-0,New Building,Place of Worship,2019-12-02,2023-11-06,2025-02-27,Closed,M4,131,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-12-02,2024-04-30,NA,Inspection,M4,156,FALSE
-0,New Building,Apartment Building,2019-12-05,2021-11-15,NA,Inspection,NA,1386,FALSE
-0,New Building,Apartment Building,2019-12-06,2025-04-16,NA,Inspection,M3,525,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-12-10,2023-10-05,NA,Inspection,M4,634.1,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-12-11,2022-02-17,NA,Inspection,NA,257,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-12-12,2023-02-06,2025-10-07,Closed,M6,797.6,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-12-13,2023-04-14,NA,Inspection,M4,477,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-12-16,2024-01-31,NA,Inspection,M4,249,FALSE
-0,New Building,Apartment Building,2019-12-17,2021-10-04,2025-11-17,Closed,M5,421,FALSE
-0,New Building,Other,2019-12-18,2024-10-02,NA,Inspection,M4,1274,FALSE
-0,New Building,Recreational,2019-12-18,2024-07-19,NA,Inspection,M6,780,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-12-19,2024-12-27,2025-03-26,Closed,M5,108.7,FALSE
-0,New Building,Apartment Building,2019-12-20,2022-04-28,2025-07-16,Closed,M8,259.1,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-12-20,2023-05-05,2025-12-10,Closed,M5,2164.4,FALSE
-0,New Building,Place of Worship,2019-12-20,2020-06-05,NA,Inspection,M1,933.8,FALSE
-0,Building Additions/Alterations,Hospital,2019-12-23,2020-12-02,NA,Inspection,M4,1083,FALSE
-0,New Building,Multiple Use/Non Residential,2019-12-24,2021-12-22,2025-08-21,Closed,M5,1518,FALSE
-0,New Building,Mixed Use/Res w Non Res,2019-12-24,2022-08-16,NA,Inspection,NA,631.374,FALSE
-0,New Building,Multiple Use/Non Residential,2020-01-17,2024-08-02,NA,Inspection,M5,2128,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-01-17,2023-06-01,NA,Inspection,M6,368,FALSE
-0,New Building,Multiple Use/Non Residential,2020-01-23,2021-05-14,NA,Inspection,M5,561.64,FALSE
-0,New Building,Secondary School,2020-01-30,2021-12-08,2026-03-10,Closed,M6,0,FALSE
-0,New Houses,SFD - Detached,2020-02-03,2020-05-25,2021-11-05,Closed,M4,86,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-02-07,2023-08-02,NA,Inspection,M9,139,FALSE
-0,New Houses,SFD - Detached,2020-02-18,2020-04-16,2021-05-27,Closed,M4,25,FALSE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2020-02-20,2025-08-13,NA,Inspection,M5,412.78999999999996,FALSE
-1,Small Residential Projects,Laneway / Rear Yard Suite,2020-10-26,2020-11-27,2021-11-12,Closed,M6,7.08,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-04-20,2023-02-23,NA,Inspection,NA,1745,FALSE
-0,Small Residential Projects,SFD - Detached,2020-05-01,2020-06-12,NA,Inspection,M4,15.75,FALSE
-1,New Houses,SFD - Detached,2020-09-24,2020-10-09,2022-10-12,Closed,M8,64.75,TRUE
-0,New Building,Mixed Use/Res w Non Res,2020-05-08,2025-04-03,NA,Inspection,M5,294,FALSE
-0,New Building,Home for the Aged,2020-05-12,2021-04-09,2023-06-02,Closed,M3,667.23,FALSE
-0,New Building,Industrial Warehouse/Hazardous Building,2020-05-25,2020-08-11,NA,Inspection,M4,3671,FALSE
-0,Small Residential Projects,SFD - Semi-Detached,2020-05-27,2020-06-10,2020-12-02,Closed,M4,37,TRUE
-0,New Building,Mixed Use/Res w Non Res,2020-06-01,2023-12-20,2025-02-06,Closed,M4,89,FALSE
-0,New Building,Other,2020-06-05,2020-08-17,2026-01-13,Closed,M6,54.47,FALSE
-0,New Building,Home for the Aged,2020-06-09,2021-03-09,NA,Inspection,M6,261,FALSE
-0,Small Residential Projects,2 Unit - Townhouse,2020-06-09,2020-11-24,2025-08-22,Closed,M6,12.5,FALSE
-0,Small Residential Projects,SFD - Semi-Detached,2020-06-19,2020-07-03,NA,Inspection,M4,22,FALSE
-0,New Building,Nursing Home Facility,2020-06-23,2022-04-26,NA,Inspection,M6,1353,FALSE
-0,New Building,Office,2020-06-29,2022-11-10,2026-05-01,Closed,M4,200,FALSE
-0,New Building,Apartment Building,2020-06-30,2023-03-27,2025-05-09,Closed,M5,758,FALSE
-0,New Building,Student Residence,2020-07-02,2021-07-28,2024-03-18,Closed,M1,1407,FALSE
-0,New Building,Apartment Building,2020-07-08,2022-08-04,2025-07-29,Closed,M9,103.25,FALSE
-0,New Building,Apartment Building,2020-07-23,2021-10-29,NA,Inspection,M8,809,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-07-24,2023-06-16,NA,Inspection,M6,1206.49,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-07-24,2023-06-13,NA,Inspection,M6,1206.49,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-07-24,2022-05-09,2025-12-23,Closed,NA,659,FALSE
-0,Building Additions/Alterations,Industrial,2020-07-30,2021-07-19,2023-10-19,Closed,NA,4017,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-07-31,2024-09-17,NA,Inspection,NA,632,FALSE
-0,New Building,Apartment Building,2020-08-07,2022-12-23,NA,Inspection,M4,182,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-08-10,2024-05-23,NA,Inspection,M4,65.8,FALSE
-0,Small Residential Projects,SFD - Semi-Detached,2020-08-18,2021-04-16,2021-12-07,Closed,M4,11,TRUE
-0,New Building,Apartment Building,2020-08-18,2023-07-26,NA,Inspection,M4,70.4,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-08-20,2023-01-25,2026-01-16,Closed,M6,495.2,FALSE
-0,New Building,Student Residence,2020-08-24,2021-09-17,NA,Inspection,NA,1140.74,FALSE
-0,New Building,Student Residence,2020-08-24,2021-09-16,NA,Inspection,NA,367.24,FALSE
-0,New Building,Apartment Building,2020-08-25,2024-05-03,NA,Inspection,M3,553.56,FALSE
-0,New Building,Student Residence,2020-08-28,NA,NA,Inspection,M5,723,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-09-01,2022-11-29,2025-03-25,Closed,M5,507,FALSE
-0,Small Residential Projects,SFD - Detached,2020-09-01,2020-10-30,2021-07-15,Closed,M6,24,TRUE
-0,New Building,College/Trade/Tech School/Training Cent.,2020-09-11,2022-08-31,2025-09-11,Closed,NA,810,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-09-15,2022-01-06,NA,Inspection,M4,531.5,FALSE
-0,Small Residential Projects,Laneway / Rear Yard Suite,2020-09-21,2021-03-31,2022-08-03,Closed,M6,45.97,FALSE
-0,New Building,Industrial,2020-09-22,2021-01-08,NA,Inspection,M4,2290,FALSE
-0,New Building,Apartment Building,2020-10-05,2026-02-02,NA,Inspection,M4,561,FALSE
-0,Small Residential Projects,SFD - Detached,2020-10-08,2021-01-26,2021-06-02,Closed,M4,9.2,FALSE
-0,New Building,Apartment Building,2020-10-08,2024-06-27,NA,Inspection,M1,101,FALSE
-0,New Building,Multiple Use/Non Residential,2020-10-23,2023-09-08,NA,Inspection,M3,2452.9,FALSE
-0,New Building,College/Trade/Tech School/Training Cent.,2020-10-27,2022-02-07,2024-01-02,Closed,M1,410.25,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-10-29,2023-03-21,2025-07-29,Closed,M8,895.4,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-11-09,2022-06-16,2024-10-08,Closed,M8,183.39000000000001,FALSE
-0,New Building,Car Dealership,2020-11-09,2023-09-14,NA,Inspection,M2,265,FALSE
-0,New Building,Multiple Use/Non Residential,2020-11-16,2022-10-14,NA,Inspection,NA,730.8,FALSE
-0,New Building,Multiple Use/Non Residential,2020-11-16,2022-09-28,NA,Inspection,NA,1408.4,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-11-18,2023-07-11,NA,Inspection,M5,827.7,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-12-01,2023-06-16,NA,Inspection,M4,151.01899999999998,FALSE
-0,New Building,Apartment Building,2020-12-01,2022-01-27,NA,Inspection,M5,282.1,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-12-08,2021-10-21,NA,Inspection,M9,1256.5,FALSE
-0,New Building,Apartment Building,2020-12-08,2024-11-04,NA,Inspection,M2,591,FALSE
-0,New Building,Apartment Building,2020-12-09,2024-12-17,NA,Inspection,M2,505,FALSE
-0,New Building,Apartment Building,2020-12-10,2024-01-09,NA,Inspection,M5,91.3,FALSE
-0,Building Additions/Alterations,University,2020-12-17,2023-06-23,NA,Inspection,M5,460,FALSE
-0,New Building,University,2020-12-17,2023-03-06,2025-02-04,Closed,NA,3000,FALSE
-0,New Building,Multiple Use/Non Residential,2020-12-21,2023-06-23,NA,Inspection,M5,2794,FALSE
-0,New Building,Apartment Building,2020-12-21,2025-03-17,NA,Inspection,NA,831,FALSE
-0,New Building,Apartment Building,2020-12-21,2026-01-06,NA,Inspection,M2,0,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-12-22,2024-12-23,NA,Inspection,M5,598,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-12-23,2024-01-18,2026-01-21,Closed,M5,1234,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-12-23,2024-09-12,NA,Inspection,M5,230,FALSE
-0,New Building,Apartment Building,2020-12-24,2023-03-31,NA,Inspection,NA,151,FALSE
-0,New Building,Mixed Use/Res w Non Res,2020-12-24,2022-08-08,NA,Inspection,M5,1089,FALSE
-0,New Building,Apartment Building,2021-01-05,2023-05-04,NA,Inspection,M4,236,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-02-01,2022-10-06,2024-04-02,Closed,M1,623,FALSE
-0,New Houses,SFD - Detached,2021-02-05,2021-05-19,2025-11-13,Closed,M6,30,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-02-08,2023-09-08,2025-11-26,Closed,M5,640,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-02-16,2022-12-20,2025-09-05,Closed,M4,195.8,FALSE
-0,Building Additions/Alterations,Elementary School,2021-03-09,2021-10-20,2024-02-16,Closed,M1,341,FALSE
-0,New Building,Long Term Care Facility,2021-03-12,2023-01-18,2023-05-19,Closed,NA,0,FALSE
-0,Small Residential Projects,SFD - Townhouse,2021-03-23,2021-04-20,2023-05-19,Closed,M6,26.66,TRUE
-0,New Building,Apartment Building,2021-03-24,2023-03-28,NA,Inspection,M1,935,FALSE
-0,New Building,Apartment Building,2021-03-26,2023-05-10,NA,Inspection,M6,154,FALSE
-0,New Building,Gas Station/Car Wash/Repair Garage,2021-03-26,2021-10-20,2022-09-07,Closed,M4,711.4,FALSE
-0,New Building,Apartment Building,2021-04-07,2025-10-03,NA,Inspection,M2,576.2,FALSE
-0,New Building,Apartment Building,2021-04-14,2024-09-03,NA,Inspection,M4,511.2,FALSE
-0,New Building,Apartment Building,2021-04-14,2025-10-02,NA,Inspection,M6,1853.96,FALSE
-0,New Building,Apartment Building,2021-04-15,2025-08-19,NA,Inspection,M6,1853.96,FALSE
-0,New Building,Apartment Building,2021-04-15,2025-12-01,NA,Inspection,M6,860.07,FALSE
-0,Small Residential Projects,Laneway / Rear Yard Suite,2021-04-16,2021-09-01,2025-04-23,Closed,M6,10.3,FALSE
-0,New Building,Apartment Building,2021-04-29,2024-05-29,NA,Inspection,M6,99,FALSE
-0,Small Residential Projects,SFD - Detached,2021-04-30,2021-05-28,NA,Inspection,M4,14.5,FALSE
-1,Small Residential Projects,SFD - Townhouse,2022-05-01,2022-07-07,2023-05-26,Closed,M6,43.2,TRUE
-0,New Building,Apartment Building,2021-05-12,2025-08-01,NA,Inspection,M6,423,FALSE
-0,New Building,Apartment Building,2021-05-14,2023-07-11,2024-12-02,Closed,M6,905.5,FALSE
-0,New Building,Industrial,2021-05-16,2022-01-05,2023-07-26,Closed,M3,414.5,FALSE
-0,New Building,Elementary School,2021-06-15,2024-06-07,2024-12-30,Closed,M8,1273,TRUE
-0,New Building,Apartment Building,2021-06-20,2024-02-07,NA,Inspection,M4,340,FALSE
-0,New Building,Industrial,2021-06-23,2021-11-26,NA,Inspection,M9,23598,FALSE
-0,Small Residential Projects,SFD - Detached,2021-06-23,2021-08-19,2026-04-16,Closed,M6,63,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-06-24,2025-04-30,NA,Inspection,M5,4982.6,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-06-25,2025-04-23,NA,Inspection,M5,376.19,FALSE
-0,New Building,Apartment Building,2021-07-05,2022-10-27,2024-12-19,Closed,M5,114.7,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-07-07,2024-10-23,NA,Inspection,M6,727.23,FALSE
-0,Small Residential Projects,SFD - Semi-Detached,2021-07-08,2021-09-03,2022-10-03,Closed,M5,20.830000000000002,FALSE
-0,New Houses,SFD - Detached,2021-07-09,2021-08-26,2025-03-18,Closed,M5,17.3,FALSE
-0,New Building,Apartment Building,2021-07-12,2024-12-02,NA,Inspection,M2,220,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-07-16,2024-09-17,NA,Inspection,M2,627,FALSE
-0,Small Residential Projects,SFD - Detached,2021-07-22,2022-01-10,2025-04-03,Closed,M6,28.959999999999997,FALSE
-1,Small Residential Projects,SFD - Detached,2023-04-03,2023-04-12,2025-04-03,Closed,M6,40.87,FALSE
-0,New Building,Elementary School,2021-07-23,2022-05-09,NA,Inspection,M6,0,FALSE
-0,New Building,Apartment Building,2021-07-29,2022-09-15,NA,Inspection,M5,51.8,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-08-05,2026-04-16,NA,Inspection,M9,1382,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-08-05,2025-01-16,2025-12-04,Closed,M6,146.5,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-08-05,2024-07-04,NA,Inspection,M5,180.03,FALSE
-0,New Building,Office,2021-08-18,2024-03-15,NA,Inspection,M4,433.4,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-08-19,2023-01-23,NA,Inspection,M6,448,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-08-24,2024-02-02,NA,Inspection,M8,535,FALSE
-0,Small Residential Projects,2 Unit - Detached,2021-08-24,2021-09-02,2023-06-16,Closed,M5,20.3,TRUE
-0,Small Residential Projects,Laneway / Rear Yard Suite,2021-08-31,2021-10-04,2022-11-21,Closed,M4,25.630000000000003,TRUE
-0,Building Additions/Alterations,Performing Arts Centre,2021-09-02,2021-11-29,2022-04-12,Closed,M2,2929.05,TRUE
-0,New Building,Apartment Building,2021-09-10,2025-04-23,NA,Inspection,M4,2526,FALSE
-0,Small Residential Projects,SFD - Detached,2021-09-22,2021-11-10,2022-07-27,Closed,M4,58.760000000000005,TRUE
-0,New Building,Mixed Use/Res w Non Res,2021-09-27,2025-09-15,NA,Inspection,M4,355,FALSE
-0,New Building,Industrial Manufacturing Plant,2021-09-30,2022-01-11,2023-06-08,Closed,M4,348.9,FALSE
-0,New Building,Industrial,2021-10-06,2022-06-29,2024-12-11,Closed,M3,2000,FALSE
-0,New Building,Apartment Building,2021-10-13,2025-02-10,NA,Inspection,M5,86.5,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-10-13,2024-07-11,NA,Inspection,M5,49.75,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-10-13,2023-11-06,2025-08-12,Closed,NA,351,FALSE
-0,New Building,Apartment Building,2021-10-15,2025-01-17,NA,Inspection,M9,141,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-10-22,2025-12-11,NA,Inspection,M6,625,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-10-22,2024-11-01,NA,Inspection,M5,432.6,FALSE
-0,Small Residential Projects,2 Unit - Detached,2021-10-26,2022-02-23,NA,Inspection,M6,32.87,FALSE
-0,New Building,Apartment Building,2021-11-02,2025-02-07,NA,Inspection,M5,570,FALSE
-0,New Building,Apartment Building,2021-11-02,2025-01-31,NA,Inspection,M5,498,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-11-08,2024-01-18,NA,Inspection,M1,206,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-11-17,2024-10-18,2025-08-07,Closed,M6,1051.5,FALSE
-0,New Building,Apartment Building,2021-11-18,2024-05-08,NA,Inspection,NA,805,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-11-29,2024-05-28,NA,Inspection,M5,860.6800000000001,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-01,2024-09-10,NA,Inspection,M6,606,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-01,2026-04-16,NA,Inspection,M9,70.36,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-01,2025-07-31,NA,Inspection,M5,732,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-02,2026-02-02,NA,Inspection,M6,442.4,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-02,2023-01-26,2026-02-18,Closed,M3,20,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-07,2023-07-13,2025-11-24,Closed,M5,216,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-08,2023-08-01,NA,Inspection,M5,219,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-14,2025-10-22,NA,Inspection,M5,533.08,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-15,2024-05-30,NA,Inspection,M3,1502,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-15,2024-02-20,NA,Inspection,M5,552,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-16,2025-04-22,NA,Inspection,M6,876.56,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-17,2024-05-30,NA,Inspection,M6,2525.4,FALSE
-0,New Building,Apartment Building,2021-12-20,2024-08-16,NA,Inspection,NA,778,FALSE
-0,New Building,Apartment Building,2021-12-20,2024-12-13,NA,Inspection,M5,3112.12,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-20,2025-10-06,NA,Inspection,M4,948.6,FALSE
-0,New Building,Apartment Building,2021-12-20,2024-12-10,NA,Inspection,M5,3112.12,FALSE
-0,New Building,Long Term Care Facility,2021-12-21,2025-05-29,NA,Inspection,NA,1485,FALSE
-0,New Building,Apartment Building,2021-12-21,2024-05-09,NA,Inspection,M6,156.51,FALSE
-0,New Building,Apartment Building,2021-12-22,2025-01-20,NA,Inspection,M3,666.8,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-22,2025-09-03,NA,Inspection,M8,700.2,FALSE
-0,New Building,Mixed Use/Res w Non Res,2021-12-22,2025-09-03,NA,Inspection,M8,731.8,FALSE
-0,New Building,Car Dealership,2021-12-23,2023-09-15,2024-02-29,Closed,NA,3953,FALSE
-0,New Building,Industrial,2021-12-24,2023-04-28,2025-03-14,Closed,NA,3407.56,FALSE
-0,New Building,Multiple Use/Non Residential,2021-12-24,2023-12-15,NA,Inspection,M3,1182,FALSE
-0,New Building,Elementary School,2021-12-24,2023-02-13,2025-08-28,Closed,M2,858,FALSE
-0,New Building,Retail Mall/Plaza,2021-12-29,2024-01-09,2025-05-23,Closed,M9,0,FALSE
-0,New Building,Retail Mall/Plaza,2021-12-29,2024-01-03,2025-06-10,Closed,NA,0,FALSE
-0,New Building,Elementary School,2021-12-30,2024-05-27,NA,Inspection,M6,1180,FALSE
-0,New Building,Apartment Building,2022-01-10,2024-05-03,NA,Inspection,M3,1055.32,FALSE
-0,Small Residential Projects,SFD - Detached,2022-01-19,2022-02-28,2022-08-17,Closed,M6,16.7,FALSE
-0,New Building,Apartment Building,2022-01-19,2024-05-02,NA,Inspection,M3,840.8499999999999,FALSE
-2,Small Residential Projects,SFD - Detached,2024-10-21,2025-02-14,2026-01-19,Closed,M4,1,FALSE
-0,New Building,Mixed Use/Res w Non Res,2022-01-27,2024-07-22,NA,Inspection,M4,197,FALSE
-0,Building Additions/Alterations,Elementary School,2022-01-29,2023-03-23,2024-10-28,Closed,M4,140,FALSE
-0,Small Residential Projects,2 Unit - Semi-detached,2022-02-14,2022-05-26,NA,Inspection,M6,11.76,FALSE
-0,Building Additions/Alterations,Elementary School,2022-02-23,2022-09-08,NA,Inspection,M2,0,FALSE
-1,Small Residential Projects,2 Unit - Detached,2022-10-31,2022-12-07,2023-11-02,Closed,M6,36,FALSE
-0,Small Residential Projects,SFD - Detached,2022-03-08,2022-05-30,2026-03-13,Closed,M4,5.1,FALSE
-0,Small Residential Projects,SFD - Detached,2022-03-10,2022-03-24,2024-01-02,Closed,M5,11.6,FALSE
-0,New Houses,SFD - Detached,2022-03-11,2022-09-27,NA,Inspection,M2,3.32,FALSE
-0,New Building,Mixed Use/Res w Non Res,2022-03-23,2024-10-08,NA,Inspection,M1,35.9,FALSE
-0,Small Residential Projects,SFD - Detached,2022-03-30,2022-07-11,NA,Inspection,M4,32.8,FALSE
-0,New Building,Mixed Use/Res w Non Res,2022-04-06,2025-04-01,NA,Inspection,M8,197,FALSE
-0,New Building,Car Dealership,2022-04-06,2023-07-11,2026-04-28,Closed,M8,0,FALSE
-0,Building Additions/Alterations,Multiple Use/Non Residential,2022-04-11,2022-11-14,2025-03-06,Closed,M6,396,FALSE
-0,Building Additions/Alterations,Other,2022-04-20,2023-01-13,NA,Inspection,M4,198.7,FALSE
-0,New Building,Apartment Building,2022-04-22,2024-05-10,NA,Inspection,M2,399,FALSE
-0,New Building,Apartment Building,2022-05-19,2024-05-27,NA,Inspection,M9,1370,FALSE
-0,Building Additions/Alterations,University,2022-05-22,2023-04-13,NA,Inspection,M5,285,FALSE
-1,Small Residential Projects,Laneway / Rear Yard Suite,2022-09-28,2022-12-23,2024-10-09,Closed,M6,21.5,FALSE
-0,New Building,Elementary School,2022-05-27,2023-08-14,NA,Inspection,M2,994,FALSE
-0,New Building,Mixed Use/Res w Non Res,2022-05-30,2024-11-26,NA,Inspection,M5,198,FALSE
-0,New Houses,SFD - Detached,2022-06-13,2022-08-08,NA,Inspection,M4,106.16,FALSE
-0,New Building,Office,2022-06-15,2025-10-16,NA,Inspection,M6,2476.11,FALSE
-0,New Building,Apartment Building,2022-06-16,2025-05-05,NA,Inspection,M4,479,FALSE
-0,New Building,Retail Store,2022-06-20,2024-01-03,2025-07-11,Closed,NA,4800,FALSE
-0,New Building,Apartment Building,2022-07-19,2024-08-26,NA,Inspection,M4,130,FALSE
-0,New Building,Place of Worship,2022-07-27,2022-12-01,NA,Inspection,M1,323.22999999999996,FALSE
-0,New Building,Mixed Use/Res w Non Res,2022-07-28,2024-10-28,NA,Inspection,M4,473,FALSE
-0,Small Residential Projects,SFD - Detached,2022-08-11,2022-08-29,2023-08-18,Closed,M4,37.5,TRUE
-0,New Building,Mixed Use/Res w Non Res,2022-08-17,2024-09-05,NA,Inspection,M4,392,FALSE
-0,New Building,Apartment Building,2022-09-07,2025-05-08,NA,Inspection,M6,2362,FALSE
-0,New Building,Apartment Building,2022-09-07,2025-10-23,NA,Inspection,M6,509.1,FALSE
-0,New Building,Apartment Building,2022-09-09,2025-07-15,NA,Inspection,M5,528,FALSE
-0,New Building,Apartment Building,2022-09-09,2025-07-16,NA,Inspection,M5,528,FALSE
-0,Small Residential Projects,SFD - Detached,2022-09-14,2023-01-18,NA,Inspection,M4,28,FALSE
-0,Small Residential Projects,SFD - Detached,2022-10-05,2023-01-30,2024-07-18,Closed,M4,54,FALSE
-0,New Building,Apartment Building,2022-10-12,2026-03-13,NA,Inspection,M5,445.2,FALSE
-0,New Building,Hospital,2022-10-19,2023-10-24,NA,Inspection,M9,4220.1,FALSE
-0,New Building,Mixed Use/Res w Non Res,2022-10-20,2025-01-03,NA,Inspection,M5,65,FALSE
-0,New Building,Mixed Use/Res w Non Res,2022-10-25,2025-03-31,NA,Inspection,M5,388,FALSE
-1,Small Residential Projects,SFD - Detached,2023-06-08,2023-07-04,2023-09-19,Closed,M4,44.09,TRUE
-0,Small Residential Projects,SFD - Detached,2022-10-25,2022-12-19,2023-09-19,Closed,M4,44.09,TRUE
-0,New Building,Mixed Use/Res w Non Res,2022-10-27,2024-03-27,NA,Inspection,M5,167.07,FALSE
-0,New Building,Mixed Use/Res w Non Res,2022-10-27,2025-03-27,NA,Inspection,M8,431,FALSE
-0,New Building,Apartment Building,2022-11-15,2024-09-17,NA,Inspection,NA,322,FALSE
-0,Small Residential Projects,SFD - Semi-Detached,2022-12-06,2023-03-07,2025-09-26,Closed,M5,27.39,FALSE
-0,New Building,Industrial,2022-12-06,2024-03-20,2025-10-20,Closed,M8,8701.07,FALSE
-0,New Building,Industrial,2022-12-06,2024-03-20,2025-10-20,Closed,M8,8701.07,FALSE
-0,Small Residential Projects,SFD - Detached,2022-12-16,2023-03-29,NA,Inspection,M6,1,FALSE
-0,Small Residential Projects,Laneway / Rear Yard Suite,2022-12-19,2023-09-22,NA,Inspection,M6,49,FALSE
-0,Small Residential Projects,Laneway / Rear Yard Suite,2022-12-22,2023-07-20,NA,Inspection,M6,33.1,FALSE
-0,New Building,Mixed Use/Res w Non Res,2023-01-03,2025-05-13,NA,Inspection,M6,122,FALSE
-0,Small Residential Projects,Laneway / Rear Yard Suite,2023-01-30,2023-03-23,NA,Inspection,M4,23.5,FALSE
-0,New Building,Apartment Building,2023-03-01,2024-12-24,NA,Inspection,M8,373.09,FALSE
-0,Small Residential Projects,Other,2023-03-01,2023-03-03,2025-08-21,Closed,M4,20.54,FALSE
-0,Small Residential Projects,SFD - Detached,2023-03-10,2023-07-24,2025-02-27,Closed,M4,40.5,FALSE
-0,New Building,Apartment Building,2023-03-20,2025-05-23,NA,Inspection,M2,293,FALSE
-0,New Building,Mixed Use/Res w Non Res,2023-03-24,2024-11-25,NA,Inspection,M6,141,FALSE
-0,Small Residential Projects,SFD - Detached,2023-04-05,2023-05-02,NA,Inspection,M6,21,FALSE
-0,Small Residential Projects,Live/Work Unit,2023-04-18,2023-05-05,2023-10-04,Closed,M4,12,TRUE
-0,New Building,Secondary School,2023-04-27,2024-10-10,NA,Inspection,M6,2556,FALSE
-0,New Houses,SFD - Detached,2023-05-17,2023-08-11,2025-09-09,Closed,M6,15.6,FALSE
-0,New Houses,SFD - Detached,2023-05-17,2023-08-11,NA,Inspection,M6,13.6,FALSE
-0,New Houses,SFD - Townhouse,2023-05-31,2024-04-11,NA,Inspection,M4,27,FALSE
-0,New Houses,SFD - Townhouse,2023-05-31,2024-04-11,2026-03-27,Closed,M4,41,FALSE
-0,New Houses,SFD - Townhouse,2023-05-31,2024-04-11,NA,Inspection,M4,27,FALSE
-0,New Houses,SFD - Townhouse,2023-05-31,2024-04-11,2026-03-27,Closed,M4,41,FALSE
-0,New Houses,SFD - Townhouse,2023-05-31,2024-04-11,2026-03-27,Closed,M4,27,FALSE
-0,Building Additions/Alterations,University,2023-06-12,2024-11-26,NA,Inspection,M5,213,FALSE
-0,Small Residential Projects,SFD - Detached,2023-06-13,2023-07-10,2025-09-08,Closed,M6,22,FALSE
-0,New Building,Apartment Building,2023-07-05,2025-08-11,NA,Inspection,M1,105.7,FALSE
-0,New Building,Mixed Use/Res w Non Res,2023-07-06,2024-04-19,NA,Inspection,M4,121,FALSE
-0,Building Additions/Alterations,Apartment Building,2023-07-12,2024-01-10,NA,Inspection,NA,153,FALSE
-0,New Building,Mixed Use/Res w Non Res,2023-07-19,2024-10-18,NA,Inspection,M3,760,FALSE
-0,New Building,Mixed Use/Res w Non Res,2023-07-21,2026-02-27,NA,Inspection,NA,2068,FALSE
-0,New Building,Library,2023-07-25,2025-09-12,NA,Inspection,M4,59,FALSE
-0,New Building,University,2023-08-01,2024-07-08,NA,Inspection,M5,126,FALSE
-0,New Building,Mixed Use/Res w Non Res,2023-08-18,2025-07-31,NA,Inspection,M3,530,FALSE
-0,New Building,Mixed Use/Res w Non Res,2023-08-22,2025-05-13,NA,Inspection,M9,192,FALSE
-0,New Building,Apartment Building,2023-08-29,2026-03-17,NA,Inspection,M4,393.5,FALSE
-0,New Building,Mixed Use/Res w Non Res,2023-10-03,2026-01-26,NA,Inspection,M4,54.339999999999996,FALSE
-0,Building Additions/Alterations,Elementary School,2023-10-12,2024-04-05,NA,Inspection,M4,NA,FALSE
-0,Small Residential Projects,SFD - Detached,2023-10-30,2024-01-25,2024-09-19,Closed,M6,26.810000000000002,FALSE
-0,New Building,Multiple Use/Non Residential,2023-11-02,2024-11-28,NA,Inspection,NA,0,FALSE
-0,New Building,Multiple Use/Non Residential,2023-11-06,2025-06-19,NA,Inspection,M1,265,FALSE
-0,New Building,Multiple Use/Non Residential,2024-01-05,2025-03-27,NA,Inspection,M9,10013,FALSE
-0,New Building,Hospital,2024-02-13,2025-08-20,NA,Inspection,M5,1184,FALSE
-0,New Building,Apartment Building,2024-02-26,2025-05-16,NA,Inspection,M8,438,FALSE
-0,New Building,Retail Store,2024-03-01,2025-11-17,NA,Inspection,M8,753,FALSE
-0,New Building,Hospital,2024-04-04,2026-01-02,NA,Inspection,M6,4292,FALSE
-0,New Building,Other,2024-04-29,2024-10-21,NA,Inspection,M3,275,FALSE
-0,New Building,Elementary School,2024-05-08,2025-10-29,NA,Inspection,M2,0,FALSE
-0,New Building,Car Dealership,2024-06-07,2026-01-09,NA,Inspection,NA,1153,FALSE
-0,New Building,Car Dealership,2024-06-10,2025-12-01,NA,Inspection,M8,1590,FALSE
-0,Small Residential Projects,SFD - Semi-Detached,2024-06-14,2024-08-14,2024-09-23,Closed,M6,30,TRUE
-0,New Building,Apartment Building,2024-06-19,2025-03-14,NA,Inspection,M8,83,FALSE
-0,New Houses,SFD - Semi-Detached,2024-06-22,2024-09-09,NA,Inspection,M5,34,FALSE
-0,New Building,Student Residence,2024-07-18,2026-04-20,NA,Inspection,M5,363,FALSE
-0,Building Additions/Alterations,Warehouse,2024-07-26,2024-10-23,NA,Inspection,M9,760,FALSE
-0,New Building,Apartment Building,2024-08-02,2025-05-27,NA,Inspection,M4,109,FALSE
-0,New Building,Long Term Care Facility,2024-08-14,2025-03-10,NA,Inspection,NA,0,FALSE
-0,Small Residential Projects,SFD - Detached,2024-09-11,2024-11-15,NA,Inspection,M4,31,FALSE
-0,New Building,Student Residence,2024-10-07,2025-03-20,NA,Inspection,NA,832,FALSE
-0,New Building,Student Residence,2024-10-07,2025-04-16,NA,Inspection,NA,1313,FALSE
-0,Building Additions/Alterations,Apartment Building,2024-10-10,2025-06-26,NA,Inspection,M5,219,FALSE
-0,New Building,Apartment Building,2024-10-29,2025-08-22,NA,Inspection,M4,110.4,FALSE
-0,New Building,Community Hall,2024-11-15,2025-06-10,NA,Inspection,NA,0,FALSE
-0,New Building,Mixed Use/Res w Non Res,2024-12-05,2025-08-29,NA,Inspection,M6,86.6,FALSE
-0,Building Additions/Alterations,"Transit Station,Subway, Bus Terminal",2024-12-09,2025-04-11,NA,Inspection,M4,437.19,FALSE
-0,New Building,Multiple Use/Non Residential,2024-12-30,2025-08-07,2026-02-09,Closed,M9,0,FALSE
-0,Building Additions/Alterations,Industrial,2025-01-13,2025-03-07,NA,Inspection,M3,488.8,FALSE
-2,Small Residential Projects,SFD - Detached,2025-06-06,2025-07-04,2025-12-23,Closed,M4,14.08,FALSE
-0,New Building,Industrial,2025-01-15,2025-06-09,NA,Inspection,M1,4101,FALSE
-0,New Building,Industrial,2025-01-15,2025-06-11,NA,Inspection,M1,1993,FALSE
-0,Building Additions/Alterations,Retail Store,2025-02-04,2025-06-04,NA,Inspection,M5,1104,FALSE
-0,New Building,Industrial,2025-02-27,2025-07-07,NA,Inspection,M8,0,FALSE
-0,New Building,Apartment Building,2025-03-12,2025-07-30,NA,Inspection,M9,270.6,FALSE
-0,Small Residential Projects,Laneway / Rear Yard Suite,2025-04-02,2025-06-13,NA,Inspection,M6,40.9,FALSE
+PERMIT_NUM,REVISION_NUM,PERMIT_TYPE,STRUCTURE_TYPE,APPLICATION_DATE,ISSUED_DATE,COMPLETED_DATE,POSTAL,GREEN_ROOF_AREA,ECO_ROOF
+03 141785,1,Small Residential Projects,SFD - Detached,2010-02-18T00:00:00Z,2010-03-25T00:00:00Z,2010-03-25T00:00:00Z,M8Y,18.36,FALSE
+10 120075,0,Building Additions/Alterations,Office,2010-02-18T00:00:00Z,2010-06-04T00:00:00Z,2010-06-04T00:00:00Z,M5B,1470,FALSE
+10 131477,0,New Building,Apartment Building,2010-03-12T00:00:00Z,2012-08-16T00:00:00Z,2012-08-16T00:00:00Z,NA,300,FALSE
+10 132321,0,New Building,Apartment Building,2010-03-15T00:00:00Z,2011-03-01T00:00:00Z,2011-03-01T00:00:00Z,M9R,0,FALSE
+10 155366,0,Building Additions/Alterations,Office,2010-04-20T00:00:00Z,2010-05-19T00:00:00Z,2010-05-19T00:00:00Z,M5H,270,FALSE
+10 155781,0,Building Additions/Alterations,Secondary School,2010-04-20T00:00:00Z,2010-08-06T00:00:00Z,2010-08-06T00:00:00Z,M2L,275,FALSE
+10 216000,0,New Building,Mixed Use/Res w Non Res,2010-07-09T00:00:00Z,2012-04-12T00:00:00Z,2012-04-12T00:00:00Z,M5T,2195,FALSE
+10 227495,0,New Building,Multiple Use/Non Residential,2010-07-23T00:00:00Z,2011-04-13T00:00:00Z,2011-04-13T00:00:00Z,M6J,1220,FALSE
+10 243442,0,Building Additions/Alterations,Community Hall,2010-08-20T00:00:00Z,2010-10-04T00:00:00Z,2010-10-04T00:00:00Z,M4L,131.6,TRUE
+10 255756,0,New Building,Mixed Use/Res w Non Res,2010-09-10T00:00:00Z,2014-01-23T00:00:00Z,2014-01-23T00:00:00Z,NA,1051.9,FALSE
+10 275713,1,Small Residential Projects,SFD - Detached,2011-08-09T00:00:00Z,2011-08-15T00:00:00Z,2011-08-15T00:00:00Z,M6S,152,FALSE
+10 275713,0,Small Residential Projects,SFD - Detached,2010-10-12T00:00:00Z,2010-11-12T00:00:00Z,2010-11-12T00:00:00Z,M6S,152,FALSE
+10 282856,0,Small Residential Projects,SFD - Detached,2010-10-22T00:00:00Z,2010-11-05T00:00:00Z,2010-11-05T00:00:00Z,M4T,60.9,FALSE
+10 292819,0,New Building,"Transit Station,Subway, Bus Terminal",2010-11-08T00:00:00Z,2017-06-16T00:00:00Z,2017-06-16T00:00:00Z,NA,360,FALSE
+10 300519,0,Small Residential Projects,SFD - Detached,2010-11-22T00:00:00Z,2010-12-23T00:00:00Z,2010-12-23T00:00:00Z,M4N,71.72,FALSE
+10 315385,0,New Building,Mixed Use/Res w Non Res,2010-12-16T00:00:00Z,2013-05-02T00:00:00Z,2013-05-02T00:00:00Z,M5V,1541,FALSE
+10 316687,0,New Building,Mixed Use/Res w Non Res,2010-12-17T00:00:00Z,2013-12-20T00:00:00Z,2013-12-20T00:00:00Z,NA,716.7,FALSE
+11 129874,0,Small Residential Projects,SFD - Detached,2011-02-18T00:00:00Z,2011-03-22T00:00:00Z,2011-03-22T00:00:00Z,M6G,41,FALSE
+11 132392,0,New Building,Restaurant Greater Than 30 Seats,2011-02-24T00:00:00Z,2014-03-25T00:00:00Z,2014-03-25T00:00:00Z,NA,523.6,FALSE
+11 154403,0,Building Additions/Alterations,Elementary School,2011-03-25T00:00:00Z,2012-06-06T00:00:00Z,2012-06-06T00:00:00Z,M4H,1032,FALSE
+11 187152,0,New Building,Mixed Use/Res w Non Res,2011-05-04T00:00:00Z,2013-05-31T00:00:00Z,2013-05-31T00:00:00Z,M5T,986,FALSE
+11 216050,0,New Building,Mixed Use/Res w Non Res,2011-06-10T00:00:00Z,2013-12-19T00:00:00Z,2013-12-19T00:00:00Z,NA,277.33,FALSE
+11 218683,0,New Building,Industrial,2011-06-14T00:00:00Z,2011-10-31T00:00:00Z,2011-10-31T00:00:00Z,NA,324,FALSE
+11 223813,0,Building Additions/Alterations,Recreational,2011-06-21T00:00:00Z,2012-04-26T00:00:00Z,2012-04-26T00:00:00Z,M4G,404,FALSE
+11 232379,0,New Building,Mixed Use/Res w Non Res,2011-07-05T00:00:00Z,2013-02-01T00:00:00Z,2013-02-01T00:00:00Z,M5T,1344,FALSE
+11 234039,0,New Building,Mixed Use/Res w Non Res,2011-07-07T00:00:00Z,2013-07-22T00:00:00Z,2013-07-22T00:00:00Z,M5V,475,FALSE
+11 234821,0,Building Additions/Alterations,Office,2011-07-08T00:00:00Z,2011-10-27T00:00:00Z,2011-10-27T00:00:00Z,M5A,371,FALSE
+11 236661,0,New Building,Apartment Building,2011-07-12T00:00:00Z,2013-10-25T00:00:00Z,2013-10-25T00:00:00Z,NA,591,FALSE
+11 249770,0,New Building,Mixed Use/Res w Non Res,2011-08-02T00:00:00Z,2014-10-28T00:00:00Z,2014-10-28T00:00:00Z,NA,1093,FALSE
+11 279925,0,New Building,Elementary School,2011-09-22T00:00:00Z,2012-07-31T00:00:00Z,2012-07-31T00:00:00Z,NA,700,TRUE
+11 284988,0,New Building,Multiple Use/Non Residential,2011-09-30T00:00:00Z,2013-07-26T00:00:00Z,2013-07-26T00:00:00Z,NA,4363,FALSE
+11 287084,0,New Building,Mixed Use/Res w Non Res,2011-10-04T00:00:00Z,2013-09-04T00:00:00Z,2013-09-04T00:00:00Z,M5V,63.01,FALSE
+11 293926,0,New Building,Apartment Building,2011-10-17T00:00:00Z,2013-01-21T00:00:00Z,2013-01-21T00:00:00Z,NA,248,FALSE
+11 294699,0,New Building,Apartment Building,2011-10-18T00:00:00Z,2013-01-22T00:00:00Z,2013-01-22T00:00:00Z,M5A,300,FALSE
+11 309981,0,New Building,University,2011-11-15T00:00:00Z,2012-10-31T00:00:00Z,2012-10-31T00:00:00Z,M5B,889.5,FALSE
+11 310205,0,New Building,Multiple Use/Non Residential,2011-11-15T00:00:00Z,2012-07-17T00:00:00Z,2012-07-17T00:00:00Z,M1L,240.52,FALSE
+11 312272,0,Building Additions/Alterations,Elementary School,2011-11-18T00:00:00Z,2012-06-18T00:00:00Z,2012-06-18T00:00:00Z,M1E,1197,FALSE
+11 319757,0,New Building,Mixed Use/Res w Non Res,2011-12-02T00:00:00Z,2014-03-19T00:00:00Z,2014-03-19T00:00:00Z,M5P,429.78,FALSE
+11 320212,0,New Building,Retail Store,2011-12-02T00:00:00Z,2012-06-14T00:00:00Z,2012-06-14T00:00:00Z,M9P,0,FALSE
+11 324279,0,New Building,Elementary School,2011-12-12T00:00:00Z,2012-10-16T00:00:00Z,2012-10-16T00:00:00Z,M2N,0,FALSE
+11 327297,0,New Building,Apartment Building,2011-12-16T00:00:00Z,2014-02-14T00:00:00Z,2014-02-14T00:00:00Z,M5P,445,FALSE
+11 330479,0,New Building,Mixed Use/Res w Non Res,2011-12-23T00:00:00Z,2014-06-04T00:00:00Z,2014-06-04T00:00:00Z,M8Z,349,FALSE
+11 330588,0,New Building,Multiple Use/Non Residential,2011-12-23T00:00:00Z,2014-12-11T00:00:00Z,2014-12-11T00:00:00Z,M5A,3290,FALSE
+11 330642,0,New Building,Apartment Building,2011-12-23T00:00:00Z,2014-03-11T00:00:00Z,2014-03-11T00:00:00Z,M5A,504,FALSE
+11 330653,0,New Building,Mixed Use/Res w Non Res,2011-12-23T00:00:00Z,2014-03-11T00:00:00Z,2014-03-11T00:00:00Z,M5A,540,FALSE
+11 331342,0,New Building,Elementary School,2011-12-28T00:00:00Z,2012-03-19T00:00:00Z,2012-03-19T00:00:00Z,M1C,379.2,FALSE
+11 331561,0,New Building,Mixed Use/Res w Non Res,2011-12-29T00:00:00Z,2014-08-26T00:00:00Z,2014-08-26T00:00:00Z,M5V,397.5,FALSE
+11 331561,1,New Building,Mixed Use/Res w Non Res,2015-04-02T00:00:00Z,2016-05-20T00:00:00Z,2016-05-20T00:00:00Z,M5V,303.5,FALSE
+12 106788,0,New Building,Club,2012-01-16T00:00:00Z,2012-06-05T00:00:00Z,2012-06-05T00:00:00Z,M4N,184.9,FALSE
+12 109230,0,New Building,Multiple Use/Non Residential,2012-01-20T00:00:00Z,2012-07-30T00:00:00Z,2012-07-30T00:00:00Z,NA,243,FALSE
+12 109234,0,New Building,Apartment Building,2012-01-20T00:00:00Z,2013-09-17T00:00:00Z,2013-09-17T00:00:00Z,M8W,397,FALSE
+12 114933,0,New Building,Mixed Use/Res w Non Res,2012-01-31T00:00:00Z,2013-11-26T00:00:00Z,2013-11-26T00:00:00Z,NA,1827.57,FALSE
+12 119084,0,New Building,Apartment Building,2012-02-08T00:00:00Z,2016-04-01T00:00:00Z,2016-04-01T00:00:00Z,M4N,342,FALSE
+12 124662,0,New Building,Apartment Building,2012-02-17T00:00:00Z,2015-06-08T00:00:00Z,2015-06-08T00:00:00Z,M5A,252,FALSE
+12 129679,0,New Building,Apartment Building,2012-02-29T00:00:00Z,2015-11-02T00:00:00Z,2015-11-02T00:00:00Z,M8Y,361.12,FALSE
+12 135248,0,Building Additions/Alterations,Elementary School,2012-03-12T00:00:00Z,2012-09-25T00:00:00Z,2012-09-25T00:00:00Z,M3B,810,FALSE
+12 146242,0,New Building,Recreational,2012-03-30T00:00:00Z,2014-03-20T00:00:00Z,2014-03-20T00:00:00Z,NA,726,FALSE
+12 154305,0,Building Additions/Alterations,College/Trade/Tech School/Training Cent.,2012-04-16T00:00:00Z,2013-06-26T00:00:00Z,2013-06-26T00:00:00Z,M1L,473,FALSE
+12 166355,0,New Building,Mixed Use/Res w Non Res,2012-05-03T00:00:00Z,2014-11-14T00:00:00Z,2014-11-14T00:00:00Z,M5A,4823,FALSE
+12 166727,0,New Building,Mixed Use/Res w Non Res,2012-05-04T00:00:00Z,2014-05-30T00:00:00Z,2014-05-30T00:00:00Z,M4Y,118,FALSE
+12 170167,0,New Building,Mixed Use/Res w Non Res,2012-05-09T00:00:00Z,2015-10-14T00:00:00Z,2015-10-14T00:00:00Z,M5A,1701.4,FALSE
+12 171492,0,New Houses,SFD - Detached,2012-05-11T00:00:00Z,2012-05-31T00:00:00Z,2012-05-31T00:00:00Z,M5R,85,FALSE
+12 174617,0,New Building,Office,2012-05-16T00:00:00Z,2013-03-07T00:00:00Z,2013-03-07T00:00:00Z,NA,1176.45,FALSE
+12 174758,0,New Building,Apartment Building,2012-05-16T00:00:00Z,2014-01-15T00:00:00Z,2014-01-15T00:00:00Z,M8X,568,FALSE
+12 185147,0,New Building,Mixed Use/Res w Non Res,2012-06-01T00:00:00Z,2014-01-29T00:00:00Z,2014-01-29T00:00:00Z,M5R,114,FALSE
+12 202451,0,New Building,Elementary School,2012-06-28T00:00:00Z,2013-02-14T00:00:00Z,2013-02-14T00:00:00Z,NA,1159,TRUE
+12 203332,0,New Building,University,2012-06-29T00:00:00Z,2013-06-28T00:00:00Z,2013-06-28T00:00:00Z,M5S,1080,FALSE
+12 207842,0,New Building,Indoor Swimming Pool,2012-07-09T00:00:00Z,2013-10-29T00:00:00Z,2013-10-29T00:00:00Z,NA,60,FALSE
+12 209746,0,New Building,Mixed Use/Res w Non Res,2012-07-11T00:00:00Z,2015-08-24T00:00:00Z,2015-08-24T00:00:00Z,M6J,183,FALSE
+12 213264,0,New Building,Other,2012-07-17T00:00:00Z,2013-07-05T00:00:00Z,2013-07-05T00:00:00Z,M4W,786,FALSE
+12 213264,1,New Building,Other,2014-02-05T00:00:00Z,2014-10-02T00:00:00Z,2014-10-02T00:00:00Z,M4W,764,FALSE
+12 221439,0,New Building,Mixed Use/Res w Non Res,2012-07-31T00:00:00Z,2015-03-05T00:00:00Z,2015-03-05T00:00:00Z,M5V,473,FALSE
+12 230546,0,New Building,Multiple Use/Non Residential,2012-08-16T00:00:00Z,2012-12-10T00:00:00Z,2012-12-10T00:00:00Z,M8Z,790,FALSE
+12 233929,0,New Building,Apartment Building,2012-08-22T00:00:00Z,2014-09-22T00:00:00Z,2014-09-22T00:00:00Z,M1R,1519,FALSE
+12 235082,0,New Building,Mixed Use/Res w Non Res,2012-08-24T00:00:00Z,2013-08-09T00:00:00Z,2013-08-09T00:00:00Z,NA,587,FALSE
+12 246672,0,Small Residential Projects,SFD - Detached,2012-09-14T00:00:00Z,2012-10-04T00:00:00Z,2012-10-04T00:00:00Z,M2N,53.6,FALSE
+12 260121,0,New Building,Retail Mall/Plaza,2012-10-09T00:00:00Z,2013-04-17T00:00:00Z,2013-04-17T00:00:00Z,M3J,2270,FALSE
+12 260361,0,New Building,Apartment Building,2012-10-10T00:00:00Z,2014-05-21T00:00:00Z,2014-05-21T00:00:00Z,NA,712,FALSE
+12 275376,0,Building Additions/Alterations,Industrial,2012-11-07T00:00:00Z,2013-03-04T00:00:00Z,2013-03-04T00:00:00Z,M3H,1992,FALSE
+12 296413,0,New Building,Apartment Building,2012-12-20T00:00:00Z,2016-06-08T00:00:00Z,2016-06-08T00:00:00Z,NA,760,FALSE
+12 296723,0,New Building,Apartment Building,2012-12-20T00:00:00Z,2014-04-15T00:00:00Z,2014-04-15T00:00:00Z,M4P,620.9,FALSE
+12 296750,0,Building Additions/Alterations,Multiple Use/Non Residential,2012-12-20T00:00:00Z,2013-11-18T00:00:00Z,2013-11-18T00:00:00Z,M5H,236,FALSE
+12 296759,0,Building Additions/Alterations,Office,2012-12-20T00:00:00Z,2013-10-15T00:00:00Z,2013-10-15T00:00:00Z,M5V,1157.33,FALSE
+13 108330,0,New Building,Apartment Building,2013-01-18T00:00:00Z,2014-09-26T00:00:00Z,2014-09-26T00:00:00Z,NA,534,FALSE
+13 111792,0,New Building,Apartment Building,2013-01-28T00:00:00Z,2016-08-18T00:00:00Z,2016-08-18T00:00:00Z,NA,752,FALSE
+13 122967,0,Building Additions/Alterations,Multiple Use/Non Residential,2013-02-21T00:00:00Z,2013-04-02T00:00:00Z,2013-04-02T00:00:00Z,M5H,229.86,FALSE
+13 123611,0,New Building,Mixed Use/Res w Non Res,2013-02-22T00:00:00Z,2014-07-21T00:00:00Z,2014-07-21T00:00:00Z,NA,492,FALSE
+13 133841,0,New Building,Other,2013-03-15T00:00:00Z,2014-04-16T00:00:00Z,2014-04-16T00:00:00Z,M1E,746,FALSE
+13 147105,0,New Building,Mixed Use/Res w Non Res,2013-04-09T00:00:00Z,2014-07-03T00:00:00Z,2014-07-03T00:00:00Z,M4L,296,FALSE
+13 155002,0,New Building,Mixed Use/Res w Non Res,2013-04-22T00:00:00Z,2016-09-01T00:00:00Z,2016-09-01T00:00:00Z,M4X,890,FALSE
+13 161711,0,New Building,Office,2013-05-03T00:00:00Z,2015-08-24T00:00:00Z,2015-08-24T00:00:00Z,M5H,1224,FALSE
+13 161711,4,New Building,Office,2019-09-10T00:00:00Z,2021-02-05T00:00:00Z,2021-02-05T00:00:00Z,M5H,1103,FALSE
+13 163492,0,Building Additions/Alterations,Apartment Building,2013-05-07T00:00:00Z,2013-07-03T00:00:00Z,2013-07-03T00:00:00Z,M5A,426,FALSE
+13 173169,0,New Building,Mixed Use/Res w Non Res,2013-05-23T00:00:00Z,2018-01-12T00:00:00Z,2018-01-12T00:00:00Z,M5R,365,FALSE
+13 179846,0,New Building,Mixed Use/Res w Non Res,2013-06-03T00:00:00Z,2015-10-19T00:00:00Z,2015-10-19T00:00:00Z,M8V,50,FALSE
+13 190716,0,New Building,Mixed Use/Res w Non Res,2013-06-19T00:00:00Z,2015-04-21T00:00:00Z,2015-04-21T00:00:00Z,M5T,444,FALSE
+13 195524,0,New Building,Office,2013-06-27T00:00:00Z,2013-11-13T00:00:00Z,2013-11-13T00:00:00Z,M9M,211,FALSE
+13 195531,0,New Building,Mixed Use/Res w Non Res,2013-06-27T00:00:00Z,2018-06-20T00:00:00Z,2018-06-20T00:00:00Z,NA,0,FALSE
+13 197455,0,New Building,Mixed Use/Res w Non Res,2013-07-02T00:00:00Z,2019-05-24T00:00:00Z,2019-05-24T00:00:00Z,M5A,582.2,FALSE
+13 203373,0,New Building,Retail Mall/Plaza,2013-07-12T00:00:00Z,2014-01-08T00:00:00Z,2014-01-08T00:00:00Z,M1P,0,FALSE
+13 206962,0,New Building,Mixed Use/Res w Non Res,2013-07-19T00:00:00Z,2015-01-07T00:00:00Z,2015-01-07T00:00:00Z,NA,55.6,FALSE
+13 214855,0,Building Additions/Alterations,Multiple Unit Building,2013-08-01T00:00:00Z,2015-04-09T00:00:00Z,2015-04-09T00:00:00Z,M5G,0,FALSE
+13 231262,0,New Building,Retail Store,2013-09-05T00:00:00Z,2016-08-23T00:00:00Z,2016-08-23T00:00:00Z,M2K,127,FALSE
+13 238027,0,Building Additions/Alterations,College/Trade/Tech School/Training Cent.,2013-09-18T00:00:00Z,2016-08-16T00:00:00Z,2016-08-16T00:00:00Z,M8Z,1852,FALSE
+13 238779,0,New Building,Multiple Use/Non Residential,2013-09-19T00:00:00Z,2014-10-30T00:00:00Z,2014-10-30T00:00:00Z,M9B,427,FALSE
+13 239910,0,New Building,Mixed Use/Res w Non Res,2013-09-23T00:00:00Z,2015-11-10T00:00:00Z,2015-11-10T00:00:00Z,M6J,280.6,FALSE
+13 240040,0,New Building,Mixed Use/Res w Non Res,2013-09-23T00:00:00Z,2017-07-04T00:00:00Z,2017-07-04T00:00:00Z,M5V,1040,FALSE
+13 243000,0,New Building,Mixed Use/Res w Non Res,2013-09-27T00:00:00Z,2016-10-07T00:00:00Z,2016-10-07T00:00:00Z,M5B,195.13,FALSE
+13 245084,0,New Building,Mixed Use/Res w Non Res,2013-10-02T00:00:00Z,2017-03-28T00:00:00Z,2017-03-28T00:00:00Z,NA,495,FALSE
+13 248991,0,New Building,Apartment Building,2013-10-10T00:00:00Z,2015-12-11T00:00:00Z,2015-12-11T00:00:00Z,M4S,172,FALSE
+13 249371,0,New Building,Apartment Building,2013-10-10T00:00:00Z,2015-12-11T00:00:00Z,2015-12-11T00:00:00Z,M4S,435,FALSE
+13 256237,0,New Building,Apartment Building,2013-10-25T00:00:00Z,2017-08-01T00:00:00Z,2017-08-01T00:00:00Z,NA,570,FALSE
+13 256626,0,Building Additions/Alterations,University,2013-10-25T00:00:00Z,2015-03-24T00:00:00Z,2015-03-24T00:00:00Z,M5S,528,FALSE
+13 257546,0,New Building,University,2013-10-28T00:00:00Z,2015-04-08T00:00:00Z,2015-04-08T00:00:00Z,M3J,1952,FALSE
+13 264401,0,New Building,University,2013-11-13T00:00:00Z,2014-09-02T00:00:00Z,2014-09-02T00:00:00Z,M1C,640,FALSE
+13 272728,0,Building Additions/Alterations,Secondary School,2013-12-02T00:00:00Z,2016-04-01T00:00:00Z,2016-04-01T00:00:00Z,M4S,473.1,FALSE
+13 273728,0,New Building,Mixed Use/Res w Non Res,2013-12-04T00:00:00Z,2016-03-03T00:00:00Z,2016-03-03T00:00:00Z,M6K,180,FALSE
+13 275740,0,New Building,Car Dealership,2013-12-09T00:00:00Z,2015-01-30T00:00:00Z,2015-01-30T00:00:00Z,NA,718.3,FALSE
+13 279062,0,Building Additions/Alterations,Retail Store,2013-12-17T00:00:00Z,2016-08-18T00:00:00Z,2016-08-18T00:00:00Z,M6A,7652.99,FALSE
+13 279564,0,New Building,Crematorium/Cemetary Structure,2013-12-18T00:00:00Z,2015-03-13T00:00:00Z,2015-03-13T00:00:00Z,M2R,336,FALSE
+13 279800,0,New Houses,SFD - Detached,2013-12-19T00:00:00Z,2014-01-09T00:00:00Z,2014-01-09T00:00:00Z,M2M,486.86,FALSE
+13 280135,0,New Building,Office,2013-12-19T00:00:00Z,2014-09-17T00:00:00Z,2014-09-17T00:00:00Z,NA,1098.02,FALSE
+14 106954,0,New Building,Multiple Use/Non Residential,2014-01-20T00:00:00Z,2016-08-09T00:00:00Z,2016-08-09T00:00:00Z,NA,1161,FALSE
+14 125945,0,New Building,Mixed Use/Res w Non Res,2014-03-07T00:00:00Z,2016-11-23T00:00:00Z,2016-11-23T00:00:00Z,M6P,202,FALSE
+14 128260,0,New Building,Mixed Use/Res w Non Res,2014-03-13T00:00:00Z,2016-12-07T00:00:00Z,2016-12-07T00:00:00Z,M1N,320.9,FALSE
+14 136120,0,Small Residential Projects,SFD - Detached,2014-04-01T00:00:00Z,2014-05-28T00:00:00Z,2014-05-28T00:00:00Z,M6R,0,FALSE
+14 144636,0,Building Additions/Alterations,Industrial,2014-04-17T00:00:00Z,2014-10-02T00:00:00Z,2014-10-02T00:00:00Z,M3H,2203,FALSE
+14 148303,0,New Building,Mixed Use/Res w Non Res,2014-04-28T00:00:00Z,2017-06-23T00:00:00Z,2017-06-23T00:00:00Z,NA,74.6,FALSE
+14 150989,7,Building Additions/Alterations,Industrial,2017-07-21T00:00:00Z,2017-09-22T00:00:00Z,2017-09-22T00:00:00Z,M6K,1675,TRUE
+14 157349,0,New Building,Apartment Building,2014-05-15T00:00:00Z,2018-07-19T00:00:00Z,2018-07-19T00:00:00Z,M6C,107,FALSE
+14 165292,0,New Building,Other,2014-05-30T00:00:00Z,2014-09-19T00:00:00Z,2014-09-19T00:00:00Z,M1X,238.95000000000002,FALSE
+14 169786,0,New Building,Mixed Use/Res w Non Res,2014-06-06T00:00:00Z,2015-01-28T00:00:00Z,2015-01-28T00:00:00Z,M5B,302,FALSE
+14 172874,0,New Building,Apartment Building,2014-06-12T00:00:00Z,2017-03-31T00:00:00Z,2017-03-31T00:00:00Z,M5T,497,FALSE
+14 174105,0,New Building,Apartment Building,2014-06-15T00:00:00Z,2017-01-10T00:00:00Z,2017-01-10T00:00:00Z,M4P,70,FALSE
+14 177417,0,Small Residential Projects,SFD - Detached,2014-06-20T00:00:00Z,2014-07-18T00:00:00Z,2014-07-18T00:00:00Z,M5A,30.7,TRUE
+14 177778,0,Small Residential Projects,SFD - Detached,2014-06-20T00:00:00Z,2014-10-01T00:00:00Z,2014-10-01T00:00:00Z,M2N,74.9,FALSE
+14 179367,0,New Building,Apartment Building,2014-06-24T00:00:00Z,2015-08-10T00:00:00Z,2015-08-10T00:00:00Z,M4V,320.68,FALSE
+14 183525,0,New Building,Community Hall,2014-07-02T00:00:00Z,2014-07-30T00:00:00Z,2014-07-30T00:00:00Z,M1W,414,FALSE
+14 187352,0,New Building,Mixed Use/Res w Non Res,2014-07-09T00:00:00Z,2014-12-15T00:00:00Z,2014-12-15T00:00:00Z,M1G,1916,FALSE
+14 198747,0,New Building,Mixed Use/Res w Non Res,2014-07-29T00:00:00Z,2017-06-30T00:00:00Z,2017-06-30T00:00:00Z,M5T,873,FALSE
+14 203424,0,New Building,Mixed Use/Res w Non Res,2014-08-08T00:00:00Z,2016-04-14T00:00:00Z,2016-04-14T00:00:00Z,M6C,247,FALSE
+14 203621,0,New Building,Elementary School,2014-08-08T00:00:00Z,2016-07-18T00:00:00Z,2016-07-18T00:00:00Z,M8V,0,FALSE
+14 206694,0,New Building,Mixed Use/Res w Non Res,2014-08-14T00:00:00Z,2016-06-01T00:00:00Z,2016-06-01T00:00:00Z,M4M,115.2,FALSE
+14 224819,0,Small Residential Projects,SFD - Townhouse,2014-09-19T00:00:00Z,2014-09-25T00:00:00Z,2014-09-25T00:00:00Z,M5A,36.3,TRUE
+14 231616,0,New Building,Multiple Use/Non Residential,2014-10-02T00:00:00Z,2015-07-22T00:00:00Z,2015-07-22T00:00:00Z,M4G,387.03,FALSE
+14 231634,0,New Building,Industrial,2014-10-02T00:00:00Z,2016-11-16T00:00:00Z,2016-11-16T00:00:00Z,M4G,180,FALSE
+14 237565,0,New Building,Apartment Building,2014-10-15T00:00:00Z,2018-02-27T00:00:00Z,2018-02-27T00:00:00Z,M4P,528.5,FALSE
+14 245143,1,New Houses,SFD - Detached,2014-12-17T00:00:00Z,2015-01-08T00:00:00Z,2015-01-08T00:00:00Z,M4G,536,FALSE
+14 245186,1,New Houses,SFD - Detached,2014-12-17T00:00:00Z,2015-01-08T00:00:00Z,2015-01-08T00:00:00Z,M4G,238,FALSE
+14 245630,0,New Building,Apartment Building,2014-10-30T00:00:00Z,2017-01-19T00:00:00Z,2017-01-19T00:00:00Z,M1J,600,FALSE
+14 246981,0,New Building,Mixed Use/Res w Non Res,2014-11-03T00:00:00Z,2017-10-24T00:00:00Z,2017-10-24T00:00:00Z,M6J,336,FALSE
+14 247824,0,New Building,Mixed Use/Res w Non Res,2014-11-04T00:00:00Z,2016-03-18T00:00:00Z,2016-03-18T00:00:00Z,M8V,656,FALSE
+14 249369,0,New Building,Mixed Use/Res w Non Res,2014-11-07T00:00:00Z,2018-10-16T00:00:00Z,2018-10-16T00:00:00Z,M5B,247,FALSE
+14 250520,0,New Houses,SFD - Detached,2014-11-12T00:00:00Z,2015-01-09T00:00:00Z,2015-01-09T00:00:00Z,M4W,12.5,FALSE
+14 254972,0,New Building,Mixed Use/Res w Non Res,2014-11-21T00:00:00Z,2018-10-05T00:00:00Z,2018-10-05T00:00:00Z,M6A,537,FALSE
+14 257413,0,New Building,Apartment Building,2014-11-27T00:00:00Z,2016-04-28T00:00:00Z,2016-04-28T00:00:00Z,M3M,828,FALSE
+14 257417,0,New Building,Apartment Building,2014-11-27T00:00:00Z,2018-08-31T00:00:00Z,2018-08-31T00:00:00Z,NA,3802,FALSE
+14 257431,0,New Building,Apartment Building,2014-11-27T00:00:00Z,2017-11-09T00:00:00Z,2017-11-09T00:00:00Z,NA,3802,FALSE
+14 257764,0,New Building,Elementary School,2014-11-28T00:00:00Z,2015-04-30T00:00:00Z,2015-04-30T00:00:00Z,M9R,620,TRUE
+14 257790,0,New Building,Mixed Use/Res w Non Res,2014-11-28T00:00:00Z,2016-12-22T00:00:00Z,2016-12-22T00:00:00Z,M5B,402,FALSE
+14 258677,0,New Building,Apartment Building,2014-12-01T00:00:00Z,2018-05-09T00:00:00Z,2018-05-09T00:00:00Z,M1N,255.53,FALSE
+14 259634,0,New Building,Mixed Use/Res w Non Res,2014-12-03T00:00:00Z,2019-08-09T00:00:00Z,2019-08-09T00:00:00Z,M5C,540,FALSE
+14 261064,0,New Building,Mixed Use/Res w Non Res,2014-12-05T00:00:00Z,2021-11-03T00:00:00Z,2021-11-03T00:00:00Z,M6G,117,FALSE
+14 261921,0,New Building,Apartment Building,2014-12-09T00:00:00Z,2017-06-29T00:00:00Z,2017-06-29T00:00:00Z,M9B,61,FALSE
+14 262832,0,New Building,Mixed Use/Res w Non Res,2014-12-10T00:00:00Z,2019-05-16T00:00:00Z,2019-05-16T00:00:00Z,M8V,590.2,FALSE
+14 264349,0,New Building,Mixed Use/Res w Non Res,2014-12-15T00:00:00Z,2018-02-27T00:00:00Z,2018-02-27T00:00:00Z,M5P,0,FALSE
+14 264762,0,New Building,Parking Garage,2014-12-16T00:00:00Z,2019-02-04T00:00:00Z,2019-02-04T00:00:00Z,M6E,1335,FALSE
+14 265297,0,Building Additions/Alterations,Elementary School,2014-12-17T00:00:00Z,2016-11-01T00:00:00Z,2016-11-01T00:00:00Z,M5R,160,FALSE
+14 265586,0,Building Additions/Alterations,University,2014-12-18T00:00:00Z,2015-10-28T00:00:00Z,2015-10-28T00:00:00Z,M5S,638,FALSE
+14 266003,0,New Building,Apartment Building,2014-12-19T00:00:00Z,2016-07-08T00:00:00Z,2016-07-08T00:00:00Z,M1N,1136,FALSE
+14 266073,0,New Building,Apartment Building,2014-12-19T00:00:00Z,2019-10-11T00:00:00Z,2019-10-11T00:00:00Z,M5M,597,FALSE
+14 266226,0,New Building,Mixed Use/Res w Non Res,2014-12-19T00:00:00Z,2018-02-13T00:00:00Z,2018-02-13T00:00:00Z,M4P,678,FALSE
+14 266401,0,New Building,Mixed Use/Res w Non Res,2014-12-19T00:00:00Z,2020-06-01T00:00:00Z,2020-06-01T00:00:00Z,M5V,330,FALSE
+14 267285,0,New Building,Apartment Building,2014-12-23T00:00:00Z,2016-09-29T00:00:00Z,2016-09-29T00:00:00Z,M1R,839,FALSE
+14 267291,0,New Building,Apartment Building,2014-12-23T00:00:00Z,2017-09-11T00:00:00Z,2017-09-11T00:00:00Z,M1R,839,FALSE
+14 267679,0,New Building,Apartment Building,2014-12-24T00:00:00Z,2017-05-11T00:00:00Z,2017-05-11T00:00:00Z,M1N,76.44000000000001,FALSE
+14 268476,0,Building Additions/Alterations,Apartment Building,2014-12-30T00:00:00Z,2016-04-07T00:00:00Z,2016-04-07T00:00:00Z,M6H,90.91000000000001,FALSE
+14 268627,0,Building Additions/Alterations,Apartment Building,2014-12-30T00:00:00Z,2016-02-25T00:00:00Z,2016-02-25T00:00:00Z,M6H,90.81,FALSE
+15 123194,0,Small Residential Projects,SFD - Detached,2015-03-03T00:00:00Z,2015-04-15T00:00:00Z,2015-04-15T00:00:00Z,M5R,35.9,TRUE
+15 123194,1,Small Residential Projects,SFD - Detached,2015-07-06T00:00:00Z,2015-07-16T00:00:00Z,2015-07-16T00:00:00Z,M5R,35.9,TRUE
+15 134857,0,New Building,Retail Store,2015-03-31T00:00:00Z,2016-08-18T00:00:00Z,2016-08-18T00:00:00Z,M6A,1553.8,FALSE
+15 137670,0,New Building,Other,2015-04-08T00:00:00Z,2015-12-31T00:00:00Z,2015-12-31T00:00:00Z,M3M,358,FALSE
+15 140383,0,New Building,Self-Service Storage Building,2015-04-14T00:00:00Z,2016-03-08T00:00:00Z,2016-03-08T00:00:00Z,M1C,1587.8,FALSE
+15 140425,0,New Building,Self-Service Storage Building,2015-04-14T00:00:00Z,2016-03-08T00:00:00Z,2016-03-08T00:00:00Z,M1C,1659.1,FALSE
+15 143919,0,New Building,Mixed Use/Res w Non Res,2015-04-20T00:00:00Z,2017-03-29T00:00:00Z,2017-03-29T00:00:00Z,M5B,473.34000000000003,FALSE
+15 144491,0,Building Additions/Alterations,Multiple Unit Building,2015-04-21T00:00:00Z,2019-03-13T00:00:00Z,2019-03-13T00:00:00Z,M2N,5361,FALSE
+15 150230,0,New Building,Mixed Use/Res w Non Res,2015-05-01T00:00:00Z,2018-10-02T00:00:00Z,2018-10-02T00:00:00Z,M5R,13.1,FALSE
+15 151323,0,New Building,Mixed Use/Res w Non Res,2015-05-04T00:00:00Z,2016-12-09T00:00:00Z,2016-12-09T00:00:00Z,M4X,524.2,FALSE
+15 174905,0,Small Residential Projects,SFD - Semi-Detached,2015-06-16T00:00:00Z,2015-07-15T00:00:00Z,2015-07-15T00:00:00Z,M5P,38.6,FALSE
+15 174944,0,Small Residential Projects,SFD - Semi-Detached,2015-06-16T00:00:00Z,2015-07-15T00:00:00Z,2015-07-15T00:00:00Z,M5P,27.9,FALSE
+15 176396,0,New Building,Mixed Use/Res w Non Res,2015-06-18T00:00:00Z,2017-12-07T00:00:00Z,2017-12-07T00:00:00Z,NA,1120,FALSE
+15 183406,0,Small Residential Projects,SFD - Detached,2015-06-30T00:00:00Z,2015-08-18T00:00:00Z,2015-08-18T00:00:00Z,M4E,10.31,FALSE
+15 201043,0,New Houses,SFD - Townhouse,2015-08-04T00:00:00Z,2017-06-19T00:00:00Z,2017-06-19T00:00:00Z,M4X,890,FALSE
+15 202222,0,New Building,Retail Store,2015-08-05T00:00:00Z,2016-08-02T00:00:00Z,2016-08-02T00:00:00Z,M8W,0,FALSE
+15 202756,0,New Building,Secondary School,2015-08-06T00:00:00Z,2016-10-28T00:00:00Z,2016-10-28T00:00:00Z,M1J,2565,TRUE
+15 206321,0,Building Additions/Alterations,Multiple Use/Non Residential,2015-08-13T00:00:00Z,2020-02-05T00:00:00Z,2020-02-05T00:00:00Z,M6N,0,FALSE
+15 219396,0,New Building,Apartment Building,2015-09-08T00:00:00Z,2017-06-30T00:00:00Z,2017-06-30T00:00:00Z,M4E,190,FALSE
+15 220175,0,New Building,Mixed Use/Res w Non Res,2015-09-09T00:00:00Z,2017-09-18T00:00:00Z,2017-09-18T00:00:00Z,M5V,514,FALSE
+15 222772,0,Building Additions/Alterations,Industrial,2015-09-15T00:00:00Z,2016-11-22T00:00:00Z,2016-11-22T00:00:00Z,M1B,266,FALSE
+15 223954,0,Building Additions/Alterations,College/Trade/Tech School/Training Cent.,2015-09-17T00:00:00Z,2016-09-22T00:00:00Z,2016-09-22T00:00:00Z,M3K,1183,FALSE
+15 224200,0,Building Additions/Alterations,Retail Store,2015-09-17T00:00:00Z,2016-12-20T00:00:00Z,2016-12-20T00:00:00Z,M6A,0,FALSE
+15 224387,0,New Building,Medical/Dental Office,2015-09-17T00:00:00Z,2016-07-07T00:00:00Z,2016-07-07T00:00:00Z,M1B,914,FALSE
+15 224973,0,New Houses,SFD - Detached,2015-09-18T00:00:00Z,2015-10-21T00:00:00Z,2015-10-21T00:00:00Z,M2N,460.15000000000003,FALSE
+15 228084,0,New Building,Apartment Building,2015-09-24T00:00:00Z,2018-07-20T00:00:00Z,2018-07-20T00:00:00Z,NA,1682,FALSE
+15 234807,0,Building Additions/Alterations,Elementary School,2015-10-08T00:00:00Z,2016-01-14T00:00:00Z,2016-01-14T00:00:00Z,M9P,0,FALSE
+15 237835,0,New Building,Apartment Building,2015-10-15T00:00:00Z,2018-01-15T00:00:00Z,2018-01-15T00:00:00Z,M4C,1099,FALSE
+15 240559,0,New Building,Warehouse,2015-10-21T00:00:00Z,2016-06-28T00:00:00Z,2016-06-28T00:00:00Z,NA,1536.3,FALSE
+15 259197,0,New Building,Mixed Use/Res w Non Res,2015-12-01T00:00:00Z,2021-09-17T00:00:00Z,2021-09-17T00:00:00Z,NA,230.68,FALSE
+15 261547,0,New Building,Nursing Home Facility,2015-12-07T00:00:00Z,2018-06-13T00:00:00Z,2018-06-13T00:00:00Z,M1L,2471,FALSE
+15 266821,2,Small Residential Projects,SFD - Detached,2018-04-16T00:00:00Z,2018-05-17T00:00:00Z,2018-05-17T00:00:00Z,M4V,23,FALSE
+15 267631,0,New Building,Mixed Use/Res w Non Res,2015-12-21T00:00:00Z,2018-12-11T00:00:00Z,2018-12-11T00:00:00Z,M4Y,722,FALSE
+15 268063,0,New Building,Mixed Use/Res w Non Res,2015-12-22T00:00:00Z,2017-12-01T00:00:00Z,2017-12-01T00:00:00Z,M4E,220,FALSE
+16 103087,0,Building Additions/Alterations,Multiple Unit Building,2016-01-11T00:00:00Z,2017-11-15T00:00:00Z,2017-11-15T00:00:00Z,M4W,0,FALSE
+16 108693,0,New Building,Apartment Building,2016-01-26T00:00:00Z,2017-01-17T00:00:00Z,2017-01-17T00:00:00Z,NA,236.76,FALSE
+16 113513,0,Building Additions/Alterations,Community Hall,2016-02-05T00:00:00Z,2016-07-28T00:00:00Z,2016-07-28T00:00:00Z,M4X,1051,FALSE
+16 114860,0,New Building,Mixed Use/Res w Non Res,2016-02-09T00:00:00Z,2017-06-09T00:00:00Z,2017-06-09T00:00:00Z,M5B,1142,FALSE
+16 117393,0,Building Additions/Alterations,Retail Store,2016-02-17T00:00:00Z,2016-06-22T00:00:00Z,2016-06-22T00:00:00Z,M9C,1740.52,FALSE
+16 118117,0,New Building,Mixed Use/Res w Non Res,2016-02-18T00:00:00Z,2019-09-09T00:00:00Z,2019-09-09T00:00:00Z,M4T,245.6,FALSE
+16 118607,0,New Building,Multiple Use/Non Residential,2016-02-19T00:00:00Z,2017-07-05T00:00:00Z,2017-07-05T00:00:00Z,M6G,353,FALSE
+16 120031,0,New Building,Industrial,2016-02-24T00:00:00Z,2020-08-07T00:00:00Z,2020-08-07T00:00:00Z,M6M,15300,FALSE
+16 123263,0,New Building,Apartment Building,2016-03-03T00:00:00Z,2018-04-18T00:00:00Z,2018-04-18T00:00:00Z,NA,2100,FALSE
+16 127281,0,New Building,Mixed Use/Res w Non Res,2016-03-14T00:00:00Z,2020-05-12T00:00:00Z,2020-05-12T00:00:00Z,M5A,1768,FALSE
+16 127450,0,Building Additions/Alterations,Multiple Use/Non Residential,2016-03-14T00:00:00Z,2016-08-19T00:00:00Z,2016-08-19T00:00:00Z,M8X,624,FALSE
+16 137689,0,New Building,Industrial,2016-04-08T00:00:00Z,2018-03-20T00:00:00Z,2018-03-20T00:00:00Z,M8Z,3007.94,FALSE
+16 138508,0,Building Additions/Alterations,Elementary School,2016-04-11T00:00:00Z,2018-05-10T00:00:00Z,2018-05-10T00:00:00Z,M2M,710,FALSE
+16 139867,0,New Building,Elementary School,2016-04-13T00:00:00Z,2017-03-13T00:00:00Z,2017-03-13T00:00:00Z,M2N,1127,FALSE
+16 145537,0,New Building,Multiple Use/Non Residential,2016-04-25T00:00:00Z,2018-08-30T00:00:00Z,2018-08-30T00:00:00Z,NA,560,FALSE
+16 147600,0,New Building,Elementary School,2016-04-28T00:00:00Z,2018-01-30T00:00:00Z,2018-01-30T00:00:00Z,M4B,0,FALSE
+16 148136,0,New Building,Medical/Dental Office,2016-04-29T00:00:00Z,2017-06-29T00:00:00Z,2017-06-29T00:00:00Z,M9V,1500,FALSE
+16 149784,0,New Building,Apartment Building,2016-05-03T00:00:00Z,2018-05-10T00:00:00Z,2018-05-10T00:00:00Z,M6R,1000,FALSE
+16 155075,0,Small Residential Projects,SFD - Semi-Detached,2016-05-13T00:00:00Z,2016-06-16T00:00:00Z,2016-06-16T00:00:00Z,M5T,65.42,TRUE
+16 158308,0,New Building,Retail Store,2016-05-19T00:00:00Z,2017-02-16T00:00:00Z,2017-02-16T00:00:00Z,NA,660,FALSE
+16 158573,0,New Building,Apartment Building,2016-05-19T00:00:00Z,2018-04-13T00:00:00Z,2018-04-13T00:00:00Z,M2K,821,FALSE
+16 159450,0,New Building,Mixed Use/Res w Non Res,2016-05-20T00:00:00Z,2018-01-29T00:00:00Z,2018-01-29T00:00:00Z,M5V,1332,FALSE
+16 166105,0,New Building,Multiple Use/Non Residential,2016-06-01T00:00:00Z,2017-11-22T00:00:00Z,2017-11-22T00:00:00Z,M6K,520,FALSE
+16 169317,0,New Building,Apartment Building,2016-06-07T00:00:00Z,2018-07-26T00:00:00Z,2018-07-26T00:00:00Z,M4V,316.2,FALSE
+16 173117,0,New Building,Mixed Use/Res w Non Res,2016-06-13T00:00:00Z,2017-07-04T00:00:00Z,2017-07-04T00:00:00Z,M5A,400,FALSE
+16 178022,0,Building Additions/Alterations,Hospital,2016-06-21T00:00:00Z,2018-11-16T00:00:00Z,2018-11-16T00:00:00Z,M9V,4554,FALSE
+16 178139,0,New Building,Multiple Use/Non Residential,2016-06-21T00:00:00Z,2017-02-03T00:00:00Z,2017-02-03T00:00:00Z,M1B,349.5,FALSE
+16 180989,0,New Building,Mixed Use/Res w Non Res,2016-06-27T00:00:00Z,2018-01-08T00:00:00Z,2018-01-08T00:00:00Z,M5T,1154,FALSE
+16 189230,0,Building Additions/Alterations,Office,2016-07-12T00:00:00Z,2016-08-08T00:00:00Z,2016-08-08T00:00:00Z,M5H,226.3,FALSE
+16 191842,0,New Building,Multiple Use/Non Residential,2016-07-15T00:00:00Z,2016-11-02T00:00:00Z,2016-11-02T00:00:00Z,M9L,14595.3,FALSE
+16 200691,0,New Building,Mixed Use/Res w Non Res,2016-08-03T00:00:00Z,2019-08-14T00:00:00Z,2019-08-14T00:00:00Z,M4P,664.8399999999999,FALSE
+16 203424,0,New Houses,SFD - Detached,2016-08-08T00:00:00Z,2017-03-14T00:00:00Z,2017-03-14T00:00:00Z,M3C,58,FALSE
+16 211134,0,New Building,Mixed Use/Res w Non Res,2016-08-22T00:00:00Z,2019-08-19T00:00:00Z,2019-08-19T00:00:00Z,M5T,188.88000000000002,FALSE
+16 212548,0,New Building,Mixed Use/Res w Non Res,2016-08-24T00:00:00Z,2020-08-25T00:00:00Z,2020-08-25T00:00:00Z,NA,595.6,FALSE
+16 217011,1,New Houses,SFD - Townhouse,2017-01-26T00:00:00Z,2017-12-01T00:00:00Z,2017-12-01T00:00:00Z,M5N,5.6,FALSE
+16 220103,0,New Building,Elementary School,2016-09-09T00:00:00Z,2018-05-02T00:00:00Z,2018-05-02T00:00:00Z,M5N,1063,TRUE
+16 223100,0,New Building,Office,2016-09-15T00:00:00Z,2020-08-11T00:00:00Z,2020-08-11T00:00:00Z,M6M,876,FALSE
+16 234974,0,New Building,"Transit Station,Subway, Bus Terminal",2016-10-08T00:00:00Z,2021-01-04T00:00:00Z,2021-01-04T00:00:00Z,NA,461.7,FALSE
+16 238098,0,New Building,Mixed Use/Res w Non Res,2016-10-17T00:00:00Z,2019-01-25T00:00:00Z,2019-01-25T00:00:00Z,M4S,523,FALSE
+16 239802,0,New Houses,SFD - Detached,2016-10-19T00:00:00Z,2016-11-08T00:00:00Z,2016-11-08T00:00:00Z,M4K,18.95,TRUE
+16 243139,0,New Building,College/Trade/Tech School/Training Cent.,2016-10-26T00:00:00Z,2018-03-12T00:00:00Z,2018-03-12T00:00:00Z,M2J,2038,FALSE
+16 248931,0,Building Additions/Alterations,Multiple Unit Building,2016-11-09T00:00:00Z,2018-06-22T00:00:00Z,2018-06-22T00:00:00Z,M5G,393,FALSE
+16 249200,0,New Building,Mixed Use/Res w Non Res,2016-11-09T00:00:00Z,2019-10-17T00:00:00Z,2019-10-17T00:00:00Z,M4S,919,FALSE
+16 253042,0,New Building,Mixed Use/Res w Non Res,2016-11-18T00:00:00Z,2018-12-04T00:00:00Z,2018-12-04T00:00:00Z,M4M,615.12,FALSE
+16 264881,0,Building Additions/Alterations,Multiple Use/Non Residential,2016-12-15T00:00:00Z,2019-09-18T00:00:00Z,2019-09-18T00:00:00Z,NA,964,FALSE
+16 265356,0,New Building,Mixed Use/Res w Non Res,2016-12-16T00:00:00Z,2020-03-13T00:00:00Z,2020-03-13T00:00:00Z,M4L,292.3,FALSE
+16 268347,0,New Building,Mixed Use/Res w Non Res,2016-12-19T00:00:00Z,2019-03-01T00:00:00Z,2019-03-01T00:00:00Z,NA,352,FALSE
+16 268553,0,New Building,Apartment Building,2016-12-19T00:00:00Z,2018-12-12T00:00:00Z,2018-12-12T00:00:00Z,M2J,616,FALSE
+16 269090,0,New Building,Apartment Building,2016-12-20T00:00:00Z,2019-03-19T00:00:00Z,2019-03-19T00:00:00Z,M2N,7071,FALSE
+16 269471,0,New Building,Multiple Use/Non Residential,2016-12-21T00:00:00Z,2018-01-11T00:00:00Z,2018-01-11T00:00:00Z,NA,3870,TRUE
+16 269625,0,New Building,Parking Garage,2016-12-21T00:00:00Z,2019-09-10T00:00:00Z,2019-09-10T00:00:00Z,M2K,495,FALSE
+16 269628,0,New Building,Apartment Building,2016-12-21T00:00:00Z,2019-06-18T00:00:00Z,2019-06-18T00:00:00Z,M2K,495,FALSE
+16 270269,0,New Building,Mixed Use/Res w Non Res,2016-12-22T00:00:00Z,2020-06-05T00:00:00Z,2020-06-05T00:00:00Z,NA,542,FALSE
+16 270372,0,New Building,Apartment Building,2016-12-23T00:00:00Z,2019-11-01T00:00:00Z,2019-11-01T00:00:00Z,M3C,275,FALSE
+16 270387,0,New Building,Community Hall,2016-12-23T00:00:00Z,2020-09-30T00:00:00Z,2020-09-30T00:00:00Z,NA,502,FALSE
+16 270409,0,New Building,Mixed Use/Res w Non Res,2016-12-23T00:00:00Z,2019-03-29T00:00:00Z,2019-03-29T00:00:00Z,M9B,1208,FALSE
+16 270461,0,New Building,Parking Garage,2016-12-23T00:00:00Z,2020-09-03T00:00:00Z,2020-09-03T00:00:00Z,NA,502,FALSE
+16 271136,0,New Building,Apartment Building,2016-12-28T00:00:00Z,2019-09-17T00:00:00Z,2019-09-17T00:00:00Z,M1N,59.13,FALSE
+16 271737,0,New Building,Parking Garage,2016-12-29T00:00:00Z,2020-05-11T00:00:00Z,2020-05-11T00:00:00Z,M3H,1379,FALSE
+16 271755,0,New Building,Apartment Building,2016-12-29T00:00:00Z,2022-03-18T00:00:00Z,2022-03-18T00:00:00Z,M3A,1077.74,FALSE
+16 271760,0,New Building,Apartment Building,2016-12-29T00:00:00Z,2022-04-01T00:00:00Z,2022-04-01T00:00:00Z,M3A,1077.74,FALSE
+16 271844,0,New Building,Apartment Building,2016-12-30T00:00:00Z,2020-05-11T00:00:00Z,2020-05-11T00:00:00Z,M3H,670,FALSE
+16 271882,0,New Building,Apartment Building,2016-12-30T00:00:00Z,2020-05-12T00:00:00Z,2020-05-12T00:00:00Z,M3H,670,FALSE
+17 103169,0,New Building,Office,2017-01-11T00:00:00Z,2017-12-27T00:00:00Z,2017-12-27T00:00:00Z,M9M,2818,FALSE
+17 106776,0,Building Additions/Alterations,University,2017-01-20T00:00:00Z,2018-09-18T00:00:00Z,2018-09-18T00:00:00Z,M5B,220,FALSE
+17 108412,0,New Building,Mixed Use/Res w Non Res,2017-01-24T00:00:00Z,2020-03-13T00:00:00Z,2020-03-13T00:00:00Z,M6K,1475.94,FALSE
+17 112433,0,New Building,Mixed Use/Res w Non Res,2017-02-02T00:00:00Z,2019-02-01T00:00:00Z,2019-02-01T00:00:00Z,NA,377,FALSE
+17 115656,0,New Building,Apartment Building,2017-02-10T00:00:00Z,2018-11-06T00:00:00Z,2018-11-06T00:00:00Z,NA,779,FALSE
+17 123809,0,New Building,Mixed Use/Res w Non Res,2017-03-02T00:00:00Z,2018-11-13T00:00:00Z,2018-11-13T00:00:00Z,M4Y,643,FALSE
+17 126828,0,New Building,Apartment Building,2017-03-09T00:00:00Z,2019-07-08T00:00:00Z,2019-07-08T00:00:00Z,M4P,315.9,FALSE
+17 135122,0,New Building,Retail Store,2017-03-28T00:00:00Z,2018-02-20T00:00:00Z,2018-02-20T00:00:00Z,M4H,0,FALSE
+17 137140,0,New Building,Multiple Use/Non Residential,2017-03-31T00:00:00Z,2022-06-16T00:00:00Z,2022-06-16T00:00:00Z,NA,3997,FALSE
+17 139036,0,New Building,Office,2017-04-04T00:00:00Z,2017-11-09T00:00:00Z,2017-11-09T00:00:00Z,M9W,1005,FALSE
+17 143336,0,New Building,Apartment Building,2017-04-12T00:00:00Z,2019-07-23T00:00:00Z,2019-07-23T00:00:00Z,M4V,522.6,FALSE
+17 145594,0,Building Additions/Alterations,Other,2017-04-19T00:00:00Z,2018-10-31T00:00:00Z,2018-10-31T00:00:00Z,M5N,485.40999999999997,FALSE
+17 145892,0,Building Additions/Alterations,Other,2017-04-19T00:00:00Z,2019-01-31T00:00:00Z,2019-01-31T00:00:00Z,M5N,172.41,FALSE
+17 146470,0,New Building,Car Dealership,2017-04-20T00:00:00Z,2017-07-21T00:00:00Z,2017-07-21T00:00:00Z,M8Z,511.82,FALSE
+17 146470,1,New Building,Car Dealership,2017-11-17T00:00:00Z,2018-07-24T00:00:00Z,2018-07-24T00:00:00Z,M8Z,511.82,FALSE
+17 150494,0,New Building,Apartment Building,2017-04-27T00:00:00Z,2019-08-28T00:00:00Z,2019-08-28T00:00:00Z,M4S,54.8,FALSE
+17 151586,0,New Building,Car Dealership,2017-04-30T00:00:00Z,2017-07-21T00:00:00Z,2017-07-21T00:00:00Z,M8Z,772.47,FALSE
+17 151586,1,New Building,Car Dealership,2017-11-23T00:00:00Z,2018-07-24T00:00:00Z,2018-07-24T00:00:00Z,M8Z,772.47,FALSE
+17 154652,0,New Building,Apartment Building,2017-05-05T00:00:00Z,2020-02-19T00:00:00Z,2020-02-19T00:00:00Z,NA,290,FALSE
+17 156469,0,New Building,Mixed Use/Res w Non Res,2017-05-09T00:00:00Z,2021-08-04T00:00:00Z,2021-08-04T00:00:00Z,M4C,365,FALSE
+17 157021,0,New Building,Mixed Use/Res w Non Res,2017-05-09T00:00:00Z,2021-07-30T00:00:00Z,2021-07-30T00:00:00Z,M6C,231.7,FALSE
+17 157555,0,New Building,Mixed Use/Res w Non Res,2017-05-10T00:00:00Z,2021-01-12T00:00:00Z,2021-01-12T00:00:00Z,M5B,591,FALSE
+17 157681,0,New Building,Apartment Building,2017-05-10T00:00:00Z,2021-07-05T00:00:00Z,2021-07-05T00:00:00Z,M8V,8,FALSE
+17 163529,1,New Houses,SFD - Townhouse,2018-01-09T00:00:00Z,2018-10-29T00:00:00Z,2018-10-29T00:00:00Z,M6J,30.2,FALSE
+17 171433,0,New Building,Apartment Building,2017-06-01T00:00:00Z,2020-08-18T00:00:00Z,2020-08-18T00:00:00Z,M2J,1016,FALSE
+17 174937,0,Building Additions/Alterations,Multiple Use/Non Residential,2017-06-07T00:00:00Z,2022-08-22T00:00:00Z,2022-08-22T00:00:00Z,M5T,199.3,FALSE
+17 187709,0,New Building,Apartment Building,2017-06-26T00:00:00Z,2020-09-23T00:00:00Z,2020-09-23T00:00:00Z,M9B,360,FALSE
+17 189372,0,New Building,Multiple Use/Non Residential,2017-06-28T00:00:00Z,2021-06-28T00:00:00Z,2021-06-28T00:00:00Z,M4Y,584.2,FALSE
+17 193542,0,New Building,Apartment Building,2017-07-06T00:00:00Z,2018-12-10T00:00:00Z,2018-12-10T00:00:00Z,M8X,205,FALSE
+17 193682,0,Building Additions/Alterations,Self-Service Storage Building,2017-07-06T00:00:00Z,2018-02-27T00:00:00Z,2018-02-27T00:00:00Z,M9W,4750.1,FALSE
+17 194078,0,New Building,Community Hall,2017-07-07T00:00:00Z,2019-04-05T00:00:00Z,2019-04-05T00:00:00Z,M2R,1343.6,FALSE
+17 194523,0,New Building,Mixed Use/Res w Non Res,2017-07-07T00:00:00Z,2019-12-16T00:00:00Z,2019-12-16T00:00:00Z,M5A,804.9,FALSE
+17 195296,0,New Building,Multiple Use/Non Residential,2017-07-10T00:00:00Z,2018-10-03T00:00:00Z,2018-10-03T00:00:00Z,M5J,1258,FALSE
+17 197737,0,Small Residential Projects,SFD - Detached,2017-07-13T00:00:00Z,2017-07-31T00:00:00Z,2017-07-31T00:00:00Z,M6S,19.5,TRUE
+17 208554,0,New Houses,2 Unit - Detached,2017-07-31T00:00:00Z,2017-11-13T00:00:00Z,2017-11-13T00:00:00Z,M6C,87.04,TRUE
+17 209437,0,Building Additions/Alterations,Elementary School,2017-08-01T00:00:00Z,2018-07-30T00:00:00Z,2018-07-30T00:00:00Z,M2N,1108,FALSE
+17 226807,0,New Building,Mixed Use/Res w Non Res,2017-09-01T00:00:00Z,2020-09-11T00:00:00Z,2020-09-11T00:00:00Z,NA,1235,FALSE
+17 227808,0,New Building,Mixed Use/Res w Non Res,2017-09-05T00:00:00Z,2019-03-06T00:00:00Z,2019-03-06T00:00:00Z,NA,771,FALSE
+17 229679,0,New Building,Apartment Building,2017-09-08T00:00:00Z,2018-12-04T00:00:00Z,2018-12-04T00:00:00Z,M1W,388,FALSE
+17 230854,0,New Building,Hospital,2017-09-11T00:00:00Z,2019-12-19T00:00:00Z,2019-12-19T00:00:00Z,M6J,2305.2799999999997,FALSE
+17 230862,0,New Building,Hospital,2017-09-11T00:00:00Z,2019-12-19T00:00:00Z,2019-12-19T00:00:00Z,M6J,1830.26,FALSE
+17 237216,0,New Building,Mixed Use/Res w Non Res,2017-09-22T00:00:00Z,2021-01-07T00:00:00Z,2021-01-07T00:00:00Z,M5A,45.99,FALSE
+17 241140,0,New Houses,SFD - Semi-Detached,2017-09-29T00:00:00Z,2017-10-19T00:00:00Z,2017-10-19T00:00:00Z,M4C,170.70999999999998,FALSE
+17 242286,0,Small Residential Projects,SFD - Semi-Detached,2017-10-03T00:00:00Z,2018-02-08T00:00:00Z,2018-02-08T00:00:00Z,M4E,12.229999999999999,TRUE
+17 250873,0,New Building,Mixed Use/Res w Non Res,2017-10-20T00:00:00Z,2021-10-14T00:00:00Z,2021-10-14T00:00:00Z,M5A,1327.6,FALSE
+17 252314,0,Building Additions/Alterations,Television Studio(no audience),2017-10-24T00:00:00Z,2018-01-08T00:00:00Z,2018-01-08T00:00:00Z,M8Z,0,FALSE
+17 255605,0,New Building,Multiple Use/Non Residential,2017-10-31T00:00:00Z,2020-04-08T00:00:00Z,2020-04-08T00:00:00Z,M5E,2412,FALSE
+17 266912,0,New Building,Mixed Use/Res w Non Res,2017-11-24T00:00:00Z,2021-01-11T00:00:00Z,2021-01-11T00:00:00Z,NA,918,FALSE
+17 269695,0,New Building,Apartment Building,2017-11-30T00:00:00Z,2020-10-30T00:00:00Z,2020-10-30T00:00:00Z,M4P,216,FALSE
+17 269706,0,New Building,Mixed Use/Res w Non Res,2017-11-30T00:00:00Z,2020-08-10T00:00:00Z,2020-08-10T00:00:00Z,M5A,2378,FALSE
+17 269959,0,New Building,Apartment Building,2017-12-01T00:00:00Z,2021-07-15T00:00:00Z,2021-07-15T00:00:00Z,NA,670,FALSE
+17 275140,0,Small Residential Projects,SFD - Detached,2017-12-13T00:00:00Z,2018-02-05T00:00:00Z,2018-02-05T00:00:00Z,M4W,32.43,FALSE
+17 277785,0,New Building,Mixed Use/Res w Non Res,2017-12-20T00:00:00Z,2020-07-21T00:00:00Z,2020-07-21T00:00:00Z,NA,88,FALSE
+17 278452,0,New Building,Mixed Use/Res w Non Res,2017-12-21T00:00:00Z,2020-08-18T00:00:00Z,2020-08-18T00:00:00Z,M6J,261,FALSE
+17 278638,0,New Building,Mixed Use/Res w Non Res,2017-12-22T00:00:00Z,2020-06-26T00:00:00Z,2020-06-26T00:00:00Z,NA,652,FALSE
+17 278653,0,New Building,Apartment Building,2017-12-22T00:00:00Z,2020-06-18T00:00:00Z,2020-06-18T00:00:00Z,M5A,117.61,FALSE
+17 278727,0,New Building,Mixed Use/Res w Non Res,2017-12-22T00:00:00Z,2021-04-12T00:00:00Z,2021-04-12T00:00:00Z,M5V,194.4,FALSE
+17 279918,0,New Building,Mixed Use/Res w Non Res,2017-12-28T00:00:00Z,2023-11-06T00:00:00Z,2023-11-06T00:00:00Z,NA,519,FALSE
+18 112082,0,Small Residential Projects,SFD - Townhouse,2018-01-31T00:00:00Z,2018-03-22T00:00:00Z,2018-03-22T00:00:00Z,M6J,70.09,TRUE
+18 115481,0,New Building,Mixed Use/Res w Non Res,2018-02-09T00:00:00Z,2022-07-26T00:00:00Z,2022-07-26T00:00:00Z,NA,34.2,FALSE
+18 123249,0,New Building,Apartment Building,2018-03-01T00:00:00Z,2019-09-26T00:00:00Z,2019-09-26T00:00:00Z,NA,764,FALSE
+18 124809,0,New Building,Mixed Use/Res w Non Res,2018-03-05T00:00:00Z,2021-01-04T00:00:00Z,2021-01-04T00:00:00Z,M6G,2707,FALSE
+18 124890,0,New Building,Mixed Use/Res w Non Res,2018-03-05T00:00:00Z,2022-03-30T00:00:00Z,2022-03-30T00:00:00Z,M6P,721.09,FALSE
+18 126210,0,New Building,Apartment Building,2018-03-07T00:00:00Z,2019-07-30T00:00:00Z,2019-07-30T00:00:00Z,M9B,792.65,FALSE
+18 127178,0,New Building,Mixed Use/Res w Non Res,2018-03-09T00:00:00Z,2021-01-15T00:00:00Z,2021-01-15T00:00:00Z,M6R,221,FALSE
+18 131106,0,New Building,Mixed Use/Res w Non Res,2018-03-19T00:00:00Z,2019-04-17T00:00:00Z,2019-04-17T00:00:00Z,M5T,158.05,FALSE
+18 139187,0,New Building,Self-Service Storage Building,2018-04-05T00:00:00Z,2018-07-20T00:00:00Z,2018-07-20T00:00:00Z,M3L,609,FALSE
+18 140369,0,New Building,Mixed Use/Res w Non Res,2018-04-09T00:00:00Z,NA,NA,M5V,1244,FALSE
+18 153429,1,Building Additions/Alterations,University,2019-09-04T00:00:00Z,2021-05-14T00:00:00Z,2021-05-14T00:00:00Z,NA,971,FALSE
+18 153499,0,New Building,Apartment Building,2018-05-04T00:00:00Z,2020-10-16T00:00:00Z,2020-10-16T00:00:00Z,M2N,192.76,FALSE
+18 158929,0,New Building,Apartment Building,2018-05-15T00:00:00Z,2020-05-11T00:00:00Z,2020-05-11T00:00:00Z,NA,326.9,FALSE
+18 159944,0,New Building,Warehouse,2018-05-16T00:00:00Z,2020-12-15T00:00:00Z,2020-12-15T00:00:00Z,NA,0,FALSE
+18 162734,0,New Building,Mixed Use/Res w Non Res,2018-05-22T00:00:00Z,2021-04-12T00:00:00Z,2021-04-12T00:00:00Z,M6K,570,FALSE
+18 169179,0,New Building,Elementary School,2018-05-31T00:00:00Z,2019-10-25T00:00:00Z,2019-10-25T00:00:00Z,M4S,305,FALSE
+18 171824,0,Building Additions/Alterations,Motel/Hotel,2018-06-05T00:00:00Z,2019-09-09T00:00:00Z,2019-09-09T00:00:00Z,M6J,228,FALSE
+18 171911,0,Building Additions/Alterations,Multiple Unit Building,2018-06-05T00:00:00Z,2020-09-04T00:00:00Z,2020-09-04T00:00:00Z,M4M,128,FALSE
+18 173148,1,Small Residential Projects,SFD - Detached,2019-04-16T00:00:00Z,2019-05-07T00:00:00Z,2019-05-07T00:00:00Z,M4K,20,FALSE
+18 174427,2,Small Residential Projects,SFD - Detached,2019-03-01T00:00:00Z,2019-03-13T00:00:00Z,2019-03-13T00:00:00Z,M4K,54.75,TRUE
+18 178959,0,Building Additions/Alterations,Multiple Unit Building,2018-06-15T00:00:00Z,2019-08-12T00:00:00Z,2019-08-12T00:00:00Z,M4Y,461.5,FALSE
+18 182655,0,New Building,Mixed Use/Res w Non Res,2018-06-21T00:00:00Z,2019-11-14T00:00:00Z,2019-11-14T00:00:00Z,M5A,32,FALSE
+18 183105,0,Small Residential Projects,SFD - Detached,2018-06-22T00:00:00Z,2018-07-11T00:00:00Z,2018-07-11T00:00:00Z,M6H,19,TRUE
+18 186008,0,Small Residential Projects,SFD - Detached,2018-06-28T00:00:00Z,2018-07-24T00:00:00Z,2018-07-24T00:00:00Z,M2P,58.99,FALSE
+18 188106,0,Building Additions/Alterations,Performing Arts Centre,2018-07-03T00:00:00Z,2020-12-23T00:00:00Z,2020-12-23T00:00:00Z,NA,306.4,FALSE
+18 189065,0,New Building,Apartment Building,2018-07-05T00:00:00Z,2019-10-25T00:00:00Z,2019-10-25T00:00:00Z,M2J,691,FALSE
+18 191444,0,New Building,Self-Service Storage Building,2018-07-10T00:00:00Z,2019-02-04T00:00:00Z,2019-02-04T00:00:00Z,M6A,320,FALSE
+18 192804,0,Small Residential Projects,SFD - Semi-Detached,2018-07-12T00:00:00Z,2018-08-15T00:00:00Z,2018-08-15T00:00:00Z,M6R,35.839999999999996,FALSE
+18 193181,0,New Building,Mixed Use/Res w Non Res,2018-07-12T00:00:00Z,2020-06-02T00:00:00Z,2020-06-02T00:00:00Z,M4S,440,FALSE
+18 200694,0,New Building,Apartment Building,2018-07-27T00:00:00Z,2019-08-12T00:00:00Z,2019-08-12T00:00:00Z,M4G,423.71,FALSE
+18 202583,0,New Building,Apartment Building,2018-07-31T00:00:00Z,2020-07-24T00:00:00Z,2020-07-24T00:00:00Z,NA,419.5,FALSE
+18 203561,0,New Building,Apartment Building,2018-08-02T00:00:00Z,2021-03-30T00:00:00Z,2021-03-30T00:00:00Z,M5V,681,FALSE
+18 203577,0,New Building,Apartment Building,2018-08-02T00:00:00Z,2021-05-18T00:00:00Z,2021-05-18T00:00:00Z,NA,1127,FALSE
+18 203594,0,New Building,Apartment Building,2018-08-02T00:00:00Z,2021-06-14T00:00:00Z,2021-06-14T00:00:00Z,NA,1364,FALSE
+18 205049,0,New Building,Multiple Use/Non Residential,2018-08-07T00:00:00Z,2019-12-19T00:00:00Z,2019-12-19T00:00:00Z,NA,744.2,FALSE
+18 205049,2,New Building,Multiple Use/Non Residential,2020-07-22T00:00:00Z,2021-03-09T00:00:00Z,2021-03-09T00:00:00Z,NA,658.1,FALSE
+18 211089,0,New Building,Self-Service Storage Building,2018-08-17T00:00:00Z,2020-05-28T00:00:00Z,2020-05-28T00:00:00Z,M4C,3800,FALSE
+18 218777,0,New Building,Multiple Use/Non Residential,2018-08-31T00:00:00Z,2020-01-22T00:00:00Z,2020-01-22T00:00:00Z,M5V,174.8,FALSE
+18 223464,0,New Building,Mixed Use/Res w Non Res,2018-09-11T00:00:00Z,2021-10-29T00:00:00Z,2021-10-29T00:00:00Z,M4G,992.6,FALSE
+18 223770,0,New Building,Multiple Use/Non Residential,2018-09-11T00:00:00Z,2020-04-29T00:00:00Z,2020-04-29T00:00:00Z,M5A,756,FALSE
+18 223823,0,New Building,Apartment Building,2018-09-11T00:00:00Z,2020-10-29T00:00:00Z,2020-10-29T00:00:00Z,M1P,590.9599999999999,FALSE
+18 224307,0,Small Residential Projects,SFD - Semi-Detached,2018-09-12T00:00:00Z,2018-10-12T00:00:00Z,2018-10-12T00:00:00Z,M6G,9.209999999999999,TRUE
+18 224507,0,New Building,Industrial,2018-09-12T00:00:00Z,2019-06-14T00:00:00Z,2019-06-14T00:00:00Z,NA,1045,FALSE
+18 233562,0,New Building,Mixed Use/Res w Non Res,2018-09-28T00:00:00Z,2023-08-31T00:00:00Z,2023-08-31T00:00:00Z,M2M,1096,FALSE
+18 236859,0,New Building,Multiple Use/Non Residential,2018-10-03T00:00:00Z,2020-11-10T00:00:00Z,2020-11-10T00:00:00Z,M5J,1467.2,FALSE
+18 239978,0,Building Additions/Alterations,Secondary School,2018-10-10T00:00:00Z,2021-03-16T00:00:00Z,2021-03-16T00:00:00Z,M5S,337,FALSE
+18 243513,0,Building Additions/Alterations,Self-Service Storage Building,2018-10-16T00:00:00Z,2019-06-27T00:00:00Z,2019-06-27T00:00:00Z,M4A,85.5,FALSE
+18 249282,0,Small Residential Projects,3+ Unit - Detached,2018-10-29T00:00:00Z,2019-06-06T00:00:00Z,2019-06-06T00:00:00Z,M6G,29.6,FALSE
+18 256875,0,New Building,Mixed Use/Res w Non Res,2018-11-15T00:00:00Z,2019-12-06T00:00:00Z,2019-12-06T00:00:00Z,M5A,2836.25,FALSE
+18 259010,0,Building Additions/Alterations,Office,2018-11-21T00:00:00Z,2019-04-09T00:00:00Z,2019-04-09T00:00:00Z,M3C,1000,FALSE
+18 259796,0,New Building,Place of Worship,2018-11-22T00:00:00Z,2020-01-09T00:00:00Z,2020-01-09T00:00:00Z,M5M,125,FALSE
+18 261990,0,New Building,Office,2018-11-28T00:00:00Z,2022-10-21T00:00:00Z,2022-10-21T00:00:00Z,M5A,1835,FALSE
+18 265869,0,New Building,Mixed Use/Res w Non Res,2018-12-07T00:00:00Z,2021-10-15T00:00:00Z,2021-10-15T00:00:00Z,M5V,0,FALSE
+18 265872,0,New Building,Apartment Building,2018-12-07T00:00:00Z,2021-10-21T00:00:00Z,2021-10-21T00:00:00Z,NA,0,FALSE
+18 268024,0,New Building,Industrial,2018-12-13T00:00:00Z,2019-07-26T00:00:00Z,2019-07-26T00:00:00Z,M6B,100,FALSE
+18 269869,0,New Houses,SFD - Detached,2018-12-18T00:00:00Z,2019-02-25T00:00:00Z,2019-02-25T00:00:00Z,M6S,415.64000000000004,FALSE
+18 270105,0,New Building,Apartment Building,2018-12-19T00:00:00Z,2021-07-05T00:00:00Z,2021-07-05T00:00:00Z,NA,1262,FALSE
+18 270504,0,Small Residential Projects,SFD - Semi-Detached,2018-12-20T00:00:00Z,2019-07-15T00:00:00Z,2019-07-15T00:00:00Z,M5R,50,FALSE
+18 270645,0,New Building,Mixed Use/Res w Non Res,2018-12-20T00:00:00Z,2022-04-27T00:00:00Z,2022-04-27T00:00:00Z,M5V,285.4,FALSE
+18 270772,0,New Building,Apartment Building,2018-12-20T00:00:00Z,2021-11-16T00:00:00Z,2021-11-16T00:00:00Z,M4S,179,FALSE
+18 271276,0,New Building,Apartment Building,2018-12-21T00:00:00Z,2021-03-04T00:00:00Z,2021-03-04T00:00:00Z,M9B,544.6,FALSE
+18 271792,0,New Building,Apartment Building,2018-12-24T00:00:00Z,2021-04-23T00:00:00Z,2021-04-23T00:00:00Z,M9B,146.3,FALSE
+19 103515,0,New Building,Apartment Building,2019-01-11T00:00:00Z,2021-06-28T00:00:00Z,2021-06-28T00:00:00Z,M5V,944,FALSE
+19 103521,0,New Building,Apartment Building,2019-01-11T00:00:00Z,2021-03-25T00:00:00Z,2021-03-25T00:00:00Z,M5V,755.2,FALSE
+19 103533,0,New Building,Apartment Building,2019-01-11T00:00:00Z,2021-03-25T00:00:00Z,2021-03-25T00:00:00Z,M5V,539.6,FALSE
+19 106047,0,New Building,Car Dealership,2019-01-18T00:00:00Z,2019-10-30T00:00:00Z,2019-10-30T00:00:00Z,M4G,427.2,FALSE
+19 118631,0,New Building,Office,2019-02-25T00:00:00Z,2021-08-23T00:00:00Z,2021-08-23T00:00:00Z,M3N,875,FALSE
+19 123234,0,New Building,Mixed Use/Res w Non Res,2019-03-08T00:00:00Z,2020-06-08T00:00:00Z,2020-06-08T00:00:00Z,M4E,0,FALSE
+19 127846,0,New Building,Recreational,2019-03-19T00:00:00Z,2019-04-16T00:00:00Z,2019-04-16T00:00:00Z,M1S,0,FALSE
+19 131067,0,New Building,Crematorium/Cemetary Structure,2019-03-26T00:00:00Z,2020-05-22T00:00:00Z,2020-05-22T00:00:00Z,NA,400,FALSE
+19 133677,0,New Building,Mixed Use/Res w Non Res,2019-04-01T00:00:00Z,2021-10-27T00:00:00Z,2021-10-27T00:00:00Z,M4M,1368.2,FALSE
+19 139113,0,New Building,Apartment Building,2019-04-11T00:00:00Z,2020-10-05T00:00:00Z,2020-10-05T00:00:00Z,M3M,907.7,FALSE
+19 139643,0,New Building,Apartment Building,2019-04-12T00:00:00Z,2021-04-07T00:00:00Z,2021-04-07T00:00:00Z,NA,417,FALSE
+19 146652,0,New Building,Apartment Building,2019-04-30T00:00:00Z,2021-05-13T00:00:00Z,2021-05-13T00:00:00Z,NA,567,FALSE
+19 147063,0,New Building,Apartment Building,2019-04-30T00:00:00Z,2022-02-23T00:00:00Z,2022-02-23T00:00:00Z,M1G,360,FALSE
+19 147174,0,New Building,Apartment Building,2019-04-30T00:00:00Z,2022-02-24T00:00:00Z,2022-02-24T00:00:00Z,M1G,423.5,FALSE
+19 149001,0,New Building,Mixed Use/Res w Non Res,2019-05-03T00:00:00Z,2022-03-28T00:00:00Z,2022-03-28T00:00:00Z,M4N,463,FALSE
+19 150527,0,Small Residential Projects,2 Unit - Detached,2019-05-07T00:00:00Z,2019-05-28T00:00:00Z,2019-05-28T00:00:00Z,M5A,32,TRUE
+19 150993,0,New Building,Apartment Building,2019-05-08T00:00:00Z,2020-09-18T00:00:00Z,2020-09-18T00:00:00Z,M2N,398.86,FALSE
+19 153350,0,New Building,Apartment Building,2019-05-13T00:00:00Z,2020-11-18T00:00:00Z,2020-11-18T00:00:00Z,M4P,186,FALSE
+19 154620,0,New Building,Mixed Use/Res w Non Res,2019-05-15T00:00:00Z,2021-02-22T00:00:00Z,2021-02-22T00:00:00Z,NA,564,FALSE
+19 156908,0,New Building,Apartment Building,2019-05-21T00:00:00Z,2021-04-08T00:00:00Z,2021-04-08T00:00:00Z,NA,1110,FALSE
+19 157198,0,New Building,Apartment Building,2019-05-21T00:00:00Z,2021-05-12T00:00:00Z,2021-05-12T00:00:00Z,NA,242.9,FALSE
+19 158833,0,New Building,Apartment Building,2019-05-24T00:00:00Z,2021-08-11T00:00:00Z,2021-08-11T00:00:00Z,NA,1381,FALSE
+19 158862,0,New Building,Apartment Building,2019-05-24T00:00:00Z,2021-11-19T00:00:00Z,2021-11-19T00:00:00Z,NA,1381,FALSE
+19 167031,0,New Houses,SFD - Detached,2019-06-06T00:00:00Z,2019-07-29T00:00:00Z,2019-07-29T00:00:00Z,M8X,330.96,FALSE
+19 172738,0,New Building,Car Dealership,2019-06-17T00:00:00Z,2020-05-29T00:00:00Z,2020-05-29T00:00:00Z,M8Z,2140,FALSE
+19 173414,0,New Building,Motel/Hotel,2019-06-18T00:00:00Z,2020-12-09T00:00:00Z,2020-12-09T00:00:00Z,M9W,241.5,FALSE
+19 177197,0,Small Residential Projects,SFD - Detached,2019-06-24T00:00:00Z,2019-07-17T00:00:00Z,2019-07-17T00:00:00Z,M5R,13.7,FALSE
+19 177735,0,New Building,Mixed Use/Res w Non Res,2019-06-25T00:00:00Z,2022-07-07T00:00:00Z,2022-07-07T00:00:00Z,M6P,345,FALSE
+19 181445,0,New Building,Mixed Use/Res w Non Res,2019-07-02T00:00:00Z,2022-12-08T00:00:00Z,2022-12-08T00:00:00Z,M9N,365.64000000000004,FALSE
+19 186549,0,New Building,Mixed Use/Res w Non Res,2019-07-10T00:00:00Z,2024-03-19T00:00:00Z,2024-03-19T00:00:00Z,M5S,450.8,FALSE
+19 189205,0,New Building,Apartment Building,2019-07-15T00:00:00Z,2021-09-29T00:00:00Z,2021-09-29T00:00:00Z,M5V,155,FALSE
+19 190150,0,New Houses,SFD - Detached,2019-07-16T00:00:00Z,2019-09-09T00:00:00Z,2019-09-09T00:00:00Z,M9A,332.14000000000004,FALSE
+19 190838,0,New Building,Apartment Building,2019-07-17T00:00:00Z,2022-05-13T00:00:00Z,2022-05-13T00:00:00Z,M6B,468,FALSE
+19 194559,0,New Building,Mixed Use/Res w Non Res,2019-07-24T00:00:00Z,2021-07-09T00:00:00Z,2021-07-09T00:00:00Z,M6H,416.2,FALSE
+19 195141,0,New Building,Apartment Building,2019-07-25T00:00:00Z,2021-06-04T00:00:00Z,2021-06-04T00:00:00Z,NA,567,FALSE
+19 199071,0,New Building,"Transit Station,Subway, Bus Terminal",2019-08-01T00:00:00Z,2021-11-18T00:00:00Z,2021-11-18T00:00:00Z,NA,3668.17,FALSE
+19 210543,0,New Building,Apartment Building,2019-08-23T00:00:00Z,2022-09-23T00:00:00Z,2022-09-23T00:00:00Z,M6E,373.6,FALSE
+19 214191,0,New Building,Apartment Building,2019-08-30T00:00:00Z,2021-01-13T00:00:00Z,2021-01-13T00:00:00Z,M5B,97.48,FALSE
+19 218754,0,New Building,Apartment Building,2019-09-10T00:00:00Z,2022-05-06T00:00:00Z,2022-05-06T00:00:00Z,M6N,800,FALSE
+19 222530,0,New Building,Multiple Use/Non Residential,2019-09-17T00:00:00Z,2020-04-03T00:00:00Z,2020-04-03T00:00:00Z,M4G,1071.36,FALSE
+19 225477,0,New Building,Multiple Use/Non Residential,2019-09-23T00:00:00Z,2021-09-03T00:00:00Z,2021-09-03T00:00:00Z,M6J,161,FALSE
+19 228153,0,New Building,Apartment Building,2019-09-27T00:00:00Z,2021-01-05T00:00:00Z,2021-01-05T00:00:00Z,M3H,978,FALSE
+19 231069,0,New Building,Industrial,2019-10-02T00:00:00Z,2020-02-06T00:00:00Z,2020-02-06T00:00:00Z,NA,283,FALSE
+19 231248,0,New Building,Industrial,2019-10-03T00:00:00Z,2020-02-06T00:00:00Z,2020-02-06T00:00:00Z,NA,294,FALSE
+19 233698,3,New Houses,SFD - Detached,2022-01-14T00:00:00Z,2022-02-03T00:00:00Z,2022-02-03T00:00:00Z,M4K,51.6,TRUE
+19 235615,0,New Building,Mixed Use/Res w Non Res,2019-10-11T00:00:00Z,2022-09-27T00:00:00Z,2022-09-27T00:00:00Z,M5V,567,FALSE
+19 239718,0,New Building,Office,2019-10-22T00:00:00Z,2021-04-29T00:00:00Z,2021-04-29T00:00:00Z,M5G,836,FALSE
+19 240547,0,New Building,Office,2019-10-24T00:00:00Z,2024-06-27T00:00:00Z,2024-06-27T00:00:00Z,NA,460,FALSE
+19 242126,0,New Building,"Transit Station,Subway, Bus Terminal",2019-10-28T00:00:00Z,2023-12-15T00:00:00Z,2023-12-15T00:00:00Z,M3J,160.91,FALSE
+19 247862,0,New Building,Industrial,2019-11-12T00:00:00Z,2020-07-10T00:00:00Z,2020-07-10T00:00:00Z,M8Z,712.8,FALSE
+19 247871,0,New Building,Industrial,2019-11-12T00:00:00Z,2020-07-10T00:00:00Z,2020-07-10T00:00:00Z,M8Z,633.6,FALSE
+19 247873,0,New Building,Industrial,2019-11-12T00:00:00Z,2020-07-10T00:00:00Z,2020-07-10T00:00:00Z,M8Z,712.8,FALSE
+19 247884,0,New Building,Industrial,2019-11-12T00:00:00Z,2020-07-10T00:00:00Z,2020-07-10T00:00:00Z,M8Z,1830.31,FALSE
+19 254279,0,New Building,Mixed Use/Res w Non Res,2019-11-27T00:00:00Z,2023-01-19T00:00:00Z,2023-01-19T00:00:00Z,M3H,2815,FALSE
+19 254476,0,New Building,Mixed Use/Res w Non Res,2019-11-27T00:00:00Z,2022-11-01T00:00:00Z,2022-11-01T00:00:00Z,M3H,369.02,FALSE
+19 256079,0,New Building,Place of Worship,2019-12-02T00:00:00Z,2023-11-06T00:00:00Z,2023-11-06T00:00:00Z,M4P,131,FALSE
+19 260585,0,New Building,Mixed Use/Res w Non Res,2019-12-12T00:00:00Z,2023-02-06T00:00:00Z,2023-02-06T00:00:00Z,M6C,797.6,FALSE
+19 262243,0,New Building,Apartment Building,2019-12-17T00:00:00Z,2021-10-04T00:00:00Z,2021-10-04T00:00:00Z,M5A,421,FALSE
+19 263364,0,New Building,Mixed Use/Res w Non Res,2019-12-19T00:00:00Z,2024-12-27T00:00:00Z,2024-12-27T00:00:00Z,M5V,108.7,FALSE
+19 263615,0,New Building,Apartment Building,2019-12-20T00:00:00Z,2022-04-28T00:00:00Z,2022-04-28T00:00:00Z,M8X,259.1,FALSE
+19 263742,0,New Building,Mixed Use/Res w Non Res,2019-12-20T00:00:00Z,2023-05-05T00:00:00Z,2023-05-05T00:00:00Z,M5A,2164.4,FALSE
+19 264650,0,New Building,Multiple Use/Non Residential,2019-12-24T00:00:00Z,2021-12-22T00:00:00Z,2021-12-22T00:00:00Z,M5A,1518,FALSE
+20 110509,0,New Building,Secondary School,2020-01-30T00:00:00Z,2021-12-08T00:00:00Z,2021-12-08T00:00:00Z,M6H,0,FALSE
+20 111626,0,New Houses,SFD - Detached,2020-02-03T00:00:00Z,2020-05-25T00:00:00Z,2020-05-25T00:00:00Z,M4K,86,FALSE
+20 116395,0,New Houses,SFD - Detached,2020-02-18T00:00:00Z,2020-04-16T00:00:00Z,2020-04-16T00:00:00Z,M4K,25,FALSE
+20 128430,1,Small Residential Projects,Laneway / Rear Yard Suite,2020-10-26T00:00:00Z,2020-11-27T00:00:00Z,2020-11-27T00:00:00Z,M6R,7.08,FALSE
+20 141310,1,New Houses,SFD - Detached,2020-09-24T00:00:00Z,2020-10-09T00:00:00Z,2020-10-09T00:00:00Z,M8Z,64.75,TRUE
+20 144610,0,New Building,Home for the Aged,2020-05-12T00:00:00Z,2021-04-09T00:00:00Z,2021-04-09T00:00:00Z,M3C,667.23,FALSE
+20 149555,0,Small Residential Projects,SFD - Semi-Detached,2020-05-27T00:00:00Z,2020-06-10T00:00:00Z,2020-06-10T00:00:00Z,M4S,37,TRUE
+20 150855,0,New Building,Mixed Use/Res w Non Res,2020-06-01T00:00:00Z,2023-12-20T00:00:00Z,2023-12-20T00:00:00Z,M4M,89,FALSE
+20 152672,0,New Building,Other,2020-06-05T00:00:00Z,2020-08-17T00:00:00Z,2020-08-17T00:00:00Z,M6H,54.47,FALSE
+20 154037,0,Small Residential Projects,2 Unit - Townhouse,2020-06-09T00:00:00Z,2020-11-24T00:00:00Z,2020-11-24T00:00:00Z,M6J,12.5,FALSE
+20 161333,0,New Building,Office,2020-06-29T00:00:00Z,2022-11-10T00:00:00Z,2022-11-10T00:00:00Z,M4A,200,FALSE
+20 161849,0,New Building,Apartment Building,2020-06-30T00:00:00Z,2023-03-27T00:00:00Z,2023-03-27T00:00:00Z,M5M,758,FALSE
+20 162564,0,New Building,Student Residence,2020-07-02T00:00:00Z,2021-07-28T00:00:00Z,2021-07-28T00:00:00Z,M1C,1407,FALSE
+20 164735,0,New Building,Apartment Building,2020-07-08T00:00:00Z,2022-08-04T00:00:00Z,2022-08-04T00:00:00Z,M9N,103.25,FALSE
+20 172327,0,New Building,Mixed Use/Res w Non Res,2020-07-24T00:00:00Z,2022-05-09T00:00:00Z,2022-05-09T00:00:00Z,NA,659,FALSE
+20 174776,0,Building Additions/Alterations,Industrial,2020-07-30T00:00:00Z,2021-07-19T00:00:00Z,2021-07-19T00:00:00Z,NA,4017,FALSE
+20 182384,0,Small Residential Projects,SFD - Semi-Detached,2020-08-18T00:00:00Z,2021-04-16T00:00:00Z,2021-04-16T00:00:00Z,M4J,11,TRUE
+20 183171,0,New Building,Mixed Use/Res w Non Res,2020-08-20T00:00:00Z,2023-01-25T00:00:00Z,2023-01-25T00:00:00Z,M6E,495.2,FALSE
+20 188135,0,New Building,Mixed Use/Res w Non Res,2020-09-01T00:00:00Z,2022-11-29T00:00:00Z,2022-11-29T00:00:00Z,M5B,507,FALSE
+20 188179,0,Small Residential Projects,SFD - Detached,2020-09-01T00:00:00Z,2020-10-30T00:00:00Z,2020-10-30T00:00:00Z,M6C,24,TRUE
+20 192670,0,New Building,College/Trade/Tech School/Training Cent.,2020-09-11T00:00:00Z,2022-08-31T00:00:00Z,2022-08-31T00:00:00Z,NA,810,FALSE
+20 196282,0,Small Residential Projects,Laneway / Rear Yard Suite,2020-09-21T00:00:00Z,2021-03-31T00:00:00Z,2021-03-31T00:00:00Z,M6G,45.97,FALSE
+20 204636,0,Small Residential Projects,SFD - Detached,2020-10-08T00:00:00Z,2021-01-26T00:00:00Z,2021-01-26T00:00:00Z,M4T,9.2,FALSE
+20 211586,0,New Building,College/Trade/Tech School/Training Cent.,2020-10-27T00:00:00Z,2022-02-07T00:00:00Z,2022-02-07T00:00:00Z,M1G,410.25,FALSE
+20 212663,0,New Building,Mixed Use/Res w Non Res,2020-10-29T00:00:00Z,2023-03-21T00:00:00Z,2023-03-21T00:00:00Z,M8Z,895.4,FALSE
+20 216364,0,New Building,Mixed Use/Res w Non Res,2020-11-09T00:00:00Z,2022-06-16T00:00:00Z,2022-06-16T00:00:00Z,M8Z,183.39000000000001,FALSE
+20 230161,0,New Building,University,2020-12-17T00:00:00Z,2023-03-06T00:00:00Z,2023-03-06T00:00:00Z,NA,3000,FALSE
+20 233380,0,New Building,Mixed Use/Res w Non Res,2020-12-23T00:00:00Z,2024-01-18T00:00:00Z,2024-01-18T00:00:00Z,M5V,1234,FALSE
+21 110979,0,New Building,Mixed Use/Res w Non Res,2021-02-01T00:00:00Z,2022-10-06T00:00:00Z,2022-10-06T00:00:00Z,M1P,623,FALSE
+21 113274,0,New Houses,SFD - Detached,2021-02-05T00:00:00Z,2021-05-19T00:00:00Z,2021-05-19T00:00:00Z,M6J,30,FALSE
+21 113989,0,New Building,Mixed Use/Res w Non Res,2021-02-08T00:00:00Z,2023-09-08T00:00:00Z,2023-09-08T00:00:00Z,M5A,640,FALSE
+21 116610,0,New Building,Mixed Use/Res w Non Res,2021-02-16T00:00:00Z,2022-12-20T00:00:00Z,2022-12-20T00:00:00Z,M4Y,195.8,FALSE
+21 125032,0,Building Additions/Alterations,Elementary School,2021-03-09T00:00:00Z,2021-10-20T00:00:00Z,2021-10-20T00:00:00Z,M1W,341,FALSE
+21 126528,0,New Building,Long Term Care Facility,2021-03-12T00:00:00Z,2023-01-18T00:00:00Z,2023-01-18T00:00:00Z,NA,0,FALSE
+21 130818,0,Small Residential Projects,SFD - Townhouse,2021-03-23T00:00:00Z,2021-04-20T00:00:00Z,2021-04-20T00:00:00Z,M6J,26.66,TRUE
+21 132654,0,New Building,Gas Station/Car Wash/Repair Garage,2021-03-26T00:00:00Z,2021-10-20T00:00:00Z,2021-10-20T00:00:00Z,M4G,711.4,FALSE
+21 141749,0,Small Residential Projects,Laneway / Rear Yard Suite,2021-04-16T00:00:00Z,2021-09-01T00:00:00Z,2021-09-01T00:00:00Z,M6P,10.3,FALSE
+21 151865,1,Small Residential Projects,SFD - Townhouse,2022-05-01T00:00:00Z,2022-07-07T00:00:00Z,2022-07-07T00:00:00Z,M6J,43.2,TRUE
+21 154977,0,New Building,Apartment Building,2021-05-14T00:00:00Z,2023-07-11T00:00:00Z,2023-07-11T00:00:00Z,M6G,905.5,FALSE
+21 155532,0,New Building,Industrial,2021-05-16T00:00:00Z,2022-01-05T00:00:00Z,2022-01-05T00:00:00Z,M3B,414.5,FALSE
+21 170778,0,New Building,Elementary School,2021-06-15T00:00:00Z,2024-06-07T00:00:00Z,2024-06-07T00:00:00Z,M8Z,1273,TRUE
+21 175004,0,Small Residential Projects,SFD - Detached,2021-06-23T00:00:00Z,2021-08-19T00:00:00Z,2021-08-19T00:00:00Z,M6J,63,FALSE
+21 179575,0,New Building,Apartment Building,2021-07-05T00:00:00Z,2022-10-27T00:00:00Z,2022-10-27T00:00:00Z,M5B,114.7,FALSE
+21 181613,0,Small Residential Projects,SFD - Semi-Detached,2021-07-08T00:00:00Z,2021-09-03T00:00:00Z,2021-09-03T00:00:00Z,M5R,20.830000000000002,FALSE
+21 182075,0,New Houses,SFD - Detached,2021-07-09T00:00:00Z,2021-08-26T00:00:00Z,2021-08-26T00:00:00Z,M5N,17.3,FALSE
+21 188481,0,Small Residential Projects,SFD - Detached,2021-07-22T00:00:00Z,2022-01-10T00:00:00Z,2022-01-10T00:00:00Z,M6R,28.959999999999997,FALSE
+21 188481,1,Small Residential Projects,SFD - Detached,2023-04-03T00:00:00Z,2023-04-12T00:00:00Z,2023-04-12T00:00:00Z,M6R,40.87,FALSE
+21 193965,0,New Building,Mixed Use/Res w Non Res,2021-08-05T00:00:00Z,2025-01-16T00:00:00Z,2025-01-16T00:00:00Z,M6J,146.5,FALSE
+21 203357,0,Small Residential Projects,2 Unit - Detached,2021-08-24T00:00:00Z,2021-09-02T00:00:00Z,2021-09-02T00:00:00Z,M5R,20.3,TRUE
+21 206729,0,Small Residential Projects,Laneway / Rear Yard Suite,2021-08-31T00:00:00Z,2021-10-04T00:00:00Z,2021-10-04T00:00:00Z,M4K,25.630000000000003,TRUE
+21 207722,0,Building Additions/Alterations,Performing Arts Centre,2021-09-02T00:00:00Z,2021-11-29T00:00:00Z,2021-11-29T00:00:00Z,M2N,2929.05,TRUE
+21 216029,0,Small Residential Projects,SFD - Detached,2021-09-22T00:00:00Z,2021-11-10T00:00:00Z,2021-11-10T00:00:00Z,M4C,58.760000000000005,TRUE
+21 219788,0,New Building,Industrial Manufacturing Plant,2021-09-30T00:00:00Z,2022-01-11T00:00:00Z,2022-01-11T00:00:00Z,M4M,348.9,FALSE
+21 222338,0,New Building,Industrial,2021-10-06T00:00:00Z,2022-06-29T00:00:00Z,2022-06-29T00:00:00Z,M3J,2000,FALSE
+21 225392,0,New Building,Mixed Use/Res w Non Res,2021-10-13T00:00:00Z,2023-11-06T00:00:00Z,2023-11-06T00:00:00Z,NA,351,FALSE
+21 238939,0,New Building,Mixed Use/Res w Non Res,2021-11-17T00:00:00Z,2024-10-18T00:00:00Z,2024-10-18T00:00:00Z,M6K,1051.5,FALSE
+21 244380,0,New Building,Mixed Use/Res w Non Res,2021-12-02T00:00:00Z,2023-01-26T00:00:00Z,2023-01-26T00:00:00Z,M3H,20,FALSE
+21 246085,0,New Building,Mixed Use/Res w Non Res,2021-12-07T00:00:00Z,2023-07-13T00:00:00Z,2023-07-13T00:00:00Z,M5B,216,FALSE
+21 251010,0,New Building,Car Dealership,2021-12-23T00:00:00Z,2023-09-15T00:00:00Z,2023-09-15T00:00:00Z,NA,3953,FALSE
+21 251297,0,New Building,Industrial,2021-12-24T00:00:00Z,2023-04-28T00:00:00Z,2023-04-28T00:00:00Z,NA,3407.56,FALSE
+21 251370,0,New Building,Elementary School,2021-12-24T00:00:00Z,2023-02-13T00:00:00Z,2023-02-13T00:00:00Z,M2J,858,FALSE
+21 251847,0,New Building,Retail Mall/Plaza,2021-12-29T00:00:00Z,2024-01-09T00:00:00Z,2024-01-09T00:00:00Z,M9W,0,FALSE
+21 251880,0,New Building,Retail Mall/Plaza,2021-12-29T00:00:00Z,2024-01-03T00:00:00Z,2024-01-03T00:00:00Z,NA,0,FALSE
+22 105376,0,Small Residential Projects,SFD - Detached,2022-01-19T00:00:00Z,2022-02-28T00:00:00Z,2022-02-28T00:00:00Z,M6P,16.7,FALSE
+22 107633,2,Small Residential Projects,SFD - Detached,2024-10-21T00:00:00Z,2025-02-14T00:00:00Z,2025-02-14T00:00:00Z,M4K,1,FALSE
+22 108881,0,Building Additions/Alterations,Elementary School,2022-01-29T00:00:00Z,2023-03-23T00:00:00Z,2023-03-23T00:00:00Z,M4R,140,FALSE
+22 117907,1,Small Residential Projects,2 Unit - Detached,2022-10-31T00:00:00Z,2022-12-07T00:00:00Z,2022-12-07T00:00:00Z,M6R,36,FALSE
+22 120777,0,Small Residential Projects,SFD - Detached,2022-03-08T00:00:00Z,2022-05-30T00:00:00Z,2022-05-30T00:00:00Z,M4V,5.1,FALSE
+22 121556,0,Small Residential Projects,SFD - Detached,2022-03-10T00:00:00Z,2022-03-24T00:00:00Z,2022-03-24T00:00:00Z,M5R,11.6,FALSE
+22 131326,0,New Building,Car Dealership,2022-04-06T00:00:00Z,2023-07-11T00:00:00Z,2023-07-11T00:00:00Z,M8Z,0,FALSE
+22 132959,0,Building Additions/Alterations,Multiple Use/Non Residential,2022-04-11T00:00:00Z,2022-11-14T00:00:00Z,2022-11-14T00:00:00Z,M6H,396,FALSE
+22 152654,1,Small Residential Projects,Laneway / Rear Yard Suite,2022-09-28T00:00:00Z,2022-12-23T00:00:00Z,2022-12-23T00:00:00Z,M6R,21.5,FALSE
+22 164976,0,New Building,Retail Store,2022-06-20T00:00:00Z,2024-01-03T00:00:00Z,2024-01-03T00:00:00Z,NA,4800,FALSE
+22 189114,0,Small Residential Projects,SFD - Detached,2022-08-11T00:00:00Z,2022-08-29T00:00:00Z,2022-08-29T00:00:00Z,M4K,37.5,TRUE
+22 213558,0,Small Residential Projects,SFD - Detached,2022-10-05T00:00:00Z,2023-01-30T00:00:00Z,2023-01-30T00:00:00Z,M4G,54,FALSE
+22 221802,1,Small Residential Projects,SFD - Detached,2023-06-08T00:00:00Z,2023-07-04T00:00:00Z,2023-07-04T00:00:00Z,M4R,44.09,TRUE
+22 221802,0,Small Residential Projects,SFD - Detached,2022-10-25T00:00:00Z,2022-12-19T00:00:00Z,2022-12-19T00:00:00Z,M4R,44.09,TRUE
+22 236772,0,Small Residential Projects,SFD - Semi-Detached,2022-12-06T00:00:00Z,2023-03-07T00:00:00Z,2023-03-07T00:00:00Z,M5S,27.39,FALSE
+22 236847,0,New Building,Industrial,2022-12-06T00:00:00Z,2024-03-20T00:00:00Z,2024-03-20T00:00:00Z,M8W,8701.07,FALSE
+22 236876,0,New Building,Industrial,2022-12-06T00:00:00Z,2024-03-20T00:00:00Z,2024-03-20T00:00:00Z,M8W,8701.07,FALSE
+23 118986,0,Small Residential Projects,Other,2023-03-01T00:00:00Z,2023-03-03T00:00:00Z,2023-03-03T00:00:00Z,M4L,20.54,FALSE
+23 121976,0,Small Residential Projects,SFD - Detached,2023-03-10T00:00:00Z,2023-07-24T00:00:00Z,2023-07-24T00:00:00Z,M4K,40.5,FALSE
+23 135225,0,Small Residential Projects,Live/Work Unit,2023-04-18T00:00:00Z,2023-05-05T00:00:00Z,2023-05-05T00:00:00Z,M4C,12,TRUE
+23 147051,0,New Houses,SFD - Detached,2023-05-17T00:00:00Z,2023-08-11T00:00:00Z,2023-08-11T00:00:00Z,M6H,15.6,FALSE
+23 153544,0,New Houses,SFD - Townhouse,2023-05-31T00:00:00Z,2024-04-11T00:00:00Z,2024-04-11T00:00:00Z,M4G,41,FALSE
+23 153544,0,New Houses,SFD - Townhouse,2023-05-31T00:00:00Z,2024-04-11T00:00:00Z,2024-04-11T00:00:00Z,M4G,41,FALSE
+23 153544,0,New Houses,SFD - Townhouse,2023-05-31T00:00:00Z,2024-04-11T00:00:00Z,2024-04-11T00:00:00Z,M4G,27,FALSE
+23 160140,0,Small Residential Projects,SFD - Detached,2023-06-13T00:00:00Z,2023-07-10T00:00:00Z,2023-07-10T00:00:00Z,M6J,22,FALSE
+23 220347,0,Small Residential Projects,SFD - Detached,2023-10-30T00:00:00Z,2024-01-25T00:00:00Z,2024-01-25T00:00:00Z,M6H,26.810000000000002,FALSE
+24 165025,0,Small Residential Projects,SFD - Semi-Detached,2024-06-14T00:00:00Z,2024-08-14T00:00:00Z,2024-08-14T00:00:00Z,M6H,30,TRUE
+24 254444,0,New Building,Multiple Use/Non Residential,2024-12-30T00:00:00Z,2025-08-07T00:00:00Z,2025-08-07T00:00:00Z,M9W,0,FALSE
+25 104524,2,Small Residential Projects,SFD - Detached,2025-06-06T00:00:00Z,2025-07-04T00:00:00Z,2025-07-04T00:00:00Z,M4V,14.08,FALSE

@@ -1,12 +1,11 @@
 ---
-title: "Where's the lead?"
-subtitle: "An exploratory analysis of non-regulated lead samples in Toronto."
+title: "XXXXXX"
 author: 
   - Benedict Cummins-Mburu
-thanks: "Code and data are available at: [https://github.com/bennypk1/starter_folder](https://github.com/RohanAlexander/starter_folder)."
+thanks: "Code and data are available at: [https://github.com/bennypk1/starter_folder](https://github.com/bennypk1/starter_folder)."
 date: today
 date-format: long
-abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
+abstract: "XXX "
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -18,7 +17,6 @@ bibliography: references.bib
 #| message: false
 
 library(tidyverse)
-library(palmerpenguins)
 ```
 
 
