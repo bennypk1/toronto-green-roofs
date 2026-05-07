@@ -1,5 +1,5 @@
 #### Preamble ####
-# Purpose: Tests the structure and validity of the simulated "Current and Future Climate" dataset
+# Purpose: Tests the structure and validity of the simulated "Building Permits - Green Roofs" dataset
 # Author: Benedict Cummins-Mburu
 # Last Updated: 7 May 2026
 # Contact: b.cumminsmburu@utoronto.ca

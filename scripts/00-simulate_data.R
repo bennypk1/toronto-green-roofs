@@ -1,5 +1,5 @@
 #### Preamble ####
-# Purpose: Simulate a simplified version of the "Current and Future Climate" dataset from Open Data Toronto
+# Purpose: Simulate a simplified version of the "Building Permits - Green Roofs" dataset from Open Data Toronto
 # Author: Benedict Cummins-Mburu
 # Last Updated: 7 May 2026
 # Contact: b.cumminsmburu@utoronto.ca
@@ -12,68 +12,91 @@ set.seed(416)
 #### Simulate data ####
 
 # Define Possible Entries
-distributions <- c(
-  "MEDIAN",
-  "90th_PERCENTILE",
-  "10th_PERCENTILE"
+CFSAs <- c("M8", "M5", "M9", "M2", "M6", "M4", "M3", "M1")
+statuses <- c("Inspection", "Closed")
+permit_types <- c(
+  "Small Residential Projects",
+  "New Building",
+  "Building Additions/Alterations",
+  "New Houses"
 )
-scenarios <- c(
-  "SSP2-4.5",
-  "SSP5-8.5"
+structure_types <- c(
+  "Mixed Use/Res w Non Res",
+  "Apartment Building",
+  "Multiple Use/Non Residential",
+  "SFD - Detached",
+  "Industrial",
+  "Elementary School",
+  "Office",
+  "Other",
+  "Retail Store",
+  "SFD - Semi-Detached",
+  "University",
+  "Car Dealership",
+  "SFD - Townhouse",
+  "Hospital",
+  "Laneway / Rear Yard Suite",
+  "Secondary School",
+  "College/Trade/Tech School/Training Cent.",
+  "Multiple Unit Building",
+  "Parking Garage",
+  "Community Hall",
+  "Self-Service Storage Building",
+  "Student Residence",
+  "2 Unit - Detached",
+  "Library",
+  "Motel/Hotel",
+  "Recreational",
+  "Place of Worship",
+  "Transit Station,Subway, Bus Terminal",
+  "Warehouse",
+  "Long Term Care Facility",
+  "Retail Mall/Plaza",
+  "Crematorium/Cemetary Structure",
+  "Home for the Aged",
+  "Medical/Dental Office",
+  "Nursing Home Facility",
+  "Performing Arts Centre",
+  "Restaurant Greater Than 30 Seats",
+  "Stacked Townhouses",
+  "Television Studio(no audience)",
+  "2 Unit - Semi-detached",
+  "2 Unit - Townhouse",
+  "3+ Unit - Detached",
+  "Club",
+  "Gas Station/Car Wash/Repair Garage",
+  "Indoor Swimming Pool",
+  "Industrial Manufacturing Plant",
+  "Industrial Warehouse/Hazardous Building",
+  "Live/Work Unit",
+  "Stadium",
+  "Water and Sewage Pumping Stations"
 )
-times <- c(
-  "1971-2000",
-  "2015-2040",
-  "2041-2070",
-  "2071-2100"
-)
+
+# Helper Function
+simulate_POSIXct_dates <- function(n) {
+  start_date <- as.POSIXct("2010-02-18")
+  end_date <- as.POSIXct("2022-04-06")
+  return(as.POSIXct(
+    runif(n, min = as.numeric(start_date), max = as.numeric(end_date)),
+    origin = "1970-01-01"
+  ))
+}
 
 # Initialize dataframe with base data
+n_sim_perm <- 100
+
 simulated_data <- data.frame(
-  Climate.Scenario = "OBSERVED_TORONTO_AVERAGE",
-  Time.Horizon = "1971-2000",
-  Distribution = "MEDIAN",
-
-  ANNUAL_MEAN_TEMPERATURE = rnorm(1, mean = 5, sd = 4),
-  ANNUAL_MAXIMUM_TEMPERATURE = rnorm(1, mean = 10, sd = 4),
-  ANNUAL_MINIMUM_TEMPERATURE = rnorm(1, mean = 10, sd = 4),
-
-  DAYS_ABOVE_35C = runif(1, min = 0, max = 20),
-  DAYS_BELOW_MINUS_20C = runif(1, min = 0, max = 20),
-  GROWING_DEGREE_DAYS_BASE_0C = runif(1, min = 100, max = 300),
-  TEMPERATURE_BASED_HEAT_WARNING_FREQUENCY = runif(1, min = 0, max = 5),
-
-  ANNUAL_TOTAL_PRECIPITATION = runif(1, min = 0, max = 200),
-  ANNUAL_TOTAL_DRY_DAYS = runif(1, min = 0, max = 200),
-  SIMPLE_DAILY_INTENSITY_INDEX = runif(1, min = 2, max = 7)
+  REVISION_NUM = rpois(n_sim_perm, 0.04),
+  PERMIT_TYPE = sample(permit_types, n_sim_perm, replace = TRUE),
+  STRUCTURE_TYPE = sample(structure_types, n_sim_perm, replace = TRUE),
+  APPLICATION_DATE = simulate_POSIXct_dates(n_sim_perm),
+  ISSUED_DATE = simulate_POSIXct_dates(n_sim_perm),
+  COMPLETED_DATE = simulate_POSIXct_dates(n_sim_perm), # real data will have NAs here
+  STATUS = sample(statuses, n_sim_perm, replace = TRUE),
+  POSTAL_AREA = sample(CFSAs, n_sim_perm, replace = TRUE),
+  GREEN_ROOF_AREA = runif(n_sim_perm, min = 0.5, max = 3000)
 )
-
-# Update iteratively accross all scenarios, timeframes, and distributions
-for (scenario in scenarios) {
-  for (time in times) {
-    for (distribution in distributions) {
-      new_row <- data.frame(
-        Climate.Scenario = scenario,
-        Time.Horizon = time,
-        Distribution = distribution,
-
-        ANNUAL_MEAN_TEMPERATURE = rnorm(1, mean = 5, sd = 4),
-        ANNUAL_MAXIMUM_TEMPERATURE = rnorm(1, mean = 10, sd = 4),
-        ANNUAL_MINIMUM_TEMPERATURE = rnorm(1, mean = 10, sd = 4),
-
-        DAYS_ABOVE_35C = runif(1, min = 0, max = 20),
-        DAYS_BELOW_MINUS_20C = runif(1, min = 0, max = 20),
-        GROWING_DEGREE_DAYS_BASE_0C = runif(1, min = 100, max = 300),
-        TEMPERATURE_BASED_HEAT_WARNING_FREQUENCY = runif(1, min = 0, max = 5),
-
-        ANNUAL_TOTAL_PRECIPITATION = runif(1, min = 0, max = 200),
-        ANNUAL_TOTAL_DRY_DAYS = runif(1, min = 0, max = 200),
-        SIMPLE_DAILY_INTENSITY_INDEX = runif(1, min = 2, max = 7)
-      )
-      simulated_data = rbind(simulated_data, new_row)
-    }
-  }
-}
 
 #### Save data ####
 write_csv(simulated_data, "data/00-simulated_data/simulated_data.csv")
