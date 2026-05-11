@@ -22,14 +22,17 @@ library(tidyverse)
 
 # Introduction
 
-Climate change represents one of the most pressing challenges faced by human societies today (IPCC, 2019). Average temperatures, as well as the frequency of intense weather events are projected to increase in the following decades, and at an accelerating rate (IPCC, 2019).
+Urban landscapes are often warmer, on average, than their surrounding rural counterparts. This phenomenon (known as the Urban Heat Island Effect, and herafter referred to as the UHI) is largely driven by the lack of vegetated surfaces (Yang et al., 2016). The primary surface materials in urban landscapes (e.g. concrete, tar, ashphalt and gravel) absorb more solar radiation (albedos typically ranging from 0.1 to 0.2) than more natural landscapes with very little anthropogenic activity (albedos typically ranging from 0.7 to 0.85) Owing to the UHI among other factors, climate-change-induced global warming is projected to disproportionately affect urban centers (CITATION) ; citites have predicted temerature increases of X degrees C, an X degree increase from the global average (CITATION). [need to talk about why heating matters or no?].
 
-Faced with these trends, many municipalities around the world have adoped green roof by-laws (GRBLs) to mitigate against those climate-driven effects that are particularly relevant to urban centers (Berardi et al., 2014). These include the urban heat island effect, where metropolitan areas are warmer than their surrounding areas, in part due to lack of vegetated surfaces (Yang et al., 2016), and stormwater management (Jung et al., 2025). In addition to climate change preparedness, GRBLs often provide social services, by, for example, increasing resident access to green spaces (Berardi et al., 2014). 
+Faced with these unique risks, many municipalities around the world (e.g. Basel, Switzerland and Berlin, Germany) have adoped green roof by-laws (hereafter referred to as GRBLs) to mitigate against the UHI. Green roofs are defined by Berardi et al. (2014) as "roofs with plants in their final layer", and offer many building and/or city-level services including stormwater management and increased public access to nearby green spaces (Berardi et al.,  2014). Most obviously, green roofs decrease the overall solar absorbance of a municipality by increasing the vegetated area, theoretically reducing the UHI.
 
-Toronto is the first city in North America to have had a By-law requiring the construction of green roofs (City of Toronto, 2026). From January 2010 to November 2025, all new developments and extensions with a floor area in excess of 2000 m2  were required to construct a green roof, defined as “an extension of [a roof], built on top of a human-made structure, that allows vegetation to grow in a growing medium” (City of Toronto, 2026). Complimenting their GRBL, the City also implemented an Eco-Roof Incentive Program (ERIP) to support the voluntary installation of green roofs on homes and buildings (City of Toronto, 2026). 
+Toronto is the first city in North America to have had a By-law requiring the construction of green roofs (City of Toronto, 2026). From January 2010 to November 2025, all new developments and extensions with a floor area in excess of 2000 m2  were required to construct a green roof, defined by the City as “an extension of [a roof], built on top of a human-made structure, that allows vegetation to grow in a growing medium” (City of Toronto, 2026). Complimenting their GRBL, the City also implemented an Eco-Roof Incentive Program (ERIP) to support the voluntary installation of green roofs on homes and buildings (City of Toronto, 2026). 
 
-In this report, City building permit registry data was leveraged to document and analyze the state of Toronto’s green roofs. In particular, we were interested in understanding (i) where and on what types of structures green roofs are (planned to be) installed, and (ii) the past and current state of  green roof adoption in Toronto. I find that [summary of results].
-The remainder of the report is structured as follows. Section 2 [hyperlink] …
+In this report, Recent research has found that, while overall area is the most important factor in determining a green roofs's ability to offset the UHI, the relative spatial arrangement of green spaces in a city matters as well, where cities with (Berardi et al., 2014). In this report, we sought to assess whether or not Toronto's GRBL was effective in homogenizing the distribution of vegetated area in the city, effectively optimizing the city's UHI offset. We leveraged data from Open Data Toronto to (1) document the spatial distribution of current ground-level "green spaces" (e.g. parks, etc.), and (2) document the spatial distribution of green roofs, and (3) analyze whether or not green roofs "fill the gaps" missed on the surface. We hypothesize that increased rates of development in downtown areas (and therefore higher absolute green roof numbers) would lead to
+
+[Findings]
+
+The following report is structutred as follows. Section 2 provides an overview of the datasets used, as well as summaries of vasriables relevant for analysis. Section 3 details our findings [and will primarily consist of comparative maps], Section 4 discussion and limitations.
 
 # Data {#sec-data}
 
@@ -86,8 +89,6 @@ Weaknesses and next steps should also be included.
 
 
 # Additional data details
-
-# Model details {#sec-model-details}
 
 ## Posterior predictive check
 

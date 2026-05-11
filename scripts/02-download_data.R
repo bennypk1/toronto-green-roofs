@@ -10,9 +10,15 @@ library(tidyverse)
 library(opendatatoronto)
 
 #### Download data ####
-CFC_reference <- search_packages("Building Permits - Green Roofs")
-CFC_CSV_id <- list_package_resources(CFC_reference)[2, 2]
-CFC_CSV <- get_resource(CFC_CSV_id)
+GR_reference <- search_packages("Building Permits - Green Roofs")
+GS_reference <- search_packages("Green Spaces")
+
+GR_id <- list_package_resources(GR_reference)[2, "id"]
+GS_id <- list_package_resources(GS_reference)[7, "id"]
+
+GR_CSV <- get_resource(GR_id)
+GS_CSV <- get_resource(GS_id)
 
 #### Save data ####
-write_csv(CFC_CSV, "data/01-raw_data/raw_data.csv")
+write_csv(GR_CSV, "data/01-raw_data/GR_raw_data.csv")
+write_csv(GS_CSV, "data/01-raw_data/GS_raw_data.csv")
