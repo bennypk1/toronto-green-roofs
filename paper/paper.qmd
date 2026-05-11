@@ -22,40 +22,29 @@ library(tidyverse)
 
 # Introduction
 
-Overview paragraph
+Climate change and it’s  representing one of the most pressing challenges faced by human societies today (IPCC, 2019). Average temperatures, as well as the frequency of intense weather events are projected to increase in the following decades, and at an accelerating rate (IPCC, 2019).
 
-Estimand paragraph
+Faced with these trends, many municipalities around the world have adoped green roof by-laws (GRBLs) to mitigate against those climate-driven effects that are particularly relevant to urban centers (Berardi et al., 2014). These include the urban heat island effect, where metropolitan areas are warmer than their surrounding areas, in part due to lack of vegetated surfaces (Yang et al., 2016), and stormwater management (Jung et al., 2025). In addition to climate change preparedness, GRBLs often provide social services, by, for example, increasing resident access to green spaces (Berardi et al., 2014). 
 
-Results paragraph
+Toronto is the first city in North America to have had a By-law requiring the construction of green roofs (City of Toronto, 2026). From January 2010 to November 2025, all new developments and extensions with a floor area in excess of 2000 m2  were required to construct a green roof, defined as “an extension of [a roof], built on top of a human-made structure, that allows vegetation to grow in a growing medium” (City of Toronto, 2026). Complimenting their GRBL, the City also implemented an Eco-Roof Incentive Program (ERIP) to support the voluntary installation of green roofs on homes and buildings (City of Toronto, 2026). 
 
-Why it matters paragraph
-
-Telegraphing paragraph: The remainder of this paper is structured as follows. @sec-data....
-
-
-
-
-
+In this report, City building permit registry data was leveraged to document and analyze the state of Toronto’s green roofs. In particular, we were interested in understanding (i) where and on what types of structures green roofs are (planned to be) installed, and (ii) the past and current state of  green roof adoption in Toronto. I find that [summary of results].
+The remainder of the report is structured as follows. Section 2 [hyperlink] …
 
 # Data {#sec-data}
 
 ## Overview
 
-We use the statistical programming language R [@citeR].... Our data [@shelter].... Following @tellingstories, we consider...
+The dataset used in this report represents an up-to-date collection of 1235 building permits related to Toronto’s GRBL (n=1194) and ERIP (n=41). Both the GRBL and ERIP were adopted in 2009 by the Toronto City Council, and entered into effect on January 31, 2010. The GRBL was officially repealed in November 2025, making green roofs voluntary for private developers (City of Toronto, 2026). Permit information (described in more detail below) of all structures for which the GRBL or ERIP has applied are made public and updated weekly on the City’s Open Data website (City of Toronto, 2026), accessed for this report on May 6, 2026. The raw dataset also contained an additional 15 definitively cancelled projects, which were removed [in one sentence, why].
 
-Overview text
-
-## Measurement
-	
-Some paragraphs about how we go from a phenomena in the world to an entry in the dataset.
+Each permit is assigned a Permit Number, which consists of the last two digits of its application year (e.g. 11 for 2011), followed by a 6-digit IBMS-generated sequence. After issuance, permit applications may be revised, the proposed changes of which may qualify for GRBL or ERIP. Such revisions are recorded using the same Permit Number, and distinguished from the original permit application by an integer value (called the Recording Number). Therefore, identifying truly unique green roofs requires specifying both a Permit and Revision Number (this one-to-one mapping was violated once in the dataset ; the structure’s duplicate observations were removed and assumed to be errors). Permit-revision pairs are each assigned types (e.g. “New Building”, “Small Residential Projects”), a current status (e.g. “Closed”, “Revision Issued”), and a written description of the proposed project. Dates of permit application, issuance, and completion are also provided where applicable.  In addition, the full address, forward sortation area (FSA ; i.e. the first three digits of the postal code), type (e.g. “University”, “SFD – Detached”), and green roof size (in m2) of the associated structure is provided.
+All data acquisition, cleaning, tabulation, and visualization tasks were conducted within the R Statistical Software (R Core Team, 2023). Notable packages used in this report include `opendatatoronto` (Gelfand, 2022),`tidyverse` (Wickham et al., 2019), and `canadianmaps` (Cayen, 2024). 
 
 ## Outcome variables
 
 Add graphs, tables and text. Use sub-sub-headings for each outcome variable or update the subheading to be singular.
 
 
-
-Some of our data is of penguins (@fig-bills), from @palmerpenguins.
 
 ```{r}
 #| label: fig-bills

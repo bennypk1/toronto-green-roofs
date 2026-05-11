@@ -14,12 +14,6 @@ set.seed(416)
 # Define Possible Entries
 CFSAs <- c("M8", "M5", "M9", "M2", "M6", "M4", "M3", "M1")
 statuses <- c("Inspection", "Closed")
-permit_types <- c(
-  "Small Residential Projects",
-  "New Building",
-  "Building Additions/Alterations",
-  "New Houses"
-)
 structure_types <- c(
   "Mixed Use/Res w Non Res",
   "Apartment Building",
@@ -75,7 +69,7 @@ structure_types <- c(
 
 # Helper Function
 simulate_POSIXct_dates <- function(n) {
-  start_date <- as.POSIXct("2010-02-18")
+  start_date <- as.POSIXct("2015-02-18") # arbitrarily chosen start and end dates
   end_date <- as.POSIXct("2022-04-06")
   return(as.POSIXct(
     runif(n, min = as.numeric(start_date), max = as.numeric(end_date)),
@@ -83,20 +77,7 @@ simulate_POSIXct_dates <- function(n) {
   ))
 }
 
-# Initialize dataframe with base data
-n_sim_perm <- 100
-
-simulated_data <- data.frame(
-  REVISION_NUM = rpois(n_sim_perm, 0.04),
-  PERMIT_TYPE = sample(permit_types, n_sim_perm, replace = TRUE),
-  STRUCTURE_TYPE = sample(structure_types, n_sim_perm, replace = TRUE),
-  APPLICATION_DATE = simulate_POSIXct_dates(n_sim_perm),
-  ISSUED_DATE = simulate_POSIXct_dates(n_sim_perm),
-  COMPLETED_DATE = simulate_POSIXct_dates(n_sim_perm), # real data will have NAs here
-  STATUS = sample(statuses, n_sim_perm, replace = TRUE),
-  POSTAL_AREA = sample(CFSAs, n_sim_perm, replace = TRUE),
-  GREEN_ROOF_AREA = runif(n_sim_perm, min = 0.5, max = 3000)
-)
+simulated_data <- data.frame()
 
 #### Save data ####
 write_csv(simulated_data, "data/00-simulated_data/simulated_data.csv")

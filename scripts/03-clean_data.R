@@ -16,7 +16,6 @@ raw_data <- read_csv("data/01-raw_data/raw_data.csv")
 focal_column_names <- c(
   "PERMIT_NUM",
   "REVISION_NUM",
-  "PERMIT_TYPE",
   "STRUCTURE_TYPE",
   "APPLICATION_DATE",
   "ISSUED_DATE",
@@ -48,19 +47,21 @@ cleaned_data <- raw_data %>%
   mutate(
     APPLICATION_DATE = as.POSIXct(APPLICATION_DATE),
     ISSUED_DATE = as.POSIXct(ISSUED_DATE),
-    COMPLETED_DATE = as.POSIXct(COMPLETED_DATE),
+    COMPLETED_DATE = as.POSIXct(COMPLETED_DATE)
   ) %>%
-  filter(ECO_ROOF == "FALSE", ) %>% # disregarding 41 eco roof permits ; outside of project scope
-  filter(PERMIT_NUM != "23 153544") %>% # removes 5 rows corresponding to a problematic set of duplicate permit numbers
   filter(STATUS %in% acceptable_permit_statuses) %>% # removes definitively "Cancelled" permits
-  mutate(ID = paste0(PERMIT_NUM, "_", REVISION_NUM)) %>% # checked: # unique IDs = # rows
-  select(c(-ECO_ROOF))
+  mutate(ID = paste0(PERMIT_NUM, "_", REVISION_NUM)) # checked: # unique IDs = # rows
+# Addressing Specific Anomalies
+for_imputation <- mean(cleaned_data$ISSUED_DATE, na.rm = TRUE)
+cleaned_data <- cleaned_data %>%
+  filter(PERMIT_NUM != "23 153544") # removes 5 rows corresponding to a problematic set of duplicate permit numbers
+cleaned_data[
+  cleaned_data$PERMIT_NUM == "18 140369",
+  "ISSUED_DATE"
+] <- for_imputation # imput an issued date ; likely missing by accident.
 
 # Notes:
-#   - All "Closed" entries have completion dates, all non-closed entries do not
-#   - All "Closed" entries have "Issue" and "Application" dates (apart from 18 140369 ; missing "Issue date")
-#   - All entries have application dates
-#.  - TOCHECK: There is a clear divide among non-closed statuses; those with issue dates and those without
+#   - TOCHECK: There is a clear divide among non-closed statuses; those with issue dates and those without
 
 # Issues:
 # - A single entry is marked as "Closed" but does not have a completion or issue date. It is kept in the dataset for now.

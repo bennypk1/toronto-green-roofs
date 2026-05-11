@@ -32,3 +32,40 @@ if (all(focal_data$ISSUED_DATE > focal_data$APPLICATION_DATE, na.rm = TRUE)) {
     "Test Failed: At least one issuance date is before or on date of application."
   )
 }
+
+# Check that IDs are unique
+if (setequal(unique(focal_data$ID), focal_data$ID)) {
+  message("Test Passed: IDs are unique.")
+} else {
+  stop("Test Failed: IDs are not unique.")
+}
+
+# Check that all "Closed" entries have Completion dates
+test_data1 <- focal_data %>% filter(STATUS == "Closed")
+if (all(!is.na(test_data1$COMPLETED_DATE))) {
+  message("Test Passed: All Closed entries have Completion dates.")
+} else {
+  stop("Test Failed: Some Closed entries do not have Completion dates.")
+}
+
+# Check that all "Closed" entries have Issued dates
+if (all(!is.na(test_data1$ISSUED_DATE))) {
+  message("Test Passed: All Closed entries have Issued dates.")
+} else {
+  stop("Test Failed: Some Closed entries do not have Issued dates.")
+}
+
+# Check that all non-"Closed" entries do not have Completion dates
+test_data2 <- focal_data %>% filter(STATUS != "Closed")
+if (all(is.na(test_data2$COMPLETED_DATE))) {
+  message("Test Passed: No non-Closed entries have Completion dates.")
+} else {
+  stop("Test Failed: Some non-Closed entries have Completion dates.")
+}
+
+# Check that all entries have Application dates
+if (all(!is.na(focal_data$APPLICATION_DATE))) {
+  message("Test Passed: All entries have recorded Application dates.")
+} else {
+  stop("Test Failed: Some entries have no recorded application dates.")
+}
