@@ -16,7 +16,16 @@ bibliography: references.bib
 #| warning: false
 #| message: false
 
+# load libraries
 library(tidyverse)
+library(canadianmaps)
+library(patchwork)
+library(here)
+library(scales)
+
+# get map-plotting function AND spatial summary data
+plot_fsa <- readRDS(here::here("plots/figures/plot_fsa.rds"))
+analysis_data_full <- readRDS(here::here("data/02-analysis_data/analysis_data.rds"))
 ```
 
 
@@ -28,85 +37,136 @@ Faced with these unique risks, many municipalities around the world (e.g. Basel,
 
 Toronto is the first city in North America to have had a By-law requiring the construction of green roofs (City of Toronto, 2026). From January 2010 to November 2025, all new developments and extensions with a floor area in excess of 2000 m2  were required to construct a green roof, defined by the City as “an extension of [a roof], built on top of a human-made structure, that allows vegetation to grow in a growing medium” (City of Toronto, 2026). Complimenting their GRBL, the City also implemented an Eco-Roof Incentive Program (ERIP) to support the voluntary installation of green roofs on homes and buildings (City of Toronto, 2026). 
 
-In this report, Recent research has found that, while overall area is the most important factor in determining a green roofs's ability to offset the UHI, the relative spatial arrangement of green spaces in a city matters as well, where cities with (Berardi et al., 2014). In this report, we sought to assess whether or not Toronto's GRBL was effective in homogenizing the distribution of vegetated area in the city, effectively optimizing the city's UHI offset. We leveraged data from Open Data Toronto to (1) document the spatial distribution of current ground-level "green spaces" (e.g. parks, etc.), and (2) document the spatial distribution of green roofs, and (3) analyze whether or not green roofs "fill the gaps" missed on the surface. We hypothesize that increased rates of development in downtown areas (and therefore higher absolute green roof numbers) would lead to
+Recent research has found that, while overall area is the most important factor in determining a green roofs's ability to offset the UHI, the relative spatial arrangement of green spaces in a city matters as well, where cities with (Berardi et al., 2014). In this report, we sought to assess whether or not Toronto's GRBL was effective in homogenizing the distribution of vegetated area in the city, effectively optimizing the city's UHI offset. We leveraged data from Open Data Toronto to (1) document the spatial distribution of current ground-level "green spaces" (e.g. parks, etc.), and (2) document the spatial distribution of green roofs, and (3) analyze whether or not green roofs "fill the gaps" missed on the surface. We hypothesize that increased rates of development in downtown areas (and therefore higher absolute green roof numbers) would lead to 
 
 [Findings]
 
-The following report is structutred as follows. Section 2 provides an overview of the datasets used, as well as summaries of vasriables relevant for analysis. Section 3 details our findings [and will primarily consist of comparative maps], Section 4 discussion and limitations.
+The remainder of this report is structutred as follows. Section 2 provides an overview of the datasets used, as well as summaries of vasriables relevant for analysis. Section 3 details our findings [and will primarily consist of comparative maps], Section 4 discussion and limitations.
 
 # Data {#sec-data}
 
-## Overview
+Two datasets were used in this report, both sourced from the City of Toronto's Open Data website (CITATION), accessed on May 11, 2026. These are: "Building Permits - Green Roofs" (CITATION), and "Green Spces" (CITATION), updated weekly and monthly respectively. [More information about the specific datasets is available below]. All data acquisition, cleaning, tabulation, and visualization tasks were conducted within the R Statistical Software (R Core Team, 2023). Notable packages used in this report include `opendatatoronto` (Gelfand, 2022),`tidyverse` (Wickham et al., 2019), `canadianmaps` (Cayen, 2024), [add rest of libraries used here].
 
-The dataset used in this report represents an up-to-date collection of 1235 building permits related to Toronto’s GRBL (n=1194) and ERIP (n=41). Both the GRBL and ERIP were adopted in 2009 by the Toronto City Council, and entered into effect on January 31, 2010. The GRBL was officially repealed in November 2025, making green roofs voluntary for private developers (City of Toronto, 2026). Permit information (described in more detail below) of all structures for which the GRBL or ERIP has applied are made public and updated weekly on the City’s Open Data website (City of Toronto, 2026), accessed for this report on May 6, 2026. The raw dataset also contained an additional 15 definitively cancelled projects, which were removed [in one sentence, why].
+## Building Permits - Green Roofs
 
-Each permit is assigned a Permit Number, which consists of the last two digits of its application year (e.g. 11 for 2011), followed by a 6-digit IBMS-generated sequence. After issuance, permit applications may be revised, the proposed changes of which may qualify for GRBL or ERIP. Such revisions are recorded using the same Permit Number, and distinguished from the original permit application by an integer value (called the Recording Number). Therefore, identifying truly unique green roofs requires specifying both a Permit and Revision Number (this one-to-one mapping was violated once in the dataset ; the structure’s duplicate observations were removed and assumed to be errors). Permit-revision pairs are each assigned types (e.g. “New Building”, “Small Residential Projects”), a current status (e.g. “Closed”, “Revision Issued”), and a written description of the proposed project. Dates of permit application, issuance, and completion are also provided where applicable.  In addition, the full address, forward sortation area (FSA ; i.e. the first three digits of the postal code), type (e.g. “University”, “SFD – Detached”), and green roof size (in m2) of the associated structure is provided.
-All data acquisition, cleaning, tabulation, and visualization tasks were conducted within the R Statistical Software (R Core Team, 2023). Notable packages used in this report include `opendatatoronto` (Gelfand, 2022),`tidyverse` (Wickham et al., 2019), and `canadianmaps` (Cayen, 2024). 
+The "Building Permits - Green Roofs" dataset consists of 1234 building permits related to Toronto’s GRBL (n=1193) and ERIP (n=41). Both the GRBL and ERIP were adopted in 2009 by Toronto City Council, and entered into effect on January 31, 2010. The GRBL was eventually repealed in November 2025, making green roofs voluntary for private developers (City of Toronto, 2026). Permit information (described in more detail below) of all structures for which the GRBL or ERIP has applied are made public and updated weekly on the City’s Open Data website (City of Toronto, 2026), accessed for this report on May 6, 2026. The raw dataset also contained an additional 15 definitively cancelled projects and 5 duplicate entries, which were removed during cleaning.
 
-## Outcome variables
+Each permit is assigned a Permit Number, which consists of the last two digits of its application year (e.g. 11 for 2011), followed by a 6-digit IBMS-generated sequence. After issuance, permit applications may be revised, the proposed changes of which may qualify for GRBL or ERIP. Such revisions are recorded using the same Permit Number, and distinguished from the original permit application by an integer value (called the Revision Number). Therefore, identifying truly unique green roofs requires specifying both a Permit and Revision Number. Permit-revision pairs are each assigned types (e.g. “New Building”, “Small Residential Projects”), a current status (e.g. “Closed”, “Revision Issued”), and a written description of the proposed project. Dates of permit application, issuance, and completion are also provided where applicable. In addition, the full address, forward sortation area (CFSAUID ; i.e. the first three digits of the postal code), type (e.g. “University”, “SFD – Detached”), and green roof area (in m^2) of the permit's associated structure is provided.
 
-Add graphs, tables and text. Use sub-sub-headings for each outcome variable or update the subheading to be singular.
+For this analysis, our variables of interest from this dataset are CFSAUID and green roof area. Table 1 demonstrates what the dataset looked like after cleaning.
 
-Talk more about it.
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
 
-And also planes (@fig-planes). (You can change the height and width, but don't worry about doing that until you have finished every other aspect of the paper - Quarto will try to make it look nice and the defaults usually work well once you have enough text.)
+# get Table_1
+Table_1 <- readRDS(here::here("plots/tables/Table_1.rds"))
 
-Talk way more about it. 
+# format with kable
+Table_1 %>% knitr::kable(caption = "Table 1: First 4 Rows of Cleaned Green Roof Data")
+```
 
-## Predictor variables
+## Green Spaces Dataset
 
-Add graphs, tables and text.
+The "Green Spaces" dataset represents a collection of 3372 geospatial representations of parks, beaches, ravines, etc. in Toronto, and is jointly maintained by the Geospatial Competency Centre and the Parks, Forestry & Recreation division (CITATION). Importantly, this dataset does not include green roofs. The R packages `sf`, `geojsonsf`, and `canadianmaps` were used to parse these representations to identify their area and assign them each an FSA based on their centroid coordinates.
 
-Use sub-sub-headings for each outcome variable and feel free to combine a few into one if they go together naturally.
+```{r}
+#| warning: false
+#| message: false
+#| echo: false 
+
+# get Table_2
+Table_2 <- readRDS(here::here("plots/tables/Table_2.rds"))
+
+# format with kable
+Table_2 %>% knitr::kable(caption = "Table 2: First 4 Rows of Cleaned Green Spaces Data")
+```
+
+## Merging Data by CFSAUID
+
+Once parsed, both dataset were joined together by FSA, allowing for effective comparisons of spatial distributions between green spaces and green roofs. 17% (n = 214) of green roof building permits did not have associated FSAs in the original dataset, and thus were necessarily omitted at this stage. To control for the large variance in sizes among FSAs, we defined a new variable, coverage, which is calculated as the proportion of an FSA's total area that is taken up by green roofs (or green spaces). FSA total area was parsed from data available in the `canadainmaps` package, following a similar procedure to Green Spaces. This allows us to better compare how "green" FSAs are.
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+
+# get Table_3
+Table_3 <- readRDS(here::here("plots/tables/Table_3.rds"))
+
+# format with tinytable
+Table_3 %>% knitr::kable(caption = "Table 3: First 4 Rows of Merged Spatial Summary Data")
+```
+
+# Results {#sec-results}
+
+## Visualizing the location and coverage of Toronto's Green Roofs and Green Spaces
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+
+# build Figure_1
+Figure_1a <- plot_fsa(analysis_data_full, "GREEN_ROOF_COUNT", legend_title = "Count")
+Figure_1b <- plot_fsa(analysis_data_full, "GREEN_ROOF_COVERAGE", legend_title = "Coverage")
+
+# display Figure 1
+(Figure_1a + Figure_1b)
+```
+
+BLllllllll
+
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+
+# build Figure_2
+Figure_2a <- plot_fsa(analysis_data_full, "GREEN_SPACE_COUNT", legend_title = "Count")
+Figure_2b <- plot_fsa(analysis_data_full, "GREEN_SPACE_COVERAGE", legend_title = "Coverage")
+
+# display Figure 2
+(Figure_2a + Figure_2b)
+```
 
 
-# Results
+## Comparing the Distributions of Green Roofs and Green Spaces
 
-Our results are summarized in @tbl-modelresults.
+```{r}
+#| warning: false
+#| message: false
+#| echo: false
+
+# get Figure_3
+Figure_3 <- readRDS(here::here("plots/figures/Figure_3.rds"))
+
+# display Figure_3
+Figure_3
+```
+
+In Figure 3 we clearly observe a negative association between green roof and green space coverage, supporting our initial hypothesis.
 
 
 # Discussion
 
-## First discussion point {#sec-first-point}
+[Figure 4: Distribution of Green Roof Areas in the Dataset: should see that a few buildings govern area gained. Should show mean and median to illustrate skew.]
 
-If my paper were 10 pages, then should be be at least 2.5 pages. The discussion is a chance to show off what you know and what you learnt from all this. 
+Figure 4 shows that a few structures govern the green roof area in Toronto. Examining these, we see that they are primarily industrial buildings outside of the city centre (CHECK THIS).
 
-## Second discussion point
+Since the GRBL. Although the ERIP locations represent optional adoptations, GRBLs are larger on average, and there are only n = 41 ERIPs with a total area of 17,911 m^2 representing only 0.17% of the 1,066,1611 m^2 of total green roof area.
 
-Please don't use these as sub-heading labels - change them to be what your point actually is.
+Limitations:
+- Green roof area is weird, sometimes zero for not reason (get the proportion), and for no clear reason given the original variables provided in the dataset (e.g. no structures systematically, etc.)
+- Wong et al., 2013 found that many of the green roofs were shaded for a lot of the year, limiting their effects. This logically also applies to parks, so a more thorough investigation requires looking at the 3D geometry of these sites.
 
-## Third discussion point
-
-## Weaknesses and next steps
-
-Weaknesses and next steps should also be included.
-
-\newpage
-
-\appendix
+Next Steps:
+- Address Wong et al.
+- Work has already been done to assess the positive impacts
+- Cross-disciplinary studies to identify whether another GRBL is required, and what 
 
 # Appendix {-}
-
-
-# Additional data details
-
-## Posterior predictive check
-
-In @fig-ppcheckandposteriorvsprior-1 we implement a posterior predictive check. This shows...
-
-In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. This shows... 
-
-
-## Diagnostics
-
-@fig-stanareyouokay-1 is a trace plot. It shows... This suggests...
-
-@fig-stanareyouokay-2 is a Rhat plot. It shows... This suggests...
-
-
-
-
-\newpage
 
 
 # References

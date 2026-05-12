@@ -1,7 +1,7 @@
 #### Preamble ####
 # Purpose: Cleans and saves the raw "Building Permits - Green Roofs" dataset downloaded from Open Data Toronto
 # Author: Benedict Cummins-Mburu
-# Last Updated: 11 May 2026
+# Last Updated: 12 May 2026
 # Contact: b.cumminsmburu@utoronto.ca
 # License: MIT
 
@@ -63,7 +63,7 @@ GR_cleaned_data[
   "ISSUED_DATE"
 ] <- for_imputation # imput an issued date ; likely missing by accident.
 
-#### Clean Green Roof Data ####
+#### Clean Green Space Data ####
 
 # Geometry Parsing Helper
 FSA_2952_version <- st_transform(FSA, 2952) # Convert `canadianmaps` FSA reference to 2952 standards
@@ -108,10 +108,64 @@ GS_cleaned_data <- GS_cleaned_data %>%
 # TODO: rerun and place this line in the correct sub-section
 GS_cleaned_data <- GS_cleaned_data %>% mutate(G_AREA = GREEN_SPACE_AREA)
 
+### Join Datasets by FSA (= CFSAUID) ###
+
+# Format FSA data
+MFSA_data <- FSA_2952_version[
+  str_detect(FSA_2952_version$CFSAUID, "^M"),
+  c("geometry", "CFSAUID")
+] %>%
+  mutate(FSA_AREA = as.numeric(st_area(geometry)))
+
+# Format green roof data
+GR_by_FSA <- GR_cleaned_data %>%
+  filter(!is.na(CFSAUID)) %>%
+  # filter(STATUS == "Closed") %>%
+  group_by(CFSAUID) %>%
+  summarise(
+    GREEN_ROOF_AREA = sum(G_AREA, na.rm = TRUE),
+    GREEN_ROOF_COUNT = n()
+  )
+
+# Format green space data
+GS_by_FSA <- GS_cleaned_data %>%
+  filter(!is.na(CFSAUID)) %>%
+  group_by(CFSAUID) %>%
+  summarise(
+    GREEN_SPACE_AREA = sum(G_AREA, na.rm = TRUE),
+    GREEN_SPACE_COUNT = n()
+  )
+
+# Merge datasets by CFSAUID (FSA)
+cleaned_summary_data <- MFSA_data %>%
+  mutate(FSA_GROUP = str_sub(CFSAUID, 1, 2)) %>%
+  left_join(GR_by_FSA, by = "CFSAUID") %>%
+  left_join(GS_by_FSA, by = "CFSAUID") %>%
+  mutate(
+    GREEN_ROOF_AREA = replace_na(GREEN_ROOF_AREA, 0),
+    GREEN_ROOF_COUNT = replace_na(GREEN_ROOF_COUNT, 0),
+    GREEN_ROOF_COVERAGE = GREEN_ROOF_AREA / FSA_AREA,
+    GREEN_SPACE_AREA = replace_na(GREEN_SPACE_AREA, 0),
+    GREEN_SPACE_COUNT = replace_na(GREEN_SPACE_COUNT, 0),
+    GREEN_SPACE_COVERAGE = GREEN_SPACE_AREA / FSA_AREA
+  ) %>%
+  select(
+    CFSAUID,
+    FSA_GROUP,
+    FSA_AREA,
+    geometry,
+    GREEN_ROOF_AREA,
+    GREEN_ROOF_COUNT,
+    GREEN_SPACE_AREA,
+    GREEN_SPACE_COUNT,
+    GREEN_ROOF_COVERAGE,
+    GREEN_SPACE_COVERAGE
+  )
+
 # Notes:
 #   - checked by manual seaerching that names or descriptions do not contain "Roof", so we havd confidence that green roofs are not present in the dataset (this is good)
 #   - confirmed manually that all IDs are, in fact, unique.
-#.  - TODO: green spaces data LAT and LON columns are currently bugged (doesn't matter for analysis though)
+#   - TODO: green spaces data LAT and LON columns are currently bugged (doesn't matter for analysis though)
 
 # - A single entry is marked as "Closed" but does not have a completion or issue date. It is kept in the dataset for now.
 # - 28 closed permits have a recorded green roof area of 0 for no clear reason
@@ -120,3 +174,4 @@ GS_cleaned_data <- GS_cleaned_data %>% mutate(G_AREA = GREEN_SPACE_AREA)
 #### Save data ####
 write_csv(GR_cleaned_data, "data/02-analysis_data/GR_analysis_data.csv")
 write_csv(GS_cleaned_data, "data/02-analysis_data/GS_analysis_data.csv")
+saveRDS(cleaned_summary_data, "data/02-analysis_data/analysis_data.rds")
