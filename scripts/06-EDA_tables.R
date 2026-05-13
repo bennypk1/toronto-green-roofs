@@ -9,7 +9,7 @@
 library(tidyverse)
 GR_analysis_data <- read_csv("data/02-analysis_data/GR_analysis_data.csv")
 GS_analysis_data <- read_csv("data/02-analysis_data/GS_analysis_data.csv")
-summary_analysis_data <- read_csv("data/02-analysis_data/analysis_data.csv")
+summary_analysis_data <- readRDS("data/02-analysis_data/analysis_data.rds")
 
 #### Generate Tables ####
 
