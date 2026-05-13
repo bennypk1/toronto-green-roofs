@@ -15,7 +15,7 @@ summary_analysis_data <- read_csv("data/02-analysis_data/analysis_data.csv")
 
 plot_fsa <- function(the_data, fill_var, legend_title = fill_var) {
   is_count_var <- grepl("COUNT$", fill_var)
-  target_trans <- if (is_count_var) "identity" else "pseudo_log"
+  target_trans <- if (is_count_var) "identity" else "identity"
   target_high <- if (is_count_var) "#2f2f2f" else "#006d2c"
   p <- ggplot(data = the_data) +
     geom_fsa(data = the_data, fill = fill_var) +

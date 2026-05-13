@@ -26,10 +26,6 @@ Table_3 <- summary_analysis_data %>%
   select(c(
     CFSAUID,
     geometry,
-    GREEN_ROOF_COUNT,
-    GREEN_SPACE_COUNT,
-    GREEN_ROOF_AREA,
-    GREEN_SPACE_AREA,
     GREEN_ROOF_COVERAGE,
     GREEN_SPACE_COVERAGE
   )) %>%

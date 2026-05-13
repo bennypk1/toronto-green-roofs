@@ -1,11 +1,11 @@
 ---
-title: "XXXXXX"
+title: "Toronto's Green Roof By-Law. [better title]"
 author: 
   - Benedict Cummins-Mburu
 thanks: "Code and data are available at: [https://github.com/bennypk1/starter_folder](https://github.com/bennypk1/starter_folder)."
 date: today
 date-format: long
-abstract: "XXX "
+abstract: "From 2010 to 2025 in Toronto, many newly developed structures were required to install green roofs. Using up-to-date data from Open Data Toronto, we found that, aside from simply expanding total vegetated area, Toronto's green roof by-law helped distribute green surfaces more evenly accross the city, allowing for a more efficient mitigation against high rates of urban heating."
 format: pdf
 number-sections: true
 bibliography: references.bib
@@ -101,7 +101,7 @@ Table_3 %>% knitr::kable(caption = "Table 3: First 4 Rows of Merged Spatial Summ
 
 # Results {#sec-results}
 
-## Visualizing the location and coverage of Toronto's Green Roofs and Green Spaces
+## Visualizing Current Green Roof Coverage
 
 ```{r}
 #| warning: false
@@ -109,14 +109,17 @@ Table_3 %>% knitr::kable(caption = "Table 3: First 4 Rows of Merged Spatial Summ
 #| echo: false
 
 # build Figure_1
-Figure_1a <- plot_fsa(analysis_data_full, "GREEN_ROOF_COUNT", legend_title = "Count")
-Figure_1b <- plot_fsa(analysis_data_full, "GREEN_ROOF_COVERAGE", legend_title = "Coverage")
+Figure_1 <- plot_fsa(analysis_data_full, "GREEN_ROOF_COVERAGE", legend_title = "Coverage")
 
 # display Figure 1
-(Figure_1a + Figure_1b)
+Figure_1
 ```
 
-BLllllllll
+Figure 1 paints an expected picture. Green roof coverage is much higher in downtown FSAs when compared to the rest of the City, reaching upwards of 1.5% of the total area covered by green roofs in the FSAs X, X, and X (corresponding to the neighborhoods of Regent Park, ). Notably, the smaller CFSAUIDs that make up the downtown core have significantly lower coverage than their nearest neighbors (an average of X% compared to X%). This micro and the larger macro trend are likely due to disparatries in building development rates. In FSAs with newer developments (and therefore more buildings subject to the GRBL), we should expect this [find sources on a Toronto construction boom from 2010 ish onwards, and the policies that lead to it].
+
+5 FSAs have green roof coverage above 1%, with the largest being 1.9% (M5B). The least green-space covered FSA is M6B with 2%, and the most is M1X with 94%. 
+
+## Visualizing Current Green Space Coverage
 
 ```{r}
 #| warning: false
@@ -124,13 +127,13 @@ BLllllllll
 #| echo: false
 
 # build Figure_2
-Figure_2a <- plot_fsa(analysis_data_full, "GREEN_SPACE_COUNT", legend_title = "Count")
-Figure_2b <- plot_fsa(analysis_data_full, "GREEN_SPACE_COVERAGE", legend_title = "Coverage")
+Figure_2 <- plot_fsa(analysis_data_full, "GREEN_SPACE_COVERAGE", legend_title = "Coverage")
 
 # display Figure 2
-(Figure_2a + Figure_2b)
+Figure_2
 ```
 
+In Figure 2 we have mapped green space coverage. Green spaces are most extensive in North Scarborough (likely because of low population density) and Harbourfront (likely because of beaches) FSAs.
 
 ## Comparing the Distributions of Green Roofs and Green Spaces
 
@@ -146,19 +149,23 @@ Figure_3 <- readRDS(here::here("plots/figures/Figure_3.rds"))
 Figure_3
 ```
 
-In Figure 3 we clearly observe a negative association between green roof and green space coverage, supporting our initial hypothesis.
+In Figure 3 we clearly observe a negative association between green roof and green space coverage, supporting our initial hypothesis: 
 
 
 # Discussion
 
-[Figure 4: Distribution of Green Roof Areas in the Dataset: should see that a few buildings govern area gained. Should show mean and median to illustrate skew.]
+In this report, two datasets from Open Data Canada were used to compare the spatial distributions of green spaces and green roofs in Toronto. We found, in accordance with our expectations, that the green space and green roof coverage of FSAs were negatively correlated ; the buildings affected by GRBL and ERIP were built (or are planned to be built) in areas of the city with comparatively less ground-level green spaces, homogenizing the green area in the city. Although not explicitly studied here, we expect that the GRBL was effective in mitigating against the UHI, not only by increasing the absolute amount of green area in Toronto by (at least) 8.5 km^2, but also by reducing spatial inequalities in green coverage.
 
-Figure 4 shows that a few structures govern the green roof area in Toronto. Examining these, we see that they are primarily industrial buildings outside of the city centre (CHECK THIS).
+[Talk about how this fits in with other studies on the UHI]
+
+[Discuss why the GRBL was repealed, and it's effects. Can discuss info about the timelines here as well, the slowing down of adoption of green roofs.]
 
 Since the GRBL. Although the ERIP locations represent optional adoptations, GRBLs are larger on average, and there are only n = 41 ERIPs with a total area of 17,911 m^2 representing only 0.17% of the 1,066,1611 m^2 of total green roof area.
 
 Limitations:
+- Although outside the scope of this report, the green roof area is quite small. 
 - Green roof area is weird, sometimes zero for not reason (get the proportion), and for no clear reason given the original variables provided in the dataset (e.g. no structures systematically, etc.)
+- Used FSAs instead of raw spatial point data. What are the specific impacts of this? Although we did control for FSA size by examining coverage instead of total area, ...
 - Wong et al., 2013 found that many of the green roofs were shaded for a lot of the year, limiting their effects. This logically also applies to parks, so a more thorough investigation requires looking at the 3D geometry of these sites.
 
 Next Steps:
