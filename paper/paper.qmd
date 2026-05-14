@@ -1,12 +1,13 @@
 ---
-title: "Toronto's Green Roof By-Law. [better title]"
+title: "Green Roofs Passively Compensate for Urban Green Space Deficits"
+subtitle: "A spatial analysis of Toronto's green roof by-law"
 author: "Benedict Cummins-Mburu"
 thanks: "Code and data are available at: [https://github.com/bennypk1/starter_folder](https://github.com/bennypk1/starter_folder)."
 date: today
 date-format: long
-abstract: "From 2010 to 2025 in Toronto, many newly developed structures were required to install green roofs. Using up-to-date data from Open Data Toronto, we found that, aside from simply expanding total vegetated area, Toronto's green roof by-law helped distribute green surfaces more evenly accross the city, allowing for a more efficient mitigation against high rates of urban heating."
+abstract: "From 2010 to 2025 in Toronto, many newly developed structures were required to install green roofs. Using up-to-date data from Open Data Toronto, we found that, aside from simply expanding total vegetated area, Toronto's green roof by-law helped distribute green surfaces more evenly across the city, allowing for a more efficient mitigation against high rates of urban heating."
 format: pdf
-linestretch: 1.25
+linestretch: 1.3
 number-sections: true
 bibliography: references.bib
 ---
@@ -32,25 +33,25 @@ analysis_data_full <- readRDS(here::here("data/02-analysis_data/analysis_data.rd
 
 # Introduction
 
-Urban landscapes are often warmer, on average, than surrounding rural regions. This phenomenon (known as the Urban Heat Island Effect, and herafter referred to as the UHI) is largely driven by the lack of vegetated surfaces (@yang_research_2016). The primary materials that make up the surfaces of.urban landscapes (e.g. concrete, tar, ashphalt and gravel) absorb more solar radiation than landscapes that have not been as developed, such as forests, fields, or farms. Owing to the UHI, among other factors, climate-change-induced global warming is projected to disproportionately affect urban centers (@intergovernmental_panel_on_climate_change_ipcc_climate_2023). In particular, citites are projected to have more intense and longer lasting heat waves (@intergovernmental_panel_on_climate_change_ipcc_climate_2023).
+Urban landscapes are often warmer, on average, than surrounding rural regions. This phenomenon (known as the Urban Heat Island Effect, and hereafter referred to as the UHI) is largely driven by the lack of vegetated surfaces [@yang_research_2016]. The primary materials that make up the surfaces of.urban landscapes (e.g. concrete, tar, asphalt and gravel) absorb more solar radiation than landscapes that have not been as developed, such as forests, fields, or farms. Owing to the UHI, among other factors, climate-change-induced global warming is projected to disproportionately affect urban centers [@intergovernmental_panel_on_climate_change_ipcc_climate_2023]. In particular, cities are projected to have more intense and longer lasting heat waves [@intergovernmental_panel_on_climate_change_ipcc_climate_2023].
 
-Faced with these unique risks, many municipalities around the world (e.g. Dublin, Ireland and Berlin, Germany) have adoped green roof by-laws (hereafter referred to as GRBLs) to mitigate against the UHI (@basu_theoretical_2021 ; @gan_tools_nodate). Green roofs are defined by Berardi et al. (@berardi_state---art_2014) as "roofs with plants in their final layer", and offer many building-level and city-level services including stormwater management and increased public access to nearby green spaces (@berardi_state---art_2014). Most importantly for this report, green roofs decrease the overall solar absorbance of an urban area by increasing total vegetated area, with albedos (a measure of surface reflectivity) typically ranging from 0.7 - 0.85, as compared to standard roofing materials (0.1 - 0.2 ; @berardi_state---art_2014). This difference has been shown to have cooling effects at local and neighborhood scales (@aram_urban_2019).
+Faced with these unique risks, many municipalities around the world (e.g. Dublin, Ireland and Berlin, Germany) have adopted green roof by-laws (hereafter referred to as GRBLs) to mitigate against the UHI [@basu_theoretical_2021 ; @ngan_tools_nodate]. Green roofs are defined by Berardi et al. (Berardi et al. 2014) as "roofs with plants in their final layer", and offer many building-level and city-level services including stormwater management and increased public access to nearby green spaces (Berardi et al. 2014). Most importantly for this report, green roofs decrease the overall solar absorbance of an urban area by increasing total vegetated area, with albedos (a measure of surface reflectivity) typically ranging from 0.7 - 0.85, as compared to standard roofing materials (0.1 - 0.2 ; Berardi et al. 2014). This difference has been shown to have cooling effects at local and neighborhood scales [@aram_urban_2019].
 
-Toronto is the first city in North America to have had a By-law requiring the construction of green roofs (City of Toronto, 2026). From January 2010 to November 2025, all new developments and extensions with a floor area in excess of 2000 $m^2$  were required to construct a green roof, defined by the City as “an extension of [a roof], built on top of a human-made structure, that allows vegetation to grow in a growing medium” (City of Toronto, 2026). Complimenting their GRBL, the City also implemented an Eco-Roof Incentive Program (referred throughout as ERIP) to support the voluntary installation of green roofs on homes and buildings (City of Toronto, 2026). 
+Toronto is the first city in North America to have had a By-law requiring the construction of green roofs [@toronto_greenroofs_2026]. From January 2010 to November 2025, all new developments and extensions with a floor area in excess of 2000 $m^2$  were required to construct a green roof, defined by the City as “an extension of [a roof], built on top of a human-made structure, that allows vegetation to grow in a growing medium” [@toronto_greenroofs_2026]. Complementing their GRBL, the City also implemented an Eco-Roof Incentive Program (referred throughout as ERIP) to support the voluntary installation of green roofs on homes and buildings [@toronto_greenroofs_2026]. 
 
-Recent research has found that, while overall area is the most important factor in determining a green roofs's ability to offset the UHI, the relative spatial arrangement of green spaces in a city matters as well. For example, Ossola et al. (@ossola_small_2021) found that the cooling effects of green surfaces in highly urban areas are greater at land unit than in suburbs. In this report, we sought to assess whether or not Toronto's GRBL was effective in homogenizing the distribution of vegetated area in the city by increasing green space coverage in highly urbanized areas of the city. We leveraged data from Open Data Toronto to (1) document the spatial distribution of current ground-level "green spaces" (e.g. parks, etc.), and (2) document the spatial distribution of green roofs, and (3) analyze whether or not green roofs "fill the gaps" missed on the ground. We find that, both downtown and city wide, Toronto's green roofs and ground-level green spaces are in complimentary spatial distribution, supporting the claim that green roofs are an effective countermeasure to the UHI.
+Recent research has found that, while overall area is the most important factor in determining a green roof's ability to offset the UHI, the relative spatial arrangement of green spaces in a city matters as well. For example, Ossola et al. [@ossola_small_2021] found that the cooling effects of green surfaces in highly urban areas are greater at land unit than in suburbs. In this report, we sought to assess whether or not Toronto's GRBL was effective in homogenizing the distribution of vegetated area in the city by increasing green space coverage in highly urbanized areas of the city. We leveraged data from Open Data Toronto to (1) document the spatial distribution of current ground-level "green spaces" (e.g. parks, etc.), and (2) document the spatial distribution of green roofs, and (3) analyze whether or not green roofs "fill the gaps" missed on the ground. We find that Toronto's green roofs and ground-level green spaces are in complimentary spatial distribution, supporting the claim that green roofs are an effective countermeasure to the UHI.
 
-The remainder of this report is structutred as follows. @sec-data provides an overview of the datasets used, as well as summaries of vasriables relevant for analysis. @sec-results details our findings, and we discuss the broader impact of our results and it's limitations in @sec-discussion.
+The remainder of this report is structured as follows. @sec-data provides an overview of the datasets used, as well as summaries of variables relevant for analysis. @sec-results details our findings, and we discuss the broader impact of our results and its limitations in @sec-discussion and @sec-limitations.
 
 # Data {#sec-data}
 
-Two datasets were used in this report, both sourced from the City of Toronto's Open Data website (Open Data Toronto, 2026), accessed on May 11, 2026. These are: "Building Permits - Green Roofs" (Open Data Toronto, 2019), and "Green Spaces" (Open Data Toronto, 2019), updated weekly and monthly respectively. All data acquisition, cleaning, tabulation, and visualization tasks were conducted within the R Statistical Software (@citeR). Notable packages used in this report include `opendatatoronto` (Gelfand, 2022),`tidyverse` (Wickham et al., 2019), `canadianmaps` (Cayen, 2024), `sf` (CITATION), and `geojsonsf` (CITATION).
+Two datasets were used in this report, both sourced from the City of Toronto's Open Data website [@city_of_toronto_2026], accessed on May 11, 2026. These are: "Building Permits - Green Roofs" [@toronto_greenroofs_2026], and "Green Spaces" [@toronto_greenspaces_2026], updated weekly and monthly respectively. All data acquisition, cleaning, tabulation, and visualization tasks were conducted within the R Statistical Software ([@citeR]). Notable packages used in this report include `opendatatoronto` [@gelfand_opendatatoronto_2025],`tidyverse` [@wickham_tidyverse_2023], `canadianmaps` [@cayen_canadianmaps_2024], `sf` [@pebesma_sf_2026], and `geojsonsf` [@cooley_geojsonsf_2025].
 
 ## Building Permits - Green Roofs
 
-The cleaned "Building Permits - Green Roofs" dataset consists of 1234 building permits related to Toronto’s GRBL (n=1193) and ERIP (n=41). Both the GRBL and ERIP were adopted in 2009 by Toronto City Council, and entered into effect on January 31, 2010. The GRBL was eventually repealed in November 2025, making green roofs voluntary for private developers (City of Toronto, 2026). Permit information of all structures for which the GRBL or ERIP has applied are made public and updated weekly on the City’s Open Data website (City of Toronto, 2026), accessed for this report on May 6, 2026. The raw dataset also contained an additional 15 definitively cancelled projects and 5 duplicate entries, which were removed during cleaning.
+The cleaned "Building Permits - Green Roofs" dataset consists of 1234 building permits related to Toronto’s GRBL (n=1193) and ERIP (n=41). Both the GRBL and ERIP were adopted in 2009 by Toronto City Council, and took effect on January 31, 2010. The GRBL was eventually repealed in November 2025, making green roofs voluntary for private developers [@toronto_greenroofs_2026]. Permit information of all structures for which the GRBL or ERIP has applied are made public and updated weekly on the City’s Open Data website [@city_of_toronto_2026], accessed for this report on May 6, 2026. The raw dataset also contained an additional 15 definitively cancelled projects and 5 duplicate entries, which were removed during cleaning.
 
-Each permit is assigned a Permit Number, which consists of the last two digits of its application year (e.g. 11 for 2011), followed by a 6-digit IBMS-generated sequence. After issuance, permit applications may be revised, the proposed changes of which may qualify for GRBL or ERIP. Such revisions are recorded using the same Permit Number, and distinguished from the original permit application by an integer value (called the Revision Number). Therefore, identifying truly unique green roofs requires specifying both a Permit and Revision Number. Permit-revision pairs are each assigned types (e.g. “New Building”, “Small Residential Projects”), a current status (e.g. “Closed”, “Revision Issued”), and a written description of the proposed project. Dates of permit application, issuance, and completion are also provided where applicable. In addition, the full address, forward sortation area (FSA ; i.e. the first three digits of the postal code), type (e.g. “University”, “SFD – Detached”), and green roof area (in $m^2$) of the permit's associated structure is provided.
+Each permit is assigned a Permit Number, which consists of the last two digits of its application year (e.g. 11 for 2011), followed by a 6-digit IBMS-generated sequence. After issuance, permit applications may be revised, revisions that may themselves qualify for GRBL or ERIP. Such revisions are recorded using the same Permit Number, and distinguished from the original permit application by an integer value (called the Revision Number). Therefore, identifying truly unique green roofs requires specifying both a Permit and Revision Number. Permit-revision pairs are each assigned types (e.g. “New Building”, “Small Residential Projects”), a current status (e.g. “Closed”, “Revision Issued”), and a written description of the proposed project. Dates of permit application, issuance, and completion are also provided where applicable. In addition, the full address, forward sortation area (FSA ; i.e. the first three digits of the postal code), type (e.g. “University”, “SFD – Detached”), and green roof area (in $m^2$) of the permit's associated structure is provided.
 
 For this analysis, our variables of interest from this dataset are FSA and green roof area. Table 1 demonstrates what the dataset looked like after cleaning.
 
@@ -69,7 +70,7 @@ Table_1 %>% knitr::kable(caption = "First 4 Rows of Cleaned Green Roof Data")
 
 ## Green Spaces Dataset
 
-The "Green Spaces" dataset consists of a collection of 3372 geospatial representations of parks, beaches, ravines, etc. in Toronto, and is jointly maintained by the Geospatial Competency Centre and the Parks, Forestry & Recreation division (City of Toronto, 2026). Importantly, this dataset does not include green roofs. The R packages `sf`, `geojsonsf`, and `canadianmaps` were used to parse these representations, record their area, and assign them each to an FSA based on their centroid coordinates.
+The "Green Spaces" dataset consists of a collection of 3372 geospatial representations of parks, beaches, ravines, etc. in Toronto, and is jointly maintained by the Geospatial Competency Centre and the Parks, Forestry & Recreation division [@toronto_greenspaces_2026]. Importantly, this dataset does not include green roofs. The R packages `sf`, `geojsonsf`, and `canadianmaps` were used to parse these representations, record their area, and assign them each to an FSA based on their centroid coordinates.
 
 ```{r}
 #| warning: false
@@ -86,7 +87,7 @@ Table_2 %>% knitr::kable(caption = "First 4 Rows of Cleaned Green Spaces Data")
 
 ## Merging Data by FSA
 
-Once parsed, both dataset were joined together by FSA, allowing for effective comparisons of spatial distributions between green spaces and green roofs. 17% (n = 214) of green roof building permits did not have associated FSAs in the original dataset, and thus were necessarily omitted at this stage. To better measure how "green" FSAs are, controlling of their total area, we defined a new variable, coverage, which is calculated as the proportion of an FSA's total area that is taken up by green roofs (or green spaces). Total area of FSAs was parsed from data available in the `canadainmaps` package, following a similar procedure to "Green Spaces".
+Once parsed, both datasets were joined together by FSA, allowing for effective comparisons of spatial distributions between green spaces and green roofs. 17% (n = 214) of green roof building permits had missing FSAs in the original dataset, and thus were necessarily omitted at this stage. To better measure how "green" FSAs are, controlling of their total area, we defined a new variable, coverage, which is calculated as the proportion of an FSA's total area that is taken up by green roofs (or green spaces). Total area of FSAs was parsed from data available in the `canadianmaps` package, following a similar procedure to "Green Spaces".
 
 ```{r}
 #| warning: false
@@ -109,6 +110,8 @@ Table_3 %>% knitr::kable(caption = "First 4 Rows of Merged Spatial Summary Data"
 #| warning: false
 #| message: false
 #| echo: false
+#| label: fig-green-roof
+#| fig-cap: "Distribution of Green Roof Coverage in Toronto by FSA."
 
 # build Figure_1
 Figure_1 <- plot_fsa(analysis_data_full, "GREEN_ROOF_COVERAGE", legend_title = "Coverage")
@@ -117,16 +120,18 @@ Figure_1 <- plot_fsa(analysis_data_full, "GREEN_ROOF_COVERAGE", legend_title = "
 Figure_1
 ```
 
-Figure 1 paints an expected picture. Green roof coverage is much higher in downtown FSAs when compared to the rest of the City, reaching upwards of 1.5% of the total area covered by green roofs in the FSAs X, X, and X (corresponding to the neighborhoods of Regent Park, ). Notably, the smaller FSAs that make up the downtown core have significantly lower coverage than their nearest neighbors (an average of X% compared to X%). This micro and the larger macro trend are likely due to disparatries in building development rates. In FSAs with newer developments (and therefore more buildings subject to the GRBL), we should expect this [find sources on a Toronto construction boom from 2010 ish onwards, and the policies that lead to it].
-
-5 FSAs have green roof coverage above 1%, with the largest being 1.9% (M5B). The least green-space covered FSA is M6B with 2%, and the most is M1X with 94%. 
+@fig-green-roof maps Toronto's green roof coverage by FSA. We immediately observe that coverage is much higher in downtown FSAs when compared to the rest of the City, reaching upwards of 1.5% of the total area covered by green roofs in the FSAs M5B, M5A, and M5T (corresponding to the neighborhoods of Regent Park, Corktown, the Distillery District, Chinatown, and Kensington Market). Notably, the four smaller FSAs that make up the downtown core have significantly lower coverage than their nearest neighbors. Since green roof adoption depends almost entirely on the recency of a development, these observed trends are likely due to disparities in building development rates between (1) the older downtown core, (2) emergent downtown neighborhoods, and (3) slower-paced outer regions of the city.
 
 ## Visualizing Current Green Space Coverage
+
+@fig-green-space maps green space coverage by FSA. Green spaces are most extensive in Rouge National Park (North-eastern Scarborough ; coverage of up to 94%) and the Harbourfront / Island (coverage of up to 81%) These are expected, as they represent largely forested areas, or areas with high beach coverage. The lowest-coverage FSAs M6B (2%), M4Y (2%), and M5B (3%), which include regions of midtown North York, Downtown Toronto, and the Garden District respectively. Generally, areas with the lowest coverage were scattered across central southern Toronto, while areas with highest coverage could be explained by well-known green spaces. Unlike green roofs, green spaces are present in every FSA, with an average coverage of 17% compared to 0.2%.
 
 ```{r}
 #| warning: false
 #| message: false
 #| echo: false
+#| label: fig-green-space
+#| fig-cap: "Distribution of Green Spaces in Toronto by FSA."
 
 # build Figure_2
 Figure_2 <- plot_fsa(analysis_data_full, "GREEN_SPACE_COVERAGE", legend_title = "Coverage")
@@ -135,14 +140,18 @@ Figure_2 <- plot_fsa(analysis_data_full, "GREEN_SPACE_COVERAGE", legend_title = 
 Figure_2
 ```
 
-In Figure 2 we have mapped green space coverage. Green spaces are most extensive in Rouge National Park (Noth-eastern Scarborough) and Harbourfront / Island (likely because of beaches) FSAs. These are expected, as these are densely forested and beachy areas respectively.  
+
 
 ## Comparing the Distributions of Green Roofs and Green Spaces
+
+@fig-scatter illustrates the observed negative association (p < 0.05) between green roof and green space coverage among Toronto's FSAs. 
 
 ```{r}
 #| warning: false
 #| message: false
 #| echo: false
+#| label: fig-scatter
+#| fig-cap: "Association between the green roof and green space coverage of Toronto's FSAs (log-log scatterplot)"
 
 # get Figure_3
 Figure_3 <- readRDS(here::here("plots/figures/Figure_3.rds"))
@@ -151,30 +160,22 @@ Figure_3 <- readRDS(here::here("plots/figures/Figure_3.rds"))
 Figure_3
 ```
 
-In Figure 3 we clearly observe a negative association between green roof and green space coverage, supporting our initial hypothesis: 
 
+# Discussion {#sec-discussion}
 
-# Discussion {#sec-data}
-
-In this report, two datasets from Open Data Canada were used to compare the spatial distributions of green spaces and green roofs in Toronto. We found, in accordance with our expectations, that the green space and green roof coverage of FSAs were negatively correlated ; the buildings affected by GRBL and ERIP were built (or are planned to be built) in areas of the city with comparatively less ground-level green spaces, homogenizing the green area in the city. Although not explicitly studied here, we expect that the GRBL was effective in mitigating against the UHI, not only by increasing the absolute amount of green area in Toronto by (at least) 8.5 km^2, but also by reducing spatial inequalities in green coverage.
+In this report, two datasets from Open Data Canada were used to compare the spatial distributions of green spaces and green roofs in Toronto. We found, in accordance with our expectations, that the green space and green roof coverage of FSAs were negatively correlated ; the buildings affected by GRBL and ERIP were built (or are planned to be built) in areas of the city with comparatively less ground-level green spaces, homogenizing the green area in the city. Although not explicitly studied here, we expect that the GRBL was effective in mitigating against the UHI, not only by increasing the absolute amount of green area in Toronto by (at least) 8.5 $km^2$, but also by reducing spatial inequalities in green coverage.
 
 This observed effect of the GRBL is particularly notable as it does not obviously represent the efforts of targeted ecological policy. The GRBL applied to and was adopted by all structures built over nearly 16 years, meaning that the vast majority of Toronto’s green roofs were sited involuntarily ; their spatial distribution and associated benefits are incidental rather than intentional. This is encouraging, and if our observed patterns of development are not unique to Toronto, provides policymakers with evidence that even general-mandate GRBLs can improve the environmental state of their cities.
 
-
-
 # Limitations & Future Directions {#sec-limitations}
 
-FSAs were used as our spatial grain in this study, primarily because of it's accessibility in the dataset. Although this method did capture key green regions of the City (Harbourfront and Rouge National Park), we failed to capture the extensive well-vegetated regions in the Humber and Don valleys, as these cross multiple FSAs. This, paired with a sizeable proportion of unlocated roofs (17%) likely reduced the statistical significance our main result, since these FSAs cannot be assumed to have homogenous coverage. Future studies should aim to precisely geolocate GRBL-associated structures, instead of binning them by FSA. Toronto (see a more fine-grained map of the City's green spaces in @jung_strategic_2025).
+FSAs were used as our spatial grain in this study, primarily because of it's accessibility in the dataset. Although this method did capture key green regions of the City (Harbourfront and Rouge National Park), we failed to capture the extensive well-vegetated regions in the Humber and Don valleys, as these cross multiple FSAs. This, paired with a sizeable proportion of unlocated roofs (17%) likely reduced the statistical significance our main result, since these FSAs cannot be assumed to have homogenous coverage. Future studies should aim to precisely geolocate GRBL-associated structures, instead of binning them by FSA. Toronto (see a more fine-grained map of the City's green spaces in [@jung_strategic_2025]).
  
-A study by Wong & Lau (@wong_urban_2013) found that in high-density cities such as Hong-Kong, a large proportion of green roofs experience reduced effectiveness from. over shading. Low roofs in densely developed areas such as downtown Toronto may experience little to no direct sunlight in the winter and spring seasons, representing a serious consideration. A more thorough investigation of green roof's ability to offset the UHI requires looking past the two dimentions analyzed here.
+A study by Wong & Lau [@wong_urban_2013] found that in high-density cities such as Hong-Kong, a large proportion of green roofs experience reduced effectiveness from. over shading. Low roofs in densely developed areas such as downtown Toronto may experience little to no direct sunlight in the winter and spring seasons, representing a serious consideration. A more thorough investigation of green roof's ability to offset the UHI requires looking past the two dimentions analyzed here.
 
-Despite these limitations, our results speak to an important strength of city-wide green roof by-laws: the auto-homogenization [...] Since Toronto's GRBL was repealed in late 2025, the rate of green roof adoption has quickly plateaued, and voluntary programs such as the ERIP only represent a small fraction (1.6%) of existing roofs. As the city continues to develop, [...] 
+Despite these limitations, our results speak to an important strength of city-wide green roof by-laws: the passive homogenization of greenery. Since Toronto's GRBL was repealed in late 2025, the rate of green roof adoption has quickly plateaued, and green roof area provided by voluntary programs such as the ERIP only represents a small fraction (1.6%) of existing vegetated roof area. As the city continues to develop, the burden of urban cooling is placed entirely on active interventions or voluntary programs. Given their historic non-adoption, repealing the GRBL ensures that the vast majority of future building footprints will be ecologically unproductive, effectively halting the progress made toward a more sustainable urban canopy.
 
 
 # References
-
-use citation() in R
-
-  opendata@toronto.ca. (2019). Building Permits - Green Roofs [Dataset]. City of Toronto Open Data Portal.
 
 
