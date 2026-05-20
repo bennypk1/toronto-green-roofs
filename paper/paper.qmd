@@ -2,7 +2,7 @@
 title: "Green Roofs Passively Compensate for Urban Green Space Deficits"
 subtitle: "A spatial analysis of Toronto's green roof by-law"
 author: "Benedict Cummins-Mburu"
-thanks: "Code and data are available at: [https://github.com/bennypk1/starter_folder](https://github.com/bennypk1/starter_folder)."
+thanks: "Code and data are available at: [https://github.com/bennypk1/toronto_green_roofs](https://github.com/bennypk1/toronto_green_roofs)."
 date: today
 date-format: long
 abstract: "From 2010 to 2025 in Toronto, many newly developed structures were required to install green roofs. Using up-to-date data from Open Data Toronto, we found that, aside from simply expanding total vegetated area, Toronto's green roof by-law helped distribute green surfaces more evenly across the city, allowing for a more efficient mitigation against high rates of urban heating."
@@ -175,6 +175,7 @@ A study by Wong & Lau [@wong_urban_2013] found that in high-density cities such 
 
 Despite these limitations, our results speak to an important strength of city-wide green roof by-laws: the passive homogenization of greenery. Since Toronto's GRBL was repealed in late 2025, the rate of green roof adoption has quickly plateaued, and green roof area provided by voluntary programs such as the ERIP only represents a small fraction (1.6%) of existing vegetated roof area. As the city continues to develop, the burden of urban cooling is placed entirely on active interventions or voluntary programs. Given their historic non-adoption, repealing the GRBL ensures that the vast majority of future building footprints will be ecologically unproductive, effectively halting the progress made toward a more sustainable urban canopy.
 
+\newpage
 
 # References
 
