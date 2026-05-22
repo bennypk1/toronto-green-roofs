@@ -1,7 +1,7 @@
 #### Preamble ####
-# Purpose: Tests the structure and validity of the cleaned "Building Permits - Green Roofs" dataset
+# Purpose: Tests the structure and validity of the cleaned Green Roof & Spaces Combined Dataset
 # Author: Benedict Cummins-Mburu
-# Last Updated: 20 May 2026
+# Last Updated: 22 May 2026
 # Contact: b.cumminsmburu@utoronto.ca
 # License: MIT
 # Notes:
@@ -9,7 +9,7 @@
 
 #### Setup ####
 library(tidyverse)
-focal_data <- read_csv("data/00-simulated_data/simulated_data.csv")
+focal_data <- as.data.frame(readRDS("data/02-analysis_data/analysis_data.rds"))
 
 #### Test data ####
 

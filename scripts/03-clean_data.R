@@ -55,13 +55,8 @@ GR_cleaned_data <- GR_raw_data %>%
   mutate(ID = paste0(PERMIT_NUM, "_", REVISION_NUM)) %>% # checked: # unique IDs = # rows
   mutate(CFSAUID = POSTAL, G_AREA = GREEN_ROOF_AREA) # standard naming for map plots
 # Addressing Specific Anomalies
-for_imputation <- mean(GR_cleaned_data$ISSUED_DATE, na.rm = TRUE)
 GR_cleaned_data <- GR_cleaned_data %>%
   filter(PERMIT_NUM != "23 153544") # removes 5 rows corresponding to a problematic set of duplicate permit numbers
-GR_cleaned_data[
-  GR_cleaned_data$PERMIT_NUM == "18 140369",
-  "ISSUED_DATE"
-] <- for_imputation # imput an issued date ; likely missing by accident.
 
 #### Clean Green Space Data ####
 
@@ -73,10 +68,6 @@ extract_spatial_info <- function(geom_string) {
     st_set_crs(2952)
   centroid_pt <- st_centroid(poly_sf)
   centroid_google <- st_transform(centroid_pt, 4326)
-
-  coords_2952_version <- st_coordinates(centroid_pt)
-  coords_google <- st_coordinates(point_google) # Save the coordinates in Lat, Lon format so they can be easily visualized in Google Maps (for data validation)
-
   poly_area <- as.numeric(st_area(poly_sf)) # unit: m^2
 
   # Assignm polygon to an FSA
@@ -92,9 +83,7 @@ extract_spatial_info <- function(geom_string) {
   # Return a named list of relevant variables
   return(list(
     GREEN_SPACE_AREA = poly_area,
-    CFSAUID = main_fsa,
-    CENTROID_DEG_LAT = as.numeric(coords_google[1, "Y"]),
-    CENTROID_DEG_LON = as.numeric(coords_google[1, "X"])
+    CFSAUID = main_fsa
   ))
 }
 # Data Filtering and Selection
@@ -151,13 +140,7 @@ cleaned_summary_data <- MFSA_data %>%
   ) %>%
   select(
     CFSAUID,
-    FSA_GROUP,
-    FSA_AREA,
     geometry,
-    GREEN_ROOF_AREA,
-    GREEN_ROOF_COUNT,
-    GREEN_SPACE_AREA,
-    GREEN_SPACE_COUNT,
     GREEN_ROOF_COVERAGE,
     GREEN_SPACE_COVERAGE
   )

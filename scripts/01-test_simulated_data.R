@@ -1,7 +1,7 @@
 #### Preamble ####
-# Purpose:
+# Purpose: Test Simulated Green Roof & Space Data
 # Author: Benedict Cummins-Mburu
-# Last Updated: 20 May 2026
+# Last Updated: 22 May 2026
 # Contact: b.cumminsmburu@utoronto.ca
 # License: MIT
 

@@ -125,7 +125,7 @@ for (FSA in toronto_FSAs) {
     CFSAUID = FSA,
     GREEN_ROOF_COVERAGE = rbeta(1, 3, 4),
     GREEN_SPACE_COVERAGE = rbeta(1, 3, 4),
-    geometry = "{geoJSON goes here, we are not writing tests to test it's validity at this time."
+    geometry = "{geoJSON goes here, we are not writing tests to test it's validity at this time}."
   )
   simulated_data <- rbind(simulated_data, curr_data)
 }
